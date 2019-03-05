@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/UnityARImageAnchor 1.unity
     guid: b3b84c8362dcfb94592e98fa227927bf
+  - enabled: 1
+    path: Assets/Scenes/Church_WIP.unity
+    guid: b730d22b6913d72498d47228e24fc7c1
   m_configObjects: {}
