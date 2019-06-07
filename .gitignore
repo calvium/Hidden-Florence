@@ -9,6 +9,7 @@
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
+Assets\_church 0.2\church_concourse.fbx
 
 # Never ignore Asset meta data
 ![Aa]ssets/**/*.meta
@@ -59,3 +60,4 @@ crashlytics-build.properties
 # End of https://www.gitignore.io/api/unity
 Assets/Models/Gazebo.FBX
 Assets/Models/Gazebo.FBX.meta
+Assets/_church 0.2/church_concourse.fbx
