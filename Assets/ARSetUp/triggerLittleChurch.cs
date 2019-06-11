@@ -19,9 +19,10 @@ public class triggerLittleChurch : MonoBehaviour {
 	[SerializeField] private Image dialChurch;
 	[SerializeField] private GameObject dialChurchO;
 	public float num;
-	[SerializeField] private textBoxes tbs;
+	// [SerializeField] private textBoxes tbs;
 	[SerializeField] private debugLogTextScript dbScript;
 	private bool prefabAppeared = false;
+	[SerializeField] private IMStartMenu menu;
 
 	// public ScannerEffectDemo scanScript;
 	// Use this for initialization
@@ -81,24 +82,8 @@ public class triggerLittleChurch : MonoBehaviour {
 					dbScript.addToString("church seen the painting 02");
 					paintingStarted = true;
 					dbScript.addToString("church seen the painting 03");
-					// ScannerOrigin.position = cam.WorldToScreenPoint(position);
-					
-					// ScannerOrigin.position = new Vector3(position.x+0.66f, position.y+0.66f, position.z);
-					dbScript.addToString("church seen the painting 04");
-					// scanScript.startPainting();
-					dbScript.addToString("church scanner pos " + ScannerOrigin.position);
-					// churchImg.SetActive(false);
-					// if(churchImg.activeInHierarchy){
-					// 	StartCoroutine(fillDial());
 					}
 				}
-            
-            else if (imageAnchorGO.activeSelf)
-            {
-                // imageAnchorGO.SetActive(false);
-				// hovering=false;
-            }
-			// }
         }
 
 	}
@@ -132,6 +117,6 @@ public class triggerLittleChurch : MonoBehaviour {
 		churchImg.SetActive(false);
 		dialChurchO.SetActive(false);
 		// dialChurch.fillAmount=0;
-		tbs.two();
+		menu.callSetText(5);
 	}
 }

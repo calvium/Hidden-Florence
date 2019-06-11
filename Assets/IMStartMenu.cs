@@ -16,6 +16,7 @@ public class IMStartMenu : MonoBehaviour {
 	[SerializeField] private CanvasGroup scanFloorIcon;
 	[SerializeField] private CanvasGroup paintingIcon;
 	[SerializeField] private CanvasGroup churchIcon;
+	[SerializeField] private UnityARCameraManager arManager;
 
 	// Use this for initialization
 	void Start () {
@@ -36,6 +37,7 @@ public class IMStartMenu : MonoBehaviour {
 		StartCoroutine(fadeIn(subtitleBox));
 		StartCoroutine(fadeIn(scanFloorIcon));
 		instructionsTextBox.text = texts[1];
+		arManager.callStartUp(0);
 	}
 	// Update is called once per frame
 
@@ -50,17 +52,22 @@ public class IMStartMenu : MonoBehaviour {
 				StartCoroutine(fadeIn(paintingIcon));
 				break;
 			case 4:
-				Debug.Log("debugging case 03");
+				Debug.Log("debugging case 04");
 				StartCoroutine(fadeOut(paintingIcon));
 				StartCoroutine(fadeIn(churchIcon));
+				break;
+			case 5:
+				Debug.Log("debugging case 05");
+				StartCoroutine(fadeOut(churchIcon));
+				StartCoroutine(fadeOut(subtitleBox));
 				break;
 		}
 		StartCoroutine(setText(txt));
 	}
 	IEnumerator setText(int txt){
+		yield return new WaitForSeconds(2f);
 		instructionsTextBox.text = texts[txt];
-		yield return new WaitForSeconds(1f);
-
+		// yield return new WaitForSeconds(1f);
 	}
 	public void two(){
 		StartCoroutine(fadeOut(subtitleBox));

@@ -173,33 +173,18 @@ public class UnityARCameraManager : MonoBehaviour {
         Debug.Log("00-debug-00 --- UnityARCamManger - 009");
         yield return new WaitForSeconds(1);
         if(num == 0){
-            // hTrackPopup.SetActive(true);
-            // yield return new WaitForSeconds(1);
             Debug.Log("debugging tracking is true");
             planeDetection = UnityARPlaneDetection.Horizontal;
-            // var config = sessionConfiguration;
-            // m_session.RunWithConfig (config);
             Debug.Log("debugging planes are horizontal");
         } else if (num == 1){
-            // yield return new WaitForSeconds(1);
             menu.callSetText(2);
             foundHorizontal = true;
             planeDetection = UnityARPlaneDetection.Vertical;
-            // var config = sessionConfiguration;
-            // m_session.RunWithConfig (config);
             Debug.Log("debugging planes are vertical");
         } else if (num == 2){
-            // yield return new WaitForSeconds(1);
             menu.callSetText(3);
             foundVertical = setUpFinished = true;
             planeDetection = UnityARPlaneDetection.HorizontalAndVertical;
-            // setUpFinished = true;
-
-            // var config = sessionConfiguration;
-            // m_session.RunWithConfig (config);
-            // Debug.Log("debugging poster on");
-            // trackingPosterScript poster = FindObjectOfType<trackingPosterScript>();
-            // poster.posterOn();
             Debug.Log("debugging see first painting");
         } else if (num == 3){
             seenFirstImage = true;

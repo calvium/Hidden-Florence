@@ -19,7 +19,7 @@ public class triggerMain : MonoBehaviour {
 	// [SerializeField] private textBoxes tbs;
 	[SerializeField] private debugLogTextScript dbScript;
 	[SerializeField] private UnityARCameraManager camScript;
-
+	private bool seen =false;
 	// Use this for initialization
 	void Start () {
 		UnityARSessionNativeInterface.ARImageAnchorAddedEvent += AddImageAnchor;
@@ -35,8 +35,11 @@ public class triggerMain : MonoBehaviour {
 			Quaternion rotation = UnityARMatrixOps.GetRotation (arImageAnchor.transform);
 			dbScript.addToString("main Instantiate prefab");
 			imageAnchorGO = Instantiate<GameObject> (prefabToGenerate, position, rotation);
-			Debug.Log("debugging added new img");
-			camScript.callStartUp(3);
+			// Debug.Log("debugging added new img")
+			if(!seen){
+				camScript.callStartUp(3);
+				seen = true;
+			}
 		}
 	}
 

@@ -552,6 +552,11 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 120888267052554682, guid: 4b42471c27543c948be140e789b7755a,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b42471c27543c948be140e789b7755a, type: 2}
   m_IsPrefabAsset: 0
@@ -1176,8 +1181,8 @@ MonoBehaviour:
   dialChurch: {fileID: 2119376878}
   dialChurchO: {fileID: 2119376876}
   num: 0
-  tbs: {fileID: 1913263621}
   dbScript: {fileID: 1454626606}
+  menu: {fileID: 0}
 --- !u!4 &544744396
 Transform:
   m_ObjectHideFlags: 0
@@ -1766,7 +1771,6 @@ GameObject:
   - component: {fileID: 1020233547}
   - component: {fileID: 1020233551}
   - component: {fileID: 1020233550}
-  - component: {fileID: 1020233549}
   - component: {fileID: 1020233548}
   m_Layer: 5
   m_Name: paintingIcon
@@ -1804,24 +1808,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!95 &1020233549
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1020233546}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 72db6ece68bd23f43a13f0fb5ac5844a, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1020233550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2129,7 +2115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_camera: {fileID: 10}
   startAlignment: 0
-  planeDetection: 1
+  planeDetection: 0
   getPointCloud: 1
   enableLightEstimation: 0
   enableAutoFocus: 1
@@ -2172,7 +2158,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1139261360
 Transform:
   m_ObjectHideFlags: 0
@@ -2514,40 +2500,9 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1194114230840022, guid: 2a53ea2e3382847439ff7e6b1ee15739, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1220644959895008, guid: 2a53ea2e3382847439ff7e6b1ee15739, type: 2}
-      propertyPath: m_TagString
-      value: scanTrigger
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a53ea2e3382847439ff7e6b1ee15739, type: 2}
   m_IsPrefabAsset: 0
---- !u!1 &1346834153 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1515808846591200, guid: 2a53ea2e3382847439ff7e6b1ee15739,
-    type: 2}
-  m_PrefabInternal: {fileID: 1346834152}
---- !u!1 &1346834154 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1220644959895008, guid: 2a53ea2e3382847439ff7e6b1ee15739,
-    type: 2}
-  m_PrefabInternal: {fileID: 1346834152}
---- !u!114 &1346834155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1346834154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 390cf430df642124bb3b444e90083dba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  churchImg: {fileID: 1346834153}
-  triggerCube: {fileID: 0}
 --- !u!1001 &1402722438
 Prefab:
   m_ObjectHideFlags: 0
@@ -2586,10 +2541,6 @@ Prefab:
     - target: {fileID: 4417092963019450, guid: be4c2039124cc504bb89be2e8ae17645, type: 2}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1643898212815708, guid: be4c2039124cc504bb89be2e8ae17645, type: 2}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be4c2039124cc504bb89be2e8ae17645, type: 2}
@@ -3275,6 +3226,7 @@ MonoBehaviour:
   - Scan the floor to start
   - Now scan the walls with your device
   - Scan the centre of The Coronation of the Virgin
+  - Look for the church in the painting
   startBackground: {fileID: 1276026178}
   titleBox: {fileID: 1493437259}
   subtitleText: {fileID: 322633802}
@@ -3283,6 +3235,7 @@ MonoBehaviour:
   scanFloorIcon: {fileID: 448155909}
   paintingIcon: {fileID: 1020233548}
   churchIcon: {fileID: 1271282447}
+  arManager: {fileID: 1121666030}
 --- !u!1 &1964588287
 GameObject:
   m_ObjectHideFlags: 0

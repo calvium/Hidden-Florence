@@ -7,7 +7,7 @@ public class churchPaintingGlow : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		StartCoroutine(fadeIn());
+		// StartCoroutine(fadeIn());
 	}
 	
 	IEnumerator fadeIn(){
