@@ -14,4 +14,3 @@ MonoBehaviour:
   resourceGroupName: onlyMain
   referenceImages:
   - {fileID: 11400000, guid: 7e8cfcb0b5bb4ff42bf41444e3462926, type: 2}
-  - {fileID: 11400000, guid: fa9c5deee83494083beea0977b5302c2, type: 2}

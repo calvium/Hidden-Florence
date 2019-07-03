@@ -9,6 +9,8 @@ TagManager:
   - cam02
   - ARController
   - scanTrigger
+  - UIcanvas
+  - startCollider
   layers:
   - Default
   - TransparentFX
@@ -22,7 +24,7 @@ TagManager:
   - churchLayer
   - nonchurch
   - firstAlterPiece
-  - 
+  - planeLayer
   - 
   - 
   - 

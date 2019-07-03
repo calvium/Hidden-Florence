@@ -18,7 +18,7 @@ public class triggerLittleChurch : MonoBehaviour {
 	public bool hovering = false;
 	[SerializeField] private Image dialChurch;
 	[SerializeField] private GameObject dialChurchO;
-	public float num;
+	// public float num;
 	// [SerializeField] private textBoxes tbs;
 	[SerializeField] private debugLogTextScript dbScript;
 	private bool prefabAppeared = false;
@@ -64,28 +64,27 @@ public class triggerLittleChurch : MonoBehaviour {
                     imageAnchorGO.SetActive(true);
                 }
 
-				if(active && !prefabAppeared){ 
-					activateChurchTriggers temp = GameObject.FindWithTag("scanTrigger").GetComponent<activateChurchTriggers>();
-					temp.turnOn();
-					prefabAppeared = true;
-				}
+				// if(active && !prefabAppeared){ 
+				// 	activateChurchTriggers temp = GameObject.FindWithTag("scanTrigger").GetComponent<activateChurchTriggers>();
+				// 	temp.turnOn();
+				// 	prefabAppeared = true;
+				// }
 				// hovering = true;
 				ScannerOrigin.position = UnityARMatrixOps.GetPosition(arImageAnchor.transform);
                 imageAnchorGO.transform.position = UnityARMatrixOps.GetPosition(arImageAnchor.transform);
                 imageAnchorGO.transform.rotation = UnityARMatrixOps.GetRotation(arImageAnchor.transform);
 
-				if(churchImg.activeInHierarchy && dialChurch.fillAmount == 0){
-					dbScript.addToString("church is active and fill is 0");
-					StartCoroutine(fillDial());
-				}
-				if(!paintingStarted){
-					dbScript.addToString("church seen the painting 02");
-					paintingStarted = true;
-					dbScript.addToString("church seen the painting 03");
-					}
-				}
+				// if(churchImg.activeInHierarchy && dialChurch.fillAmount == 0){
+				// 	dbScript.addToString("church is active and fill is 0");
+				// 	StartCoroutine(fillDial());
+				// }
+				// if(!paintingStarted){
+				// 	dbScript.addToString("church seen the painting 02");
+				// 	paintingStarted = true;
+				// 	dbScript.addToString("church seen the painting 03");
+				// 	}
+			}
         }
-
 	}
 
 	void RemoveImageAnchor(ARImageAnchor arImageAnchor)
@@ -106,17 +105,17 @@ public class triggerLittleChurch : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-	IEnumerator fillDial () {
-		dbScript.addToString("church start fill dial");
-		yield return new WaitForSeconds(0.5f);
-		while(dialChurch.fillAmount < 1){
-			dialChurch.fillAmount += (Time.deltaTime);
-			yield return null;
-		}
-		yield return new WaitForSeconds(0.5f);
-		churchImg.SetActive(false);
-		dialChurchO.SetActive(false);
-		// dialChurch.fillAmount=0;
-		menu.callSetText(5);
-	}
+	// IEnumerator fillDial () {
+	// 	dbScript.addToString("church start fill dial");
+	// 	yield return new WaitForSeconds(0.5f);
+	// 	while(dialChurch.fillAmount < 1){
+	// 		dialChurch.fillAmount += (Time.deltaTime);
+	// 		yield return null;
+	// 	}
+	// 	yield return new WaitForSeconds(0.5f);
+	// 	churchImg.SetActive(false);
+	// 	dialChurchO.SetActive(false);
+	// 	// dialChurch.fillAmount=0;
+	// 	menu.callSetText(5);
+	// }
 }

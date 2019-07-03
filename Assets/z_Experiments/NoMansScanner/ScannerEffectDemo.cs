@@ -12,7 +12,6 @@ public class ScannerEffectDemo : MonoBehaviour
 	public Material EffectMaterial;
 	public float ScanDistance;
 	public float speed = 25;
-	// public Material extra;
 
 	public Camera _cameraMain;
 
@@ -21,8 +20,8 @@ public class ScannerEffectDemo : MonoBehaviour
 	public GameObject church;
 
 	// Demo Code
-	bool _scanning;
-
+	public bool _scanning;
+	public bool _unscanning;
 	[SerializeField] private bool tapToPlace;
 	// Scannable[] _scannables;
 
@@ -47,45 +46,47 @@ public class ScannerEffectDemo : MonoBehaviour
 
 	void Update()
 	{
-		if (_scanning)
-		{
+		if (_scanning) {
 			ScanDistance += Time.deltaTime * speed;
 			speed += Time.deltaTime/2;
-			// foreach (Scannable s in _scannables)
-			// {
-			// 	if (Vector3.Distance(ScannerOrigin.position, s.transform.position) <= ScanDistance)
-			// 		s.Ping();
-			// }
+			EffectMaterial.SetFloat("_ScanDistance", ScanDistance);
 		}
 
-		// if (Input.GetKeyDown(KeyCode.C) && mainCam)
-		// {
-		// 	_scanning = true;
-		// 	ScanDistance = 0;
+		if (_unscanning && tapToPlace) {
+			// ScanDistance -= Time.deltaTime * speed;
+			// speed += Time.deltaTime/1f;
+			EffectMaterial.SetFloat("_ScanDistance", ScanDistance);
+		}
+
+		if (Input.GetKeyDown(KeyCode.C) && mainCam){
+			_scanning = true;
+			ScanDistance = 0;
+		}
+
+
+		// if(tapToPlace) {
+		// 	if (Input.GetMouseButtonDown(0) && mainCam) {
+		// 		Debug.Log("debugging --- tap");
+		// 		dbScript.addToString("tapped screen");
+		// 		Ray ray = _cameraMain.ScreenPointToRay(Input.mousePosition);
+		// 		RaycastHit hit;
+		// 		if (Physics.Raycast(ray, out hit)) {
+		// 			if(!started){
+		// 				started = true;
+		// 				Debug.Log("debugging --- tap tap tap");
+		// 				dbScript.addToString("start painting");
+		// 				church.transform.parent = null;
+		// 				_scanning = true;
+		// 				ScanDistance = 0;
+		// 				ScannerOrigin.position = hit.point;
+		// 				particleMat.SetColor("_TintColor", _particlesOff);
+		// 				fadeInPainting.startFade();
+		// 				StartCoroutine(turnOffCam02());
+		// 			}
+		// 		}
+		// 	}
 		// }
 
-
-		if(tapToPlace) {
-			if (Input.GetMouseButtonDown(0) && mainCam) {
-				Debug.Log("debugging --- tap");
-				dbScript.addToString("tapped screen");
-				Ray ray = _cameraMain.ScreenPointToRay(Input.mousePosition);
-				RaycastHit hit;
-				if (Physics.Raycast(ray, out hit)) {
-					// if(!started){
-					// 	started = true;
-					// 	Debug.Log("debugging --- tap tap tap");
-					// 	church.transform.parent = null;
-					// 	_scanning = true;
-					// 	ScanDistance = 0;
-					// 	ScannerOrigin.position = hit.point;
-					// 	particleMat.SetColor("_TintColor", _particlesOff);
-					// 	fadeInPainting.startFade();
-					// 	StartCoroutine(turnOffCam02());
-					// }
-				}
-			}
-		}
 
 		//^^^------- THIS BIT IS THE TAP TO SCAN
 
@@ -98,19 +99,31 @@ public class ScannerEffectDemo : MonoBehaviour
 	}
 
 	public void startPainting(){
+		EffectMaterial.SetInt("_rev", 0);
 		Debug.Log("debugging --- startPainting00");
 		_scanning = true;
 		Debug.Log("debugging --- startPainting01");
 		ScanDistance = 0;
 		StartCoroutine(turnOffCam02());
-				// ScannerOrigin.position = imageScript.point;
+	}
+
+	public void reversePainting(){
+		// EffectMaterial.SetInt("_rev", 1);
+		Debug.Log("debugging --- reversePainting00");
+		_scanning = true;
+		Debug.Log("debugging --- reversePainting01");
+		ScanDistance = 0;
 	}
 	// End Demo Code
 
 	IEnumerator turnOffCam02(){
-		yield return new WaitForSeconds (10f);
+		yield return new WaitForSeconds (30f);
+		EffectMaterial.SetInt("_rev", 1);
+		_scanning = false;
+		// ScanDistance = 100;
+		// speed = 0;
 		dbScript.addToString("camera off");
-		cam02.SetActive(false);
+		// // cam02.SetActive(false);
 		Debug.Log("debugging --- cam02 off");
 	}
 

@@ -8,26 +8,17 @@ Shader "custom/ScannerEffect 01"
 		_NonTex("Texture", 2D) = "white" {}
 		_DetailTex("Noise Texture", 2D) = "white" {}
 		_LineTex("Line Texture", 2D) = "white" {}
+		_FadeTex("Texture", 2D) = "white" {}
+		_AltTex("Texture", 2D) = "white" {}
 		_ScanDistance("Scan Distance", float) = 0
 		_StartFade("Start Fade", float) = 2
 		_ScanWidth("Scan Width", float) = 10
 		_EndFade("End Fade", float) = 2
 		_LeadSharp("Leading Edge Sharpness", float) = 10
-		_LeadColor("Leading Edge Color", Color) = (1, 1, 1, 0)
-		_MidColor("Mid Color", Color) = (1, 1, 1, 0)
-		_TrailColor("Trail Color", Color) = (1, 1, 1, 0)
-		_HBarColor("Horizontal Bar Color", Color) = (0.5, 0.5, 0.5, 0)
-
 		_WarpScale ("Warp Scale", Range(0, 1)) = 0
-
-		_GlowColor1("Glow Colour", Color) = (0,0,0,0)
-		_GlowColor2("Glow Colour", Color) = (0,0,0,0)
-
-		_GlowTex("Glow Texture", 2D) = "white" {}
-		_Tex01("Texture", 2D) = "white" {}
-
-
-
+		_rev("Reverse", Int) = 0
+		_BlackLevel("Black Level", Range(0, 1.1)) = 0.27
+        _Contrast("Contrast", float) = 60
 	}
 	SubShader
 	{
@@ -78,50 +69,27 @@ Shader "custom/ScannerEffect 01"
 				return o;
 			}
 
-			sampler2D _MainTex, _NonTex, _GlowTex, _Tex01;
+			sampler2D _MainTex, _NonTex, _FadeTex, _AltTex;
 			sampler2D _DetailTex, _LineTex;
 			sampler2D_float _CameraDepthTexture;
 			float4 _WorldSpaceScannerPos;
-			float _ScanDistance;
-			float _ScanWidth, _StartFade, _EndFade;
-			float _LeadSharp;
-			float4 _LeadColor;
-			float4 _MidColor;
-			float4 _TrailColor;
-			float4 _HBarColor;
-			float4 _GlowColor1, _GlowColor2;
+			float _ScanDistance, _ScanWidth, _StartFade, _EndFade;
+			float _LeadSharp, _rev, _BlackLevel, _Contrast;
 
-			float4 horizBars(float2 p)
-			{
-				// return 1 - saturate(round(abs(frac(p.y * 100) * 2)));
-				return 1 - saturate(tex2D(_DetailTex, p));
-			}
-
-			float4 horizTex(float2 p)
-			{
-				return tex2D(_DetailTex, float2(p.x * 30, p.y * 40));
-			}
 
 			half4 frag (VertOut i) : SV_Target
 			{
-				
-				// half4 col = tex2D(_MainTex, i.uv);
-				// half4 nonCol = tex2D(_NonTex, i.uv);
-
 				float4 detail = tex2D(_DetailTex, i.uv) + _Time;
-				// float4 linetex = tex2D(_LineTex, i.uv);
 
-				float4 n = tex2D(_Tex01, i.uv);
+				float4 n = tex2D(_FadeTex, i.uv);
 
 				float rawDepth = DecodeFloatRG(	 tex2D(_CameraDepthTexture, i.uv_depth)	);
 				float linearDepth = Linear01Depth(rawDepth);
 				float4 wsDir = ((linearDepth*0.95) + (n*0.05)) * i.interpolatedRay;
 				float3 wsPos = _WorldSpaceCameraPos + wsDir;
-				half4 scannerCol = half4(0, 0, 0, 0);
 
 				float dist = distance(wsPos, _WorldSpaceScannerPos);
 
-				// float2 uvn = TRANSFORM_TEX(_DetailTex.xy + _Time);
 				float4 beforeCol;
 				float4 afterCol;
 
@@ -136,51 +104,39 @@ Shader "custom/ScannerEffect 01"
 				float4 linetex = tex2D(_LineTex, pos); 
 
 				float4 noiseTex = saturate(tex2D(_DetailTex, i.uv));
+				float4 glowTex = tex2D(_LineTex, i.uv);
 
-				// float4 glowTex = tex2D(_GlowTex, i.uv) * (_GlowColor1 * noiseTex.r) + (_GlowColor2 * (1-noiseTex.r));
-				float4 glowTex = tex2D(_GlowTex, i.uv);
+				// float4 altFade = tex2D(_AltTex, i.uv);
 
-				float4 invis = (0,0,0,0);
+				if(_rev == 0){
 
-				// half4 n = tex2D(_DetailTex, pos);
-
-				// float4 endFade = (_GlowColor1 * noiseTex.r) + (_GlowColor2 * (1-noiseTex.r));
+					if (dist < _ScanDistance && dist > _ScanDistance - _ScanWidth && linearDepth < 1) {
+						return glowTex;
+					} else if (dist < _ScanDistance && dist > _ScanDistance - _EndFade){
+						float diff = 1 - (_ScanDistance - _EndFade - dist) / (_ScanWidth-_EndFade);
+						return lerp((glowTex*noiseTex + col*(1-noiseTex)), col, pow(diff, _LeadSharp));
 				
-				// float diff = 1 - (_ScanDistance - dist) / (_ScanWidth);
-
-				if (dist < _ScanDistance && dist > _ScanDistance - _ScanWidth && linearDepth < 1)
-				{
-					float diff = 1 - (_ScanDistance - dist) / (_ScanWidth);
-					half4 edge = lerp(_MidColor, invis, pow(diff, _LeadSharp));
-					scannerCol = lerp(_TrailColor, edge, diff) + horizBars(i.uv) * _HBarColor;
-					scannerCol *= diff;
-					return glowTex;
-				
-				} else if (dist < _ScanDistance && dist > _ScanDistance - _EndFade){
-					float diff = 1 - (_ScanDistance - _EndFade - dist) / (_ScanWidth-_EndFade);
-					return lerp((glowTex*noiseTex + col*(1-noiseTex)), col, pow(diff, _LeadSharp));
-				
-				} else if (dist > _ScanDistance && dist < _ScanDistance + _StartFade){
-					float diff = 1 - (_ScanDistance + _StartFade - dist) / (_ScanWidth+_StartFade);
-					return lerp(glowTex, nonCol, pow(diff, _LeadSharp));
-
-				} else if (dist > _ScanDistance){
-					// beforeCol.r = (col.r+0.3)*0.5;
-					// beforeCol.g = col.g * 0.5;
-					// beforeCol.b = col.b * 0.5;
-					// beforeCol.a = 0.1;
-					// return beforeCol;
-					return nonCol;
+					} else if (dist > _ScanDistance && dist < _ScanDistance + _StartFade){
+						float diff = 1 - (_ScanDistance + _StartFade - dist) / (_ScanWidth+_StartFade);
+						return lerp(glowTex, nonCol, pow(diff, _LeadSharp));
+					} else if (dist > _ScanDistance){
+						return nonCol;
+					} else {
+						return col;
+					}
 				} else {
-					// afterCol.r = (col.r+0.3)*0.5;
-					// afterCol.g = col.g;
-					// afterCol.b = col.b;
-					// afterCol.a = 1;
-					// return afterCol;
-					return col;
-				}
+					float v = tex2D(_AltTex, i.uv);
 
-				// return beforeCol + scannerCol + afterCol;
+					float4 alpha = saturate((v - _ScanDistance/3) * _Contrast);
+
+					float4 glowAlpha = saturate((v - _ScanDistance/3 + _ScanWidth) * _Contrast);
+					
+					fixed4 q = 	(nonCol * alpha.r) + 
+								(glowTex * (glowAlpha.r-alpha.r)) + 
+								(col * (1- glowAlpha.r));
+
+					return q;
+				}
 			}
 			ENDCG
 		}

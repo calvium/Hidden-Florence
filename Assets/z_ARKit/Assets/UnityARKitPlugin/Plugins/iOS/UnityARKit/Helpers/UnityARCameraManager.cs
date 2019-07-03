@@ -48,9 +48,8 @@ public class UnityARCameraManager : MonoBehaviour {
             config.enableAutoFocus = enableAutoFocus;
             config.maximumNumberOfTrackedImages = maximumNumberOfTrackedImages;
             config.environmentTexturing = environmentTexturing;
-            if (detectionImages != null && setUpFinished){
+            if (detectionImages != null)
                 config.referenceImagesGroupName = detectionImages.resourceGroupName;
-            }
 
 			if (detectionObjects != null) 
 			{
@@ -67,7 +66,7 @@ public class UnityARCameraManager : MonoBehaviour {
 
         m_session = UnityARSessionNativeInterface.GetARSessionNativeInterface();
 
-        Application.targetFrameRate = 30;
+        Application.targetFrameRate = 60;
         
         var config = sessionConfiguration;
         if (config.IsSupported) {
@@ -134,241 +133,47 @@ public class UnityARCameraManager : MonoBehaviour {
 
     }
 
-    /***********Tracking State **************/
+        /***********Tracking State **************/
 
-    void UnityARSessionNativeInterface_ARFrameUpdatedEvent (UnityARCamera camera)
-	{   
-        Debug.Log("00-debug-00 --- UnityARCamManger - 007");
-		//1. Track The ARSession
-        // if(!accessibilityMode){
-        if (camera.trackingState == ARTrackingState.ARTrackingStateLimited && setUpFinished) {
-            // Debug.Log("debugging AR limited");
-            logTrackingReason (camera.trackingReason);
-        } else {
-            logTrackingState (camera.trackingState);
-            // Debug.Log("debugging AR not limited");
-            // if(trackPopup.activeInHierarchy){
-            //     StartCoroutine(closePopUp());
-				
-			// 	if (arWarningMessage.activeSelf)
-			// 		arWarningMessage.SetActive (false);
-
-			// 	if (movementSpeedWarning)
-			// 		movementSpeedWarning = false;
-
-			// 	if (flatSurfaceWarning)
-			// 		flatSurfaceWarning = false;
-            // }
-        }
-        logLighting (camera.lightData.arLightEstimate.ambientIntensity);
-        // }
-        Debug.Log("00-debug-00 --- UnityARCamManger - 008");
-    }
-	public void callStartUp(int num){
-        StartCoroutine(startUp(num));
-    }
-
-    IEnumerator startUp(int num) {
+    public void callStartUp(int num){
         Debug.Log("debugging startup" + num);
         Debug.Log("00-debug-00 --- UnityARCamManger - 009");
-        yield return new WaitForSeconds(1);
+        // yield return new WaitForSeconds(0);
+    
         if(num == 0){
-            Debug.Log("debugging tracking is true");
-            planeDetection = UnityARPlaneDetection.Horizontal;
+            // Debug.Log("debugging tracking is true");
+            // planeDetection = UnityARPlaneDetection.Horizontal;
             Debug.Log("debugging planes are horizontal");
+
+            // GameObject tempconfig = GameObject.Find("ARKitWorldTrackingRemoteConnection");
+            // Destroy(GameObject.Find("ARKitWorldTrackingRemoteConnection"), 0);
+
+            // Debug.Log("THING SHOULD HAVE DELETED");
+
+            // var config = sessionConfiguration;
+            // m_session.RunWithConfig (config);
         } else if (num == 1){
             menu.callSetText(2);
             foundHorizontal = true;
-            planeDetection = UnityARPlaneDetection.Vertical;
+            // planeDetection = UnityARPlaneDetection.Vertical;
             Debug.Log("debugging planes are vertical");
+
+            // var config = sessionConfiguration;
+            // m_session.RunWithConfig (config);
         } else if (num == 2){
             menu.callSetText(3);
             foundVertical = setUpFinished = true;
-            planeDetection = UnityARPlaneDetection.HorizontalAndVertical;
+            // planeDetection = UnityARPlaneDetection.HorizontalAndVertical;
             Debug.Log("debugging see first painting");
-        } else if (num == 3){
-            seenFirstImage = true;
-            menu.callSetText(4);
-            Debug.Log("debugging see second painting");
+        // } else if (num == 3){
+        //     seenFirstImage = true;
+        //     menu.callSetText(4);
+        //     Debug.Log("debugging see second painting");
         }
-        var config = sessionConfiguration;
-        m_session.RunWithConfig (config);
-    }
-
-    public void SimulateLowLighting()
-    {
-        logLighting(0);
-    }
-
-	void logLighting (float lightEstimate)
-	{
-		// if (lightEstimate < 100)
-		// {
-		// 	if (arWarningMessage == null)
-		// 	{
-		// 		arWarningMessage = GameObject.Find ("ParentMain(Clone)/Canvas/ARWarningMessage");
-		// 	}
-
-		// 	if (arWarningMessage != null)
-		// 	{
-		// 		if (!arWarningMessage.activeSelf) 
-		// 		{
-		// 			arWarningMessage.SetActive (true);
-		// 			arWarningMessage.transform.GetChild (1).GetComponent<Text> ().text = "Lighting Is Too Dark. You may have to return to the poster to continue";
-		// 		}
-
-		// 	}
-		// }
-		// else if (movementSpeedWarning)
-		// {
-		// 	if (arWarningMessage == null)
-		// 	{
-		// 		arWarningMessage = GameObject.Find ("ParentMain(Clone)/Canvas/ARWarningMessage");
-		// 	}
-
-		// 	if (arWarningMessage != null)
-		// 	{
-		// 		if (!arWarningMessage.activeSelf) 
-		// 		{
-		// 			arWarningMessage.SetActive (true);
-		// 			arWarningMessage.transform.GetChild (1).GetComponent<Text> ().text = "Please Slow Your Movement";
-		// 		}
-
-		// 	}
-		// }
-		// else if (flatSurfaceWarning)
-		// {
-		// 	if (arWarningMessage == null)
-		// 	{
-		// 		arWarningMessage = GameObject.Find ("ParentMain(Clone)/Canvas/ARWarningMessage");
-		// 	}
-
-		// 	if (arWarningMessage != null)
-		// 	{
-		// 		if (!arWarningMessage.activeSelf) 
-		// 		{
-		// 			arWarningMessage.SetActive (true);
-		// 			arWarningMessage.transform.GetChild (1).GetComponent<Text> ().text = "Try To Point At A Flat Surface";
-		// 		}
-
-		// 	}
-		// }
-		// else
-		// {
-			// if (arWarningMessage.activeSelf)
-			// 	arWarningMessage.SetActive (false);
-
-			// if (movementSpeedWarning)
-			// 	movementSpeedWarning = false;
-
-			// if (flatSurfaceWarning)
-			// 	flatSurfaceWarning = false;
-		// }
-
-		/*
-		if(lightEstText!=null)
-		{
-			if (lightEstimate < 100)
-			{
-				if (lightMessageReady)
-				{   
-                    Debug.Log("debugging lightmessageready");
-					if (messageSystem != null)
-					{
-                        Debug.Log("debugging light message");
-						messageSystem.AddMessage("Lighting Is Too Dark. You may have to return to the poster to continue", true);
-                    }
-                    
-					lightMessageReady = false;
-				}
-
-				arTrackingStatus = "Lighting Is Too Dark";
-                // trackPopupText.text = "Lighting Is Too Dark.\n\nYou may have to return to the poster to continue";
-                trackIcon.sprite = icons[0];
-                openPopUp();
-			}
-			else
-			{
-				arWarnings = null;
-			}
-		}
-		*/
-	}
-	public void logTrackingState (ARTrackingState trackingState)
-    {
-        // Debug.Log("debugging logTrackingState");
-        switch (trackingState) {
-        case ARTrackingState.ARTrackingStateNormal:
-            if(!trackingReady && camStarted){
-                trackingReady = true;
-                Debug.Log("debugging tracking is ready01");
-                StartCoroutine(startUp(0));
-            }
-            arTrackingStatus = "Tracking Ready";
-            break;
-        case ARTrackingState.ARTrackingStateNotAvailable:
-            arTrackingStatus = "Tracking Unavailable";
-            break;
-        }
-    }
-
-    public void startCam(){
-        camStarted = true;
-    }
-
-	public void logTrackingReason (ARTrackingStateReason reason)
-    {
-
-        switch (reason) {
-
-		case ARTrackingStateReason.ARTrackingStateReasonExcessiveMotion:
-			// movementSpeedWarning = true;
-
-			/*
-			if (movementMessageReady)
-			{
-				if (messageSystem != null)
-					messageSystem.AddMessage("Please Slow your Movement", true);
-
-				movementMessageReady = false;
-
-			}
-			*/
-
-            arTrackingStatus = "Please Slow Your Movement";
-            // // trackPopupText.text = "Please Slow Your Movement";
-            // trackIcon.sprite = icons[1];
-            // openPopUp();
-            break;
-
-		case ARTrackingStateReason.ARTrackingStateReasonInsufficientFeatures:
-			// flatSurfaceWarning = true;
-
-			/*
-			if (flatSurfaceMessageReady)
-			{
-				if (messageSystem != null)
-					messageSystem.AddMessage("Try To Point At A Flat Surface", true);
-
-				flatSurfaceMessageReady = false;
-			}
-			*/
-
-            arTrackingStatus = "Try To Point At A Flat Surface";
-            // trackPopupText.text = "Try To Point At A Flat Surface";
-            // trackIcon.sprite = icons[2];
-            // openPopUp();
-            break;
-
-        case ARTrackingStateReason.ARTrackingStateReasonInitializing:
-            arTrackingStatus = "Initializing";
-            break;
-
-		default:
-			// movementSpeedWarning = false;
-			// flatSurfaceWarning = false;
-			break;
-        }
+        // var config = sessionConfiguration;
+        // m_session.RunWithConfig (config);
+        // StartCoroutine(startUp(num));
     }
 
 }
+

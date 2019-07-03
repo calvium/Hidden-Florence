@@ -11,18 +11,20 @@ public class scanTrigger : MonoBehaviour {
 	[SerializeField] private Image img;
 	[SerializeField] private  Color m_NewColor;
 	[SerializeField] private mainPaintingScript painting;
+	[SerializeField] private IMStartMenu menu;
 
 	void Start() {
 		cam = Camera.main;
-		scanScript = cam.GetComponent<ScannerEffectDemo>();
-		church = GameObject.FindGameObjectWithTag("church").GetComponent<churchScript>();
-		painting = GameObject.FindGameObjectWithTag("altarpiece").GetComponent<mainPaintingScript>();
+		// scanScript = cam.GetComponent<ScannerEffectDemo>();
+		// church = GameObject.FindGameObjectWithTag("church").GetComponent<churchScript>();
+		// painting = GameObject.FindGameObjectWithTag("altarpiece").GetComponent<mainPaintingScript>();
 	}
 
     void OnTriggerEnter(Collider col) {
 		Debug.Log("scanning0");
         if (col.gameObject == Camera.main.gameObject && !scanning) {
 			StartCoroutine(scanningEvents());
+			menu.callSetText(6);
 		}
     }	
 

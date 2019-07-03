@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 23653588751054524}
   - component: {fileID: 120888267052554682}
   - component: {fileID: 114476173717311286}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ARKitPlaneGeometry_ARImg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,6 +110,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef86bc6943687704897489a46000495d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  menuScript: {fileID: 0}
+  dbScript: {fileID: 0}
+  HCol: {fileID: 2100000, guid: a9f0f67c28e53ea478adde1f62be0dd5, type: 2}
+  VCol: {fileID: 2100000, guid: 6da5fdaa4d6ce6c459e3aaed546a32a5, type: 2}
+  line: {fileID: 120888267052554682}
 --- !u!120 &120888267052554682
 LineRenderer:
   m_ObjectHideFlags: 1

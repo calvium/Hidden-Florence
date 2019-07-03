@@ -1,0 +1,1957 @@
+fileFormatVersion: 2
+guid: 1c7f9dd3df32f3743af15a9e3e6c12ad
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: aisle_arches
+    100002: aisle_wall1
+    100004: aisle_wall10
+    100006: aisle_wall11
+    100008: aisle_wall12
+    100010: aisle_wall13
+    100012: aisle_wall14
+    100014: aisle_wall15
+    100016: aisle_wall9
+    100018: aisle_walls
+    100020: alcove_row
+    100022: altar01
+    100024: altar02
+    100026: altar03
+    100028: altar_step01
+    100030: altar_step02
+    100032: altar_step03
+    100034: altar_step04
+    100036: altar_step05
+    100038: altar_step06
+    100040: altarpiece_size
+    100042: arch_A1
+    100044: arch_A2
+    100046: arch_A3
+    100048: arch_A4
+    100050: arch_b1
+    100052: arch_b10
+    100054: arch_b11
+    100056: arch_b12
+    100058: arch_b13
+    100060: arch_b14
+    100062: arch_b15
+    100064: arch_b9
+    100066: arch_back
+    100068: arch_pointed_medium
+    100070: arch_pointed_medium2
+    100072: arch_pointed_medium3
+    100074: arch_pointed_tall
+    100076: arch_pointed_tall1
+    100078: arch_pointedx2
+    100080: arch_smooth_a
+    100082: arch_smooth_a3
+    100084: arch_smooth_b
+    100086: assumption_room
+    100088: back_facade
+    100090: balcony
+    100092: balcony_arch01
+    100094: balcony_arch02
+    100096: balcony_arch03
+    100098: balcony_arch04
+    100100: balcony_arch05
+    100102: balcony_arch06
+    100104: balcony_arch_wall
+    100106: balcony_bevel01
+    100108: balcony_bevel02
+    100110: balcony_bevel03
+    100112: balcony_bottom
+    100114: balcony_ceiling01
+    100116: balcony_ceiling02
+    100118: balcony_post01
+    100120: balcony_post02
+    100122: balcony_post03
+    100124: balcony_post04
+    100126: balcony_top
+    100128: base
+    100130: body
+    100132: ceilings
+    100134: center_altar
+    100136: church
+    100138: //RootNode
+    100140: cross
+    100142: cross_group
+    100144: crossbase01
+    100146: crossbase02
+    100148: crossbase03
+    100150: crossbase04
+    100152: crossbase05
+    100154: crossbase06
+    100156: crossbase07
+    100158: crossbase08
+    100160: crossbase09
+    100162: crossbase10
+    100164: crossbase11
+    100166: Crossbeam
+    100168: crossbeam
+    100170: Crossbeam 1
+    100172: Crossbeam 10
+    100174: Crossbeam 2
+    100176: Crossbeam 3
+    100178: Crossbeam 4
+    100180: Crossbeam 5
+    100182: Crossbeam 6
+    100184: Crossbeam 7
+    100186: Crossbeam 8
+    100188: Crossbeam 9
+    100190: Crossbeam1
+    100192: crossbeam1
+    100194: Crossbeam1 1
+    100196: Crossbeam1 10
+    100198: Crossbeam1 2
+    100200: Crossbeam1 3
+    100202: Crossbeam1 4
+    100204: Crossbeam1 5
+    100206: Crossbeam1 6
+    100208: Crossbeam1 7
+    100210: Crossbeam1 8
+    100212: Crossbeam1 9
+    100214: crossbeam10
+    100216: Crossbeam2
+    100218: crossbeam2
+    100220: Crossbeam2 1
+    100222: Crossbeam2 10
+    100224: Crossbeam2 2
+    100226: Crossbeam2 3
+    100228: Crossbeam2 4
+    100230: Crossbeam2 5
+    100232: Crossbeam2 6
+    100234: Crossbeam2 7
+    100236: Crossbeam2 8
+    100238: Crossbeam2 9
+    100240: Crossbeam3
+    100242: crossbeam3
+    100244: Crossbeam3 1
+    100246: Crossbeam3 10
+    100248: Crossbeam3 2
+    100250: Crossbeam3 3
+    100252: Crossbeam3 4
+    100254: Crossbeam3 5
+    100256: Crossbeam3 6
+    100258: Crossbeam3 7
+    100260: Crossbeam3 8
+    100262: Crossbeam3 9
+    100264: Crossbeam4
+    100266: crossbeam4
+    100268: Crossbeam4 1
+    100270: Crossbeam4 10
+    100272: Crossbeam4 2
+    100274: Crossbeam4 3
+    100276: Crossbeam4 4
+    100278: Crossbeam4 5
+    100280: Crossbeam4 6
+    100282: Crossbeam4 7
+    100284: Crossbeam4 8
+    100286: Crossbeam4 9
+    100288: crossbeam5
+    100290: crossbeam6
+    100292: crossbeam7
+    100294: crossbeam8
+    100296: crossbeam9
+    100298: dome_l
+    100300: dome_s2
+    100302: dome_s3
+    100304: dome_s4
+    100306: floor
+    100308: floor_altar
+    100310: front_base
+    100312: front_base_new
+    100314: front_base_new1
+    100316: front_center_door_bevel
+    100318: front_center_door_bevel1
+    100320: front_center_door_bevel2
+    100322: front_face
+    100324: front_frame
+    100326: front_frame_side01
+    100328: front_frame_side1
+    100330: front_interior_wall
+    100332: front_post_new
+    100334: front_post_new1
+    100336: front_wall
+    100338: front_window_frame
+    100340: loftedSurface35
+    100342: loftedSurface50
+    100344: loftedSurface51
+    100346: loftedSurface52
+    100348: loftedSurface53
+    100350: loftedSurface55
+    100352: loftedSurface56
+    100354: loftedSurface57
+    100356: loftedSurface58
+    100358: loftedSurface59
+    100360: loftedSurface60
+    100362: loftedSurface61
+    100364: loftedSurface62
+    100366: loftedSurface63
+    100368: loftedSurface64
+    100370: loftedSurface65
+    100372: loftedSurface66
+    100374: loftedSurface67
+    100376: loftedSurface68
+    100378: loftedSurface69
+    100380: loftedSurface70
+    100382: loftedSurface71
+    100384: loftedSurface72
+    100386: low_roof
+    100388: low_roof1
+    100390: north_side
+    100392: nun_s_balcony
+    100394: old_leaves
+    100396: Ornament_low
+    100398: Ornament_low 1
+    100400: Ornament_low1
+    100402: Ornament_low1 1
+    100404: Ornament_low3
+    100406: Ornament_low3 1
+    100408: ornate_pillar_base1
+    100410: ornate_pillar_base1 1
+    100412: ornate_pillar_base1 2
+    100414: ornate_pillar_joint1
+    100416: ornate_pillar_joint1 1
+    100418: ornate_pillar_joint1 2
+    100420: ornate_pillar_low
+    100422: ornate_pillar_low 1
+    100424: ornate_pillar_low 2
+    100426: ornate_pillar_low 3
+    100428: ornate_pillar_low_balcony
+    100430: ornate_pillar_low_short
+    100432: ornate_pillar_top_low
+    100434: ornate_pillar_top_low 1
+    100436: ornate_pillar_top_low 2
+    100438: other_altar
+    100440: out
+    100442: painting
+    100444: painting_altar
+    100446: Painting_Wall_External
+    100448: pCube138
+    100450: pCube161
+    100452: pCube161 1
+    100454: pCube161 2
+    100456: pCylinder1
+    100458: pCylinder2
+    100460: pCylinder2 1
+    100462: pCylinder2 2
+    100464: pCylinder3
+    100466: pCylinder3 1
+    100468: pCylinder3 2
+    100470: pilaster_base
+    100472: pilaster_base 1
+    100474: pilaster_low
+    100476: pilaster_low1
+    100478: pillar
+    100480: pillar_medium
+    100482: pillar_medium 1
+    100484: pillar_medium04
+    100486: pillar_medium_end
+    100488: pillar_medium_end1
+    100490: pillar_short
+    100492: pillar_tall
+    100494: pillar_tall_a1
+    100496: pillar_tall_a2
+    100498: pillar_tall_b
+    100500: pillar_tall_b1
+    100502: pillar_tall_b2
+    100504: pillar_tall_b3
+    100506: pillar_tall_b4
+    100508: pillar_tall_b5
+    100510: pillar_tall_b6
+    100512: pillar_tall_b7
+    100514: pillar_tall_b8
+    100516: pillar_tall_b9
+    100518: pillar_tall_c
+    100520: pillar_tall_c1
+    100522: pointed_roof
+    100524: pointed_roof1
+    100526: pointed_roof2
+    100528: pointed_roof3
+    100530: pointed_roof4
+    100532: polySurface1113
+    100534: polySurface1113 1
+    100536: polySurface1113 2
+    100538: polySurface1113 3
+    100540: polySurface1113 4
+    100542: polySurface1114
+    100544: polySurface1114 1
+    100546: polySurface1114 2
+    100548: polySurface1114 3
+    100550: polySurface1114 4
+    100552: polySurface1117
+    100554: polySurface1117 1
+    100556: polySurface1117 2
+    100558: polySurface1117 3
+    100560: polySurface1117 4
+    100562: polySurface1118
+    100564: polySurface1118 1
+    100566: polySurface1118 2
+    100568: polySurface1118 3
+    100570: polySurface1118 4
+    100572: polySurface1146
+    100574: polySurface1148
+    100576: polySurface1150
+    100578: polySurface1151
+    100580: polySurface1152
+    100582: polySurface1153
+    100584: polySurface1155
+    100586: polySurface1156
+    100588: polySurface1157
+    100590: polySurface1441
+    100592: polySurface1900
+    100594: polySurface1900 1
+    100596: polySurface1900 2
+    100598: polySurface1900 3
+    100600: polySurface1900 4
+    100602: polySurface1901
+    100604: polySurface1901 1
+    100606: polySurface1901 2
+    100608: polySurface1901 3
+    100610: polySurface1901 4
+    100612: polySurface1904
+    100614: polySurface1904 1
+    100616: polySurface1904 2
+    100618: polySurface1904 3
+    100620: polySurface1904 4
+    100622: polySurface2232
+    100624: polySurface2232 1
+    100626: polySurface2232 2
+    100628: polySurface2232 3
+    100630: polySurface2232 4
+    100632: polySurface2233
+    100634: polySurface2233 1
+    100636: polySurface2233 2
+    100638: polySurface2233 3
+    100640: polySurface2233 4
+    100642: pPrism4
+    100644: pPrism5
+    100646: pPrism5 1
+    100648: pPrism5 2
+    100650: pTorus1
+    100652: reduced_leaf
+    100654: reduced_leaf1
+    100656: reduced_leaf10
+    100658: reduced_leaf11
+    100660: reduced_leaf12
+    100662: reduced_leaf13
+    100664: reduced_leaf14
+    100666: reduced_leaf15
+    100668: reduced_leaf16
+    100670: reduced_leaf17
+    100672: reduced_leaf18
+    100674: reduced_leaf19
+    100676: reduced_leaf2
+    100678: reduced_leaf20
+    100680: reduced_leaf21
+    100682: reduced_leaf22
+    100684: reduced_leaf23
+    100686: reduced_leaf3
+    100688: reduced_leaf4
+    100690: reduced_leaf5
+    100692: reduced_leaf6
+    100694: reduced_leaf7
+    100696: reduced_leaf8
+    100698: reduced_leaf9
+    100700: reduced_pillar
+    100702: reduced_seal
+    100704: renovated_arch
+    100706: ribbed_vault
+    100708: ribbed_vault_conjoined
+    100710: roof
+    100712: roof_a
+    100714: roof_arch
+    100716: roof_beams
+    100718: roofarch2
+    100720: sideroof
+    100722: sideroof1
+    100724: sideroof_low
+    100726: smooth_arch
+    100728: south_ceilings
+    100730: south_roof
+    100732: south_side
+    100734: transform16
+    100736: vaulted_ceiling
+    100738: vaulted_ceiling 1
+    100740: vaulted_ceiling5
+    100742: vaulted_ceiling6
+    100744: vaulted_ceiling7
+    100746: vaulted_ceiling8
+    100748: vaulted_ceiling9
+    100750: wall
+    100752: wall 1
+    100754: wall_bevel
+    100756: wall_bevel1
+    100758: wall_bevel2
+    100760: wall_bevel3
+    100762: wall_bevel4
+    100764: wall_bevel5
+    100766: wall_bevel6
+    100768: wall_bevels
+    100770: wall_long
+    100772: wall_ornate
+    100774: wall_pillar
+    100776: wall_short
+    100778: wall_window
+    100780: wall_window1
+    100782: wall_window_corner
+    100784: wall_window_frame
+    100786: wall_window_low
+    100788: wall_window_original
+    100790: walls
+    100792: west_ceilings
+    100794: window
+    100796: window2
+    100798: window5
+    100800: window_big
+    100802: window_frame
+    100804: window_south
+    100806: wood_lattice_long
+    100808: wood_lattice_short
+    100810: wood_lattice_short1
+    400000: aisle_arches
+    400002: aisle_wall1
+    400004: aisle_wall10
+    400006: aisle_wall11
+    400008: aisle_wall12
+    400010: aisle_wall13
+    400012: aisle_wall14
+    400014: aisle_wall15
+    400016: aisle_wall9
+    400018: aisle_walls
+    400020: alcove_row
+    400022: altar01
+    400024: altar02
+    400026: altar03
+    400028: altar_step01
+    400030: altar_step02
+    400032: altar_step03
+    400034: altar_step04
+    400036: altar_step05
+    400038: altar_step06
+    400040: altarpiece_size
+    400042: arch_A1
+    400044: arch_A2
+    400046: arch_A3
+    400048: arch_A4
+    400050: arch_b1
+    400052: arch_b10
+    400054: arch_b11
+    400056: arch_b12
+    400058: arch_b13
+    400060: arch_b14
+    400062: arch_b15
+    400064: arch_b9
+    400066: arch_back
+    400068: arch_pointed_medium
+    400070: arch_pointed_medium2
+    400072: arch_pointed_medium3
+    400074: arch_pointed_tall
+    400076: arch_pointed_tall1
+    400078: arch_pointedx2
+    400080: arch_smooth_a
+    400082: arch_smooth_a3
+    400084: arch_smooth_b
+    400086: assumption_room
+    400088: back_facade
+    400090: balcony
+    400092: balcony_arch01
+    400094: balcony_arch02
+    400096: balcony_arch03
+    400098: balcony_arch04
+    400100: balcony_arch05
+    400102: balcony_arch06
+    400104: balcony_arch_wall
+    400106: balcony_bevel01
+    400108: balcony_bevel02
+    400110: balcony_bevel03
+    400112: balcony_bottom
+    400114: balcony_ceiling01
+    400116: balcony_ceiling02
+    400118: balcony_post01
+    400120: balcony_post02
+    400122: balcony_post03
+    400124: balcony_post04
+    400126: balcony_top
+    400128: base
+    400130: body
+    400132: ceilings
+    400134: center_altar
+    400136: church
+    400138: //RootNode
+    400140: cross
+    400142: cross_group
+    400144: crossbase01
+    400146: crossbase02
+    400148: crossbase03
+    400150: crossbase04
+    400152: crossbase05
+    400154: crossbase06
+    400156: crossbase07
+    400158: crossbase08
+    400160: crossbase09
+    400162: crossbase10
+    400164: crossbase11
+    400166: Crossbeam
+    400168: crossbeam
+    400170: Crossbeam 1
+    400172: Crossbeam 10
+    400174: Crossbeam 2
+    400176: Crossbeam 3
+    400178: Crossbeam 4
+    400180: Crossbeam 5
+    400182: Crossbeam 6
+    400184: Crossbeam 7
+    400186: Crossbeam 8
+    400188: Crossbeam 9
+    400190: Crossbeam1
+    400192: crossbeam1
+    400194: Crossbeam1 1
+    400196: Crossbeam1 10
+    400198: Crossbeam1 2
+    400200: Crossbeam1 3
+    400202: Crossbeam1 4
+    400204: Crossbeam1 5
+    400206: Crossbeam1 6
+    400208: Crossbeam1 7
+    400210: Crossbeam1 8
+    400212: Crossbeam1 9
+    400214: crossbeam10
+    400216: Crossbeam2
+    400218: crossbeam2
+    400220: Crossbeam2 1
+    400222: Crossbeam2 10
+    400224: Crossbeam2 2
+    400226: Crossbeam2 3
+    400228: Crossbeam2 4
+    400230: Crossbeam2 5
+    400232: Crossbeam2 6
+    400234: Crossbeam2 7
+    400236: Crossbeam2 8
+    400238: Crossbeam2 9
+    400240: Crossbeam3
+    400242: crossbeam3
+    400244: Crossbeam3 1
+    400246: Crossbeam3 10
+    400248: Crossbeam3 2
+    400250: Crossbeam3 3
+    400252: Crossbeam3 4
+    400254: Crossbeam3 5
+    400256: Crossbeam3 6
+    400258: Crossbeam3 7
+    400260: Crossbeam3 8
+    400262: Crossbeam3 9
+    400264: Crossbeam4
+    400266: crossbeam4
+    400268: Crossbeam4 1
+    400270: Crossbeam4 10
+    400272: Crossbeam4 2
+    400274: Crossbeam4 3
+    400276: Crossbeam4 4
+    400278: Crossbeam4 5
+    400280: Crossbeam4 6
+    400282: Crossbeam4 7
+    400284: Crossbeam4 8
+    400286: Crossbeam4 9
+    400288: crossbeam5
+    400290: crossbeam6
+    400292: crossbeam7
+    400294: crossbeam8
+    400296: crossbeam9
+    400298: dome_l
+    400300: dome_s2
+    400302: dome_s3
+    400304: dome_s4
+    400306: floor
+    400308: floor_altar
+    400310: front_base
+    400312: front_base_new
+    400314: front_base_new1
+    400316: front_center_door_bevel
+    400318: front_center_door_bevel1
+    400320: front_center_door_bevel2
+    400322: front_face
+    400324: front_frame
+    400326: front_frame_side01
+    400328: front_frame_side1
+    400330: front_interior_wall
+    400332: front_post_new
+    400334: front_post_new1
+    400336: front_wall
+    400338: front_window_frame
+    400340: loftedSurface35
+    400342: loftedSurface50
+    400344: loftedSurface51
+    400346: loftedSurface52
+    400348: loftedSurface53
+    400350: loftedSurface55
+    400352: loftedSurface56
+    400354: loftedSurface57
+    400356: loftedSurface58
+    400358: loftedSurface59
+    400360: loftedSurface60
+    400362: loftedSurface61
+    400364: loftedSurface62
+    400366: loftedSurface63
+    400368: loftedSurface64
+    400370: loftedSurface65
+    400372: loftedSurface66
+    400374: loftedSurface67
+    400376: loftedSurface68
+    400378: loftedSurface69
+    400380: loftedSurface70
+    400382: loftedSurface71
+    400384: loftedSurface72
+    400386: low_roof
+    400388: low_roof1
+    400390: north_side
+    400392: nun_s_balcony
+    400394: old_leaves
+    400396: Ornament_low
+    400398: Ornament_low 1
+    400400: Ornament_low1
+    400402: Ornament_low1 1
+    400404: Ornament_low3
+    400406: Ornament_low3 1
+    400408: ornate_pillar_base1
+    400410: ornate_pillar_base1 1
+    400412: ornate_pillar_base1 2
+    400414: ornate_pillar_joint1
+    400416: ornate_pillar_joint1 1
+    400418: ornate_pillar_joint1 2
+    400420: ornate_pillar_low
+    400422: ornate_pillar_low 1
+    400424: ornate_pillar_low 2
+    400426: ornate_pillar_low 3
+    400428: ornate_pillar_low_balcony
+    400430: ornate_pillar_low_short
+    400432: ornate_pillar_top_low
+    400434: ornate_pillar_top_low 1
+    400436: ornate_pillar_top_low 2
+    400438: other_altar
+    400440: out
+    400442: painting
+    400444: painting_altar
+    400446: Painting_Wall_External
+    400448: pCube138
+    400450: pCube161
+    400452: pCube161 1
+    400454: pCube161 2
+    400456: pCylinder1
+    400458: pCylinder2
+    400460: pCylinder2 1
+    400462: pCylinder2 2
+    400464: pCylinder3
+    400466: pCylinder3 1
+    400468: pCylinder3 2
+    400470: pilaster_base
+    400472: pilaster_base 1
+    400474: pilaster_low
+    400476: pilaster_low1
+    400478: pillar
+    400480: pillar_medium
+    400482: pillar_medium 1
+    400484: pillar_medium04
+    400486: pillar_medium_end
+    400488: pillar_medium_end1
+    400490: pillar_short
+    400492: pillar_tall
+    400494: pillar_tall_a1
+    400496: pillar_tall_a2
+    400498: pillar_tall_b
+    400500: pillar_tall_b1
+    400502: pillar_tall_b2
+    400504: pillar_tall_b3
+    400506: pillar_tall_b4
+    400508: pillar_tall_b5
+    400510: pillar_tall_b6
+    400512: pillar_tall_b7
+    400514: pillar_tall_b8
+    400516: pillar_tall_b9
+    400518: pillar_tall_c
+    400520: pillar_tall_c1
+    400522: pointed_roof
+    400524: pointed_roof1
+    400526: pointed_roof2
+    400528: pointed_roof3
+    400530: pointed_roof4
+    400532: polySurface1113
+    400534: polySurface1113 1
+    400536: polySurface1113 2
+    400538: polySurface1113 3
+    400540: polySurface1113 4
+    400542: polySurface1114
+    400544: polySurface1114 1
+    400546: polySurface1114 2
+    400548: polySurface1114 3
+    400550: polySurface1114 4
+    400552: polySurface1117
+    400554: polySurface1117 1
+    400556: polySurface1117 2
+    400558: polySurface1117 3
+    400560: polySurface1117 4
+    400562: polySurface1118
+    400564: polySurface1118 1
+    400566: polySurface1118 2
+    400568: polySurface1118 3
+    400570: polySurface1118 4
+    400572: polySurface1146
+    400574: polySurface1148
+    400576: polySurface1150
+    400578: polySurface1151
+    400580: polySurface1152
+    400582: polySurface1153
+    400584: polySurface1155
+    400586: polySurface1156
+    400588: polySurface1157
+    400590: polySurface1441
+    400592: polySurface1900
+    400594: polySurface1900 1
+    400596: polySurface1900 2
+    400598: polySurface1900 3
+    400600: polySurface1900 4
+    400602: polySurface1901
+    400604: polySurface1901 1
+    400606: polySurface1901 2
+    400608: polySurface1901 3
+    400610: polySurface1901 4
+    400612: polySurface1904
+    400614: polySurface1904 1
+    400616: polySurface1904 2
+    400618: polySurface1904 3
+    400620: polySurface1904 4
+    400622: polySurface2232
+    400624: polySurface2232 1
+    400626: polySurface2232 2
+    400628: polySurface2232 3
+    400630: polySurface2232 4
+    400632: polySurface2233
+    400634: polySurface2233 1
+    400636: polySurface2233 2
+    400638: polySurface2233 3
+    400640: polySurface2233 4
+    400642: pPrism4
+    400644: pPrism5
+    400646: pPrism5 1
+    400648: pPrism5 2
+    400650: pTorus1
+    400652: reduced_leaf
+    400654: reduced_leaf1
+    400656: reduced_leaf10
+    400658: reduced_leaf11
+    400660: reduced_leaf12
+    400662: reduced_leaf13
+    400664: reduced_leaf14
+    400666: reduced_leaf15
+    400668: reduced_leaf16
+    400670: reduced_leaf17
+    400672: reduced_leaf18
+    400674: reduced_leaf19
+    400676: reduced_leaf2
+    400678: reduced_leaf20
+    400680: reduced_leaf21
+    400682: reduced_leaf22
+    400684: reduced_leaf23
+    400686: reduced_leaf3
+    400688: reduced_leaf4
+    400690: reduced_leaf5
+    400692: reduced_leaf6
+    400694: reduced_leaf7
+    400696: reduced_leaf8
+    400698: reduced_leaf9
+    400700: reduced_pillar
+    400702: reduced_seal
+    400704: renovated_arch
+    400706: ribbed_vault
+    400708: ribbed_vault_conjoined
+    400710: roof
+    400712: roof_a
+    400714: roof_arch
+    400716: roof_beams
+    400718: roofarch2
+    400720: sideroof
+    400722: sideroof1
+    400724: sideroof_low
+    400726: smooth_arch
+    400728: south_ceilings
+    400730: south_roof
+    400732: south_side
+    400734: transform16
+    400736: vaulted_ceiling
+    400738: vaulted_ceiling 1
+    400740: vaulted_ceiling5
+    400742: vaulted_ceiling6
+    400744: vaulted_ceiling7
+    400746: vaulted_ceiling8
+    400748: vaulted_ceiling9
+    400750: wall
+    400752: wall 1
+    400754: wall_bevel
+    400756: wall_bevel1
+    400758: wall_bevel2
+    400760: wall_bevel3
+    400762: wall_bevel4
+    400764: wall_bevel5
+    400766: wall_bevel6
+    400768: wall_bevels
+    400770: wall_long
+    400772: wall_ornate
+    400774: wall_pillar
+    400776: wall_short
+    400778: wall_window
+    400780: wall_window1
+    400782: wall_window_corner
+    400784: wall_window_frame
+    400786: wall_window_low
+    400788: wall_window_original
+    400790: walls
+    400792: west_ceilings
+    400794: window
+    400796: window2
+    400798: window5
+    400800: window_big
+    400802: window_frame
+    400804: window_south
+    400806: wood_lattice_long
+    400808: wood_lattice_short
+    400810: wood_lattice_short1
+    2100000: phong1
+    2100002: limestone_mat
+    2100004: plaster_mat
+    2100006: brick_mat
+    2100008: phong5
+    2100010: ornate_pillar_mat
+    2100012: wood_mat
+    2100014: wood_lattice_mat
+    2100016: south_wall_mat
+    2100018: floor_stone_tile_mat
+    2100020: step_mat
+    2100022: floor_tiles_mat
+    2100024: pietraserena_mat
+    2300000: aisle_wall1
+    2300002: aisle_wall10
+    2300004: aisle_wall11
+    2300006: aisle_wall12
+    2300008: aisle_wall13
+    2300010: aisle_wall14
+    2300012: aisle_wall15
+    2300014: aisle_wall9
+    2300016: altar01
+    2300018: altar02
+    2300020: altar03
+    2300022: altar_step01
+    2300024: altar_step02
+    2300026: altar_step03
+    2300028: altar_step04
+    2300030: altar_step05
+    2300032: altar_step06
+    2300034: altarpiece_size
+    2300036: arch_A1
+    2300038: arch_A4
+    2300040: arch_b1
+    2300042: arch_b10
+    2300044: arch_b11
+    2300046: arch_b12
+    2300048: arch_b13
+    2300050: arch_b14
+    2300052: arch_b15
+    2300054: arch_b9
+    2300056: arch_back
+    2300058: arch_pointed_medium
+    2300060: arch_pointed_medium2
+    2300062: arch_pointed_medium3
+    2300064: arch_pointed_tall
+    2300066: arch_pointed_tall1
+    2300068: arch_pointedx2
+    2300070: arch_smooth_a
+    2300072: arch_smooth_a3
+    2300074: arch_smooth_b
+    2300076: assumption_room
+    2300078: balcony_arch01
+    2300080: balcony_arch02
+    2300082: balcony_arch03
+    2300084: balcony_arch04
+    2300086: balcony_arch05
+    2300088: balcony_arch06
+    2300090: balcony_arch_wall
+    2300092: balcony_bevel01
+    2300094: balcony_bevel02
+    2300096: balcony_bevel03
+    2300098: balcony_bottom
+    2300100: balcony_ceiling01
+    2300102: balcony_ceiling02
+    2300104: balcony_post01
+    2300106: balcony_post02
+    2300108: balcony_post03
+    2300110: balcony_post04
+    2300112: balcony_top
+    2300114: base
+    2300116: cross
+    2300118: crossbase01
+    2300120: crossbase02
+    2300122: crossbase03
+    2300124: crossbase04
+    2300126: crossbase05
+    2300128: crossbase06
+    2300130: crossbase07
+    2300132: crossbase08
+    2300134: crossbase09
+    2300136: crossbase10
+    2300138: crossbase11
+    2300140: Crossbeam
+    2300142: Crossbeam 1
+    2300144: Crossbeam 10
+    2300146: Crossbeam 2
+    2300148: Crossbeam 3
+    2300150: Crossbeam 4
+    2300152: Crossbeam 5
+    2300154: Crossbeam 6
+    2300156: Crossbeam 7
+    2300158: Crossbeam 8
+    2300160: Crossbeam 9
+    2300162: Crossbeam1
+    2300164: Crossbeam1 1
+    2300166: Crossbeam1 10
+    2300168: Crossbeam1 2
+    2300170: Crossbeam1 3
+    2300172: Crossbeam1 4
+    2300174: Crossbeam1 5
+    2300176: Crossbeam1 6
+    2300178: Crossbeam1 7
+    2300180: Crossbeam1 8
+    2300182: Crossbeam1 9
+    2300184: Crossbeam2
+    2300186: Crossbeam2 1
+    2300188: Crossbeam2 10
+    2300190: Crossbeam2 2
+    2300192: Crossbeam2 3
+    2300194: Crossbeam2 4
+    2300196: Crossbeam2 5
+    2300198: Crossbeam2 6
+    2300200: Crossbeam2 7
+    2300202: Crossbeam2 8
+    2300204: Crossbeam2 9
+    2300206: Crossbeam3
+    2300208: Crossbeam3 1
+    2300210: Crossbeam3 10
+    2300212: Crossbeam3 2
+    2300214: Crossbeam3 3
+    2300216: Crossbeam3 4
+    2300218: Crossbeam3 5
+    2300220: Crossbeam3 6
+    2300222: Crossbeam3 7
+    2300224: Crossbeam3 8
+    2300226: Crossbeam3 9
+    2300228: Crossbeam4
+    2300230: Crossbeam4 1
+    2300232: Crossbeam4 10
+    2300234: Crossbeam4 2
+    2300236: Crossbeam4 3
+    2300238: Crossbeam4 4
+    2300240: Crossbeam4 5
+    2300242: Crossbeam4 6
+    2300244: Crossbeam4 7
+    2300246: Crossbeam4 8
+    2300248: Crossbeam4 9
+    2300250: dome_l
+    2300252: dome_s2
+    2300254: dome_s3
+    2300256: dome_s4
+    2300258: floor
+    2300260: floor_altar
+    2300262: front_base
+    2300264: front_base_new
+    2300266: front_base_new1
+    2300268: front_center_door_bevel
+    2300270: front_center_door_bevel1
+    2300272: front_center_door_bevel2
+    2300274: front_frame
+    2300276: front_frame_side01
+    2300278: front_frame_side1
+    2300280: front_interior_wall
+    2300282: front_post_new
+    2300284: front_post_new1
+    2300286: front_window_frame
+    2300288: loftedSurface35
+    2300290: loftedSurface50
+    2300292: loftedSurface51
+    2300294: loftedSurface52
+    2300296: loftedSurface53
+    2300298: loftedSurface55
+    2300300: loftedSurface56
+    2300302: loftedSurface57
+    2300304: loftedSurface58
+    2300306: loftedSurface59
+    2300308: loftedSurface60
+    2300310: loftedSurface61
+    2300312: loftedSurface62
+    2300314: loftedSurface63
+    2300316: loftedSurface64
+    2300318: loftedSurface65
+    2300320: loftedSurface66
+    2300322: loftedSurface67
+    2300324: loftedSurface68
+    2300326: loftedSurface69
+    2300328: loftedSurface70
+    2300330: loftedSurface71
+    2300332: loftedSurface72
+    2300334: low_roof
+    2300336: low_roof1
+    2300338: Ornament_low
+    2300340: Ornament_low 1
+    2300342: Ornament_low1
+    2300344: Ornament_low1 1
+    2300346: Ornament_low3
+    2300348: Ornament_low3 1
+    2300350: ornate_pillar_base1
+    2300352: ornate_pillar_base1 1
+    2300354: ornate_pillar_base1 2
+    2300356: ornate_pillar_joint1
+    2300358: ornate_pillar_joint1 1
+    2300360: ornate_pillar_joint1 2
+    2300362: ornate_pillar_low 1
+    2300364: ornate_pillar_low 2
+    2300366: ornate_pillar_low 3
+    2300368: painting
+    2300370: Painting_Wall_External
+    2300372: pCube138
+    2300374: pCube161
+    2300376: pCube161 1
+    2300378: pCube161 2
+    2300380: pCylinder1
+    2300382: pCylinder2
+    2300384: pCylinder2 1
+    2300386: pCylinder2 2
+    2300388: pCylinder3
+    2300390: pCylinder3 1
+    2300392: pCylinder3 2
+    2300394: pilaster_base
+    2300396: pilaster_base 1
+    2300398: pillar
+    2300400: pillar_medium 1
+    2300402: pillar_medium04
+    2300404: pillar_medium_end
+    2300406: pillar_medium_end1
+    2300408: pillar_short
+    2300410: pillar_tall_a1
+    2300412: pillar_tall_a2
+    2300414: pillar_tall_b
+    2300416: pillar_tall_b1
+    2300418: pillar_tall_b2
+    2300420: pillar_tall_b3
+    2300422: pillar_tall_b4
+    2300424: pillar_tall_b5
+    2300426: pillar_tall_b6
+    2300428: pillar_tall_b7
+    2300430: pillar_tall_b8
+    2300432: pillar_tall_b9
+    2300434: pillar_tall_c
+    2300436: pillar_tall_c1
+    2300438: pointed_roof
+    2300440: pointed_roof1
+    2300442: pointed_roof2
+    2300444: pointed_roof3
+    2300446: pointed_roof4
+    2300448: polySurface1113
+    2300450: polySurface1113 1
+    2300452: polySurface1113 2
+    2300454: polySurface1113 3
+    2300456: polySurface1113 4
+    2300458: polySurface1114
+    2300460: polySurface1114 1
+    2300462: polySurface1114 2
+    2300464: polySurface1114 3
+    2300466: polySurface1114 4
+    2300468: polySurface1117
+    2300470: polySurface1117 1
+    2300472: polySurface1117 2
+    2300474: polySurface1117 3
+    2300476: polySurface1117 4
+    2300478: polySurface1118
+    2300480: polySurface1118 1
+    2300482: polySurface1118 2
+    2300484: polySurface1118 3
+    2300486: polySurface1118 4
+    2300488: polySurface1146
+    2300490: polySurface1148
+    2300492: polySurface1150
+    2300494: polySurface1151
+    2300496: polySurface1152
+    2300498: polySurface1153
+    2300500: polySurface1155
+    2300502: polySurface1156
+    2300504: polySurface1157
+    2300506: polySurface1441
+    2300508: polySurface1900
+    2300510: polySurface1900 1
+    2300512: polySurface1900 2
+    2300514: polySurface1900 3
+    2300516: polySurface1900 4
+    2300518: polySurface1901
+    2300520: polySurface1901 1
+    2300522: polySurface1901 2
+    2300524: polySurface1901 3
+    2300526: polySurface1901 4
+    2300528: polySurface1904
+    2300530: polySurface1904 1
+    2300532: polySurface1904 2
+    2300534: polySurface1904 3
+    2300536: polySurface1904 4
+    2300538: polySurface2232
+    2300540: polySurface2232 1
+    2300542: polySurface2232 2
+    2300544: polySurface2232 3
+    2300546: polySurface2232 4
+    2300548: polySurface2233
+    2300550: polySurface2233 1
+    2300552: polySurface2233 2
+    2300554: polySurface2233 3
+    2300556: polySurface2233 4
+    2300558: pPrism4
+    2300560: pPrism5
+    2300562: pPrism5 1
+    2300564: pPrism5 2
+    2300566: pTorus1
+    2300568: reduced_leaf
+    2300570: reduced_leaf1
+    2300572: reduced_leaf10
+    2300574: reduced_leaf11
+    2300576: reduced_leaf12
+    2300578: reduced_leaf13
+    2300580: reduced_leaf14
+    2300582: reduced_leaf15
+    2300584: reduced_leaf16
+    2300586: reduced_leaf17
+    2300588: reduced_leaf18
+    2300590: reduced_leaf19
+    2300592: reduced_leaf2
+    2300594: reduced_leaf20
+    2300596: reduced_leaf21
+    2300598: reduced_leaf22
+    2300600: reduced_leaf23
+    2300602: reduced_leaf3
+    2300604: reduced_leaf4
+    2300606: reduced_leaf5
+    2300608: reduced_leaf6
+    2300610: reduced_leaf7
+    2300612: reduced_leaf8
+    2300614: reduced_leaf9
+    2300616: renovated_arch
+    2300618: ribbed_vault
+    2300620: ribbed_vault_conjoined
+    2300622: roof
+    2300624: roof_a
+    2300626: roof_arch
+    2300628: roofarch2
+    2300630: sideroof
+    2300632: sideroof1
+    2300634: smooth_arch
+    2300636: vaulted_ceiling
+    2300638: vaulted_ceiling 1
+    2300640: vaulted_ceiling5
+    2300642: vaulted_ceiling6
+    2300644: vaulted_ceiling7
+    2300646: vaulted_ceiling8
+    2300648: vaulted_ceiling9
+    2300650: wall
+    2300652: wall 1
+    2300654: wall_bevel
+    2300656: wall_bevel1
+    2300658: wall_bevel2
+    2300660: wall_bevel3
+    2300662: wall_bevel4
+    2300664: wall_bevel5
+    2300666: wall_bevel6
+    2300668: wall_long
+    2300670: wall_ornate
+    2300672: wall_pillar
+    2300674: wall_short
+    2300676: wall_window
+    2300678: wall_window1
+    2300680: wall_window_corner
+    2300682: wall_window_frame
+    2300684: wall_window_low
+    2300686: wall_window_original
+    2300688: window_frame
+    2300690: wood_lattice_long
+    2300692: wood_lattice_short
+    2300694: wood_lattice_short1
+    3300000: aisle_wall1
+    3300002: aisle_wall10
+    3300004: aisle_wall11
+    3300006: aisle_wall12
+    3300008: aisle_wall13
+    3300010: aisle_wall14
+    3300012: aisle_wall15
+    3300014: aisle_wall9
+    3300016: altar01
+    3300018: altar02
+    3300020: altar03
+    3300022: altar_step01
+    3300024: altar_step02
+    3300026: altar_step03
+    3300028: altar_step04
+    3300030: altar_step05
+    3300032: altar_step06
+    3300034: altarpiece_size
+    3300036: arch_A1
+    3300038: arch_A4
+    3300040: arch_b1
+    3300042: arch_b10
+    3300044: arch_b11
+    3300046: arch_b12
+    3300048: arch_b13
+    3300050: arch_b14
+    3300052: arch_b15
+    3300054: arch_b9
+    3300056: arch_back
+    3300058: arch_pointed_medium
+    3300060: arch_pointed_medium2
+    3300062: arch_pointed_medium3
+    3300064: arch_pointed_tall
+    3300066: arch_pointed_tall1
+    3300068: arch_pointedx2
+    3300070: arch_smooth_a
+    3300072: arch_smooth_a3
+    3300074: arch_smooth_b
+    3300076: assumption_room
+    3300078: balcony_arch01
+    3300080: balcony_arch02
+    3300082: balcony_arch03
+    3300084: balcony_arch04
+    3300086: balcony_arch05
+    3300088: balcony_arch06
+    3300090: balcony_arch_wall
+    3300092: balcony_bevel01
+    3300094: balcony_bevel02
+    3300096: balcony_bevel03
+    3300098: balcony_bottom
+    3300100: balcony_ceiling01
+    3300102: balcony_ceiling02
+    3300104: balcony_post01
+    3300106: balcony_post02
+    3300108: balcony_post03
+    3300110: balcony_post04
+    3300112: balcony_top
+    3300114: base
+    3300116: cross
+    3300118: crossbase01
+    3300120: crossbase02
+    3300122: crossbase03
+    3300124: crossbase04
+    3300126: crossbase05
+    3300128: crossbase06
+    3300130: crossbase07
+    3300132: crossbase08
+    3300134: crossbase09
+    3300136: crossbase10
+    3300138: crossbase11
+    3300140: Crossbeam
+    3300142: Crossbeam 1
+    3300144: Crossbeam 10
+    3300146: Crossbeam 2
+    3300148: Crossbeam 3
+    3300150: Crossbeam 4
+    3300152: Crossbeam 5
+    3300154: Crossbeam 6
+    3300156: Crossbeam 7
+    3300158: Crossbeam 8
+    3300160: Crossbeam 9
+    3300162: Crossbeam1
+    3300164: Crossbeam1 1
+    3300166: Crossbeam1 10
+    3300168: Crossbeam1 2
+    3300170: Crossbeam1 3
+    3300172: Crossbeam1 4
+    3300174: Crossbeam1 5
+    3300176: Crossbeam1 6
+    3300178: Crossbeam1 7
+    3300180: Crossbeam1 8
+    3300182: Crossbeam1 9
+    3300184: Crossbeam2
+    3300186: Crossbeam2 1
+    3300188: Crossbeam2 10
+    3300190: Crossbeam2 2
+    3300192: Crossbeam2 3
+    3300194: Crossbeam2 4
+    3300196: Crossbeam2 5
+    3300198: Crossbeam2 6
+    3300200: Crossbeam2 7
+    3300202: Crossbeam2 8
+    3300204: Crossbeam2 9
+    3300206: Crossbeam3
+    3300208: Crossbeam3 1
+    3300210: Crossbeam3 10
+    3300212: Crossbeam3 2
+    3300214: Crossbeam3 3
+    3300216: Crossbeam3 4
+    3300218: Crossbeam3 5
+    3300220: Crossbeam3 6
+    3300222: Crossbeam3 7
+    3300224: Crossbeam3 8
+    3300226: Crossbeam3 9
+    3300228: Crossbeam4
+    3300230: Crossbeam4 1
+    3300232: Crossbeam4 10
+    3300234: Crossbeam4 2
+    3300236: Crossbeam4 3
+    3300238: Crossbeam4 4
+    3300240: Crossbeam4 5
+    3300242: Crossbeam4 6
+    3300244: Crossbeam4 7
+    3300246: Crossbeam4 8
+    3300248: Crossbeam4 9
+    3300250: dome_l
+    3300252: dome_s2
+    3300254: dome_s3
+    3300256: dome_s4
+    3300258: floor
+    3300260: floor_altar
+    3300262: front_base
+    3300264: front_base_new
+    3300266: front_base_new1
+    3300268: front_center_door_bevel
+    3300270: front_center_door_bevel1
+    3300272: front_center_door_bevel2
+    3300274: front_frame
+    3300276: front_frame_side01
+    3300278: front_frame_side1
+    3300280: front_interior_wall
+    3300282: front_post_new
+    3300284: front_post_new1
+    3300286: front_window_frame
+    3300288: loftedSurface35
+    3300290: loftedSurface50
+    3300292: loftedSurface51
+    3300294: loftedSurface52
+    3300296: loftedSurface53
+    3300298: loftedSurface55
+    3300300: loftedSurface56
+    3300302: loftedSurface57
+    3300304: loftedSurface58
+    3300306: loftedSurface59
+    3300308: loftedSurface60
+    3300310: loftedSurface61
+    3300312: loftedSurface62
+    3300314: loftedSurface63
+    3300316: loftedSurface64
+    3300318: loftedSurface65
+    3300320: loftedSurface66
+    3300322: loftedSurface67
+    3300324: loftedSurface68
+    3300326: loftedSurface69
+    3300328: loftedSurface70
+    3300330: loftedSurface71
+    3300332: loftedSurface72
+    3300334: low_roof
+    3300336: low_roof1
+    3300338: Ornament_low
+    3300340: Ornament_low 1
+    3300342: Ornament_low1
+    3300344: Ornament_low1 1
+    3300346: Ornament_low3
+    3300348: Ornament_low3 1
+    3300350: ornate_pillar_base1
+    3300352: ornate_pillar_base1 1
+    3300354: ornate_pillar_base1 2
+    3300356: ornate_pillar_joint1
+    3300358: ornate_pillar_joint1 1
+    3300360: ornate_pillar_joint1 2
+    3300362: ornate_pillar_low 1
+    3300364: ornate_pillar_low 2
+    3300366: ornate_pillar_low 3
+    3300368: painting
+    3300370: Painting_Wall_External
+    3300372: pCube138
+    3300374: pCube161
+    3300376: pCube161 1
+    3300378: pCube161 2
+    3300380: pCylinder1
+    3300382: pCylinder2
+    3300384: pCylinder2 1
+    3300386: pCylinder2 2
+    3300388: pCylinder3
+    3300390: pCylinder3 1
+    3300392: pCylinder3 2
+    3300394: pilaster_base
+    3300396: pilaster_base 1
+    3300398: pillar
+    3300400: pillar_medium 1
+    3300402: pillar_medium04
+    3300404: pillar_medium_end
+    3300406: pillar_medium_end1
+    3300408: pillar_short
+    3300410: pillar_tall_a1
+    3300412: pillar_tall_a2
+    3300414: pillar_tall_b
+    3300416: pillar_tall_b1
+    3300418: pillar_tall_b2
+    3300420: pillar_tall_b3
+    3300422: pillar_tall_b4
+    3300424: pillar_tall_b5
+    3300426: pillar_tall_b6
+    3300428: pillar_tall_b7
+    3300430: pillar_tall_b8
+    3300432: pillar_tall_b9
+    3300434: pillar_tall_c
+    3300436: pillar_tall_c1
+    3300438: pointed_roof
+    3300440: pointed_roof1
+    3300442: pointed_roof2
+    3300444: pointed_roof3
+    3300446: pointed_roof4
+    3300448: polySurface1113
+    3300450: polySurface1113 1
+    3300452: polySurface1113 2
+    3300454: polySurface1113 3
+    3300456: polySurface1113 4
+    3300458: polySurface1114
+    3300460: polySurface1114 1
+    3300462: polySurface1114 2
+    3300464: polySurface1114 3
+    3300466: polySurface1114 4
+    3300468: polySurface1117
+    3300470: polySurface1117 1
+    3300472: polySurface1117 2
+    3300474: polySurface1117 3
+    3300476: polySurface1117 4
+    3300478: polySurface1118
+    3300480: polySurface1118 1
+    3300482: polySurface1118 2
+    3300484: polySurface1118 3
+    3300486: polySurface1118 4
+    3300488: polySurface1146
+    3300490: polySurface1148
+    3300492: polySurface1150
+    3300494: polySurface1151
+    3300496: polySurface1152
+    3300498: polySurface1153
+    3300500: polySurface1155
+    3300502: polySurface1156
+    3300504: polySurface1157
+    3300506: polySurface1441
+    3300508: polySurface1900
+    3300510: polySurface1900 1
+    3300512: polySurface1900 2
+    3300514: polySurface1900 3
+    3300516: polySurface1900 4
+    3300518: polySurface1901
+    3300520: polySurface1901 1
+    3300522: polySurface1901 2
+    3300524: polySurface1901 3
+    3300526: polySurface1901 4
+    3300528: polySurface1904
+    3300530: polySurface1904 1
+    3300532: polySurface1904 2
+    3300534: polySurface1904 3
+    3300536: polySurface1904 4
+    3300538: polySurface2232
+    3300540: polySurface2232 1
+    3300542: polySurface2232 2
+    3300544: polySurface2232 3
+    3300546: polySurface2232 4
+    3300548: polySurface2233
+    3300550: polySurface2233 1
+    3300552: polySurface2233 2
+    3300554: polySurface2233 3
+    3300556: polySurface2233 4
+    3300558: pPrism4
+    3300560: pPrism5
+    3300562: pPrism5 1
+    3300564: pPrism5 2
+    3300566: pTorus1
+    3300568: reduced_leaf
+    3300570: reduced_leaf1
+    3300572: reduced_leaf10
+    3300574: reduced_leaf11
+    3300576: reduced_leaf12
+    3300578: reduced_leaf13
+    3300580: reduced_leaf14
+    3300582: reduced_leaf15
+    3300584: reduced_leaf16
+    3300586: reduced_leaf17
+    3300588: reduced_leaf18
+    3300590: reduced_leaf19
+    3300592: reduced_leaf2
+    3300594: reduced_leaf20
+    3300596: reduced_leaf21
+    3300598: reduced_leaf22
+    3300600: reduced_leaf23
+    3300602: reduced_leaf3
+    3300604: reduced_leaf4
+    3300606: reduced_leaf5
+    3300608: reduced_leaf6
+    3300610: reduced_leaf7
+    3300612: reduced_leaf8
+    3300614: reduced_leaf9
+    3300616: renovated_arch
+    3300618: ribbed_vault
+    3300620: ribbed_vault_conjoined
+    3300622: roof
+    3300624: roof_a
+    3300626: roof_arch
+    3300628: roofarch2
+    3300630: sideroof
+    3300632: sideroof1
+    3300634: smooth_arch
+    3300636: vaulted_ceiling
+    3300638: vaulted_ceiling 1
+    3300640: vaulted_ceiling5
+    3300642: vaulted_ceiling6
+    3300644: vaulted_ceiling7
+    3300646: vaulted_ceiling8
+    3300648: vaulted_ceiling9
+    3300650: wall
+    3300652: wall 1
+    3300654: wall_bevel
+    3300656: wall_bevel1
+    3300658: wall_bevel2
+    3300660: wall_bevel3
+    3300662: wall_bevel4
+    3300664: wall_bevel5
+    3300666: wall_bevel6
+    3300668: wall_long
+    3300670: wall_ornate
+    3300672: wall_pillar
+    3300674: wall_short
+    3300676: wall_window
+    3300678: wall_window1
+    3300680: wall_window_corner
+    3300682: wall_window_frame
+    3300684: wall_window_low
+    3300686: wall_window_original
+    3300688: window_frame
+    3300690: wood_lattice_long
+    3300692: wood_lattice_short
+    3300694: wood_lattice_short1
+    4300000: ribbed_vault_conjoined
+    4300002: ribbed_vault
+    4300004: front_center_door_bevel2
+    4300006: front_center_door_bevel1
+    4300008: front_center_door_bevel
+    4300010: front_interior_wall
+    4300012: front_frame
+    4300014: front_frame_side01
+    4300016: front_frame_side1
+    4300018: front_post_new1
+    4300020: front_post_new
+    4300022: front_base_new
+    4300024: front_base_new1
+    4300026: front_base
+    4300028: front_window_frame
+    4300030: roof_arch
+    4300032: cross
+    4300034: crossbase11
+    4300036: crossbase10
+    4300038: crossbase09
+    4300040: crossbase08
+    4300042: crossbase07
+    4300044: crossbase06
+    4300046: crossbase05
+    4300048: crossbase04
+    4300050: crossbase03
+    4300052: crossbase02
+    4300054: crossbase01
+    4300056: polySurface1441
+    4300058: polySurface1146
+    4300060: polySurface1148
+    4300062: polySurface1150
+    4300064: polySurface1153
+    4300066: polySurface1152
+    4300068: polySurface1151
+    4300070: polySurface1156
+    4300072: polySurface1157
+    4300074: polySurface1155
+    4300076: pCube138
+    4300078: pPrism5
+    4300080: pCylinder3
+    4300082: pCylinder2
+    4300084: pCube161
+    4300086: ornate_pillar_low
+    4300088: ornate_pillar_base1
+    4300090: ornate_pillar_joint1
+    4300092: balcony_arch_wall
+    4300094: balcony_arch01
+    4300096: balcony_arch02
+    4300098: balcony_arch03
+    4300100: balcony_arch04
+    4300102: balcony_arch05
+    4300104: balcony_arch06
+    4300106: balcony_ceiling01
+    4300108: balcony_ceiling02
+    4300110: balcony_bevel01
+    4300112: balcony_bevel02
+    4300114: balcony_bevel03
+    4300116: balcony_top
+    4300118: balcony_bottom
+    4300120: balcony_post01
+    4300122: balcony_post02
+    4300124: balcony_post03
+    4300126: balcony_post04
+    4300128: wood_lattice_long
+    4300130: wood_lattice_short1
+    4300132: wood_lattice_short
+    4300134: wall_long
+    4300136: low_roof
+    4300138: wall_window_corner
+    4300140: polySurface1901
+    4300142: polySurface1900
+    4300144: polySurface1114
+    4300146: polySurface1118
+    4300148: polySurface1117
+    4300150: polySurface1113
+    4300152: polySurface1904
+    4300154: polySurface2232
+    4300156: polySurface2233
+    4300158: sideroof1
+    4300160: roof_a
+    4300162: pointed_roof
+    4300164: pointed_roof1
+    4300166: pointed_roof2
+    4300168: pointed_roof3
+    4300170: pointed_roof4
+    4300172: wall
+    4300174: low_roof1
+    4300176: pPrism5
+    4300178: pCylinder3
+    4300180: pCylinder2
+    4300182: pCube161
+    4300184: ornate_pillar_low
+    4300186: ornate_pillar_base1
+    4300188: ornate_pillar_joint1
+    4300190: vaulted_ceiling9
+    4300192: vaulted_ceiling
+    4300194: roofarch2
+    4300196: pillar
+    4300198: base
+    4300200: loftedSurface55
+    4300202: loftedSurface56
+    4300204: loftedSurface57
+    4300206: loftedSurface58
+    4300208: loftedSurface59
+    4300210: loftedSurface60
+    4300212: loftedSurface63
+    4300214: loftedSurface35
+    4300216: loftedSurface68
+    4300218: loftedSurface66
+    4300220: loftedSurface67
+    4300222: loftedSurface64
+    4300224: loftedSurface65
+    4300226: loftedSurface71
+    4300228: loftedSurface72
+    4300230: loftedSurface69
+    4300232: loftedSurface70
+    4300234: loftedSurface53
+    4300236: loftedSurface52
+    4300238: loftedSurface51
+    4300240: loftedSurface50
+    4300242: loftedSurface61
+    4300244: loftedSurface62
+    4300246: reduced_leaf
+    4300248: reduced_leaf1
+    4300250: reduced_leaf2
+    4300252: reduced_leaf3
+    4300254: reduced_leaf4
+    4300256: reduced_leaf5
+    4300258: reduced_leaf6
+    4300260: reduced_leaf7
+    4300262: reduced_leaf8
+    4300264: reduced_leaf9
+    4300266: reduced_leaf10
+    4300268: reduced_leaf11
+    4300270: reduced_leaf12
+    4300272: reduced_leaf13
+    4300274: reduced_leaf14
+    4300276: reduced_leaf15
+    4300278: reduced_leaf16
+    4300280: reduced_leaf17
+    4300282: reduced_leaf18
+    4300284: reduced_leaf19
+    4300286: reduced_leaf20
+    4300288: reduced_leaf21
+    4300290: reduced_leaf22
+    4300292: reduced_leaf23
+    4300294: pTorus1
+    4300296: pCylinder1
+    4300298: arch_A1
+    4300300: arch_A4
+    4300302: vaulted_ceiling
+    4300304: vaulted_ceiling5
+    4300306: vaulted_ceiling6
+    4300308: vaulted_ceiling7
+    4300310: vaulted_ceiling8
+    4300312: wall
+    4300314: renovated_arch
+    4300316: smooth_arch
+    4300318: wall_short
+    4300320: wall_ornate
+    4300322: window_frame
+    4300324: arch_pointed_tall
+    4300326: wall_pillar
+    4300328: arch_smooth_b
+    4300330: pillar_medium04
+    4300332: polySurface1901
+    4300334: polySurface1900
+    4300336: polySurface1114
+    4300338: polySurface1118
+    4300340: polySurface1117
+    4300342: polySurface1113
+    4300344: polySurface1904
+    4300346: polySurface2232
+    4300348: polySurface2233
+    4300350: Ornament_low
+    4300352: Ornament_low1
+    4300354: Ornament_low3
+    4300356: pilaster_base
+    4300358: Ornament_low
+    4300360: Ornament_low1
+    4300362: Ornament_low3
+    4300364: pilaster_base
+    4300366: pPrism4
+    4300368: sideroof
+    4300370: Crossbeam
+    4300372: Crossbeam4
+    4300374: Crossbeam2
+    4300376: Crossbeam3
+    4300378: Crossbeam1
+    4300380: Crossbeam
+    4300382: Crossbeam4
+    4300384: Crossbeam2
+    4300386: Crossbeam3
+    4300388: Crossbeam1
+    4300390: Crossbeam
+    4300392: Crossbeam4
+    4300394: Crossbeam2
+    4300396: Crossbeam3
+    4300398: Crossbeam1
+    4300400: Crossbeam
+    4300402: Crossbeam4
+    4300404: Crossbeam2
+    4300406: Crossbeam3
+    4300408: Crossbeam1
+    4300410: Crossbeam
+    4300412: Crossbeam4
+    4300414: Crossbeam2
+    4300416: Crossbeam3
+    4300418: Crossbeam1
+    4300420: Crossbeam
+    4300422: Crossbeam4
+    4300424: Crossbeam2
+    4300426: Crossbeam3
+    4300428: Crossbeam1
+    4300430: Crossbeam
+    4300432: Crossbeam4
+    4300434: Crossbeam2
+    4300436: Crossbeam3
+    4300438: Crossbeam1
+    4300440: Crossbeam
+    4300442: Crossbeam4
+    4300444: Crossbeam2
+    4300446: Crossbeam3
+    4300448: Crossbeam1
+    4300450: Crossbeam
+    4300452: Crossbeam4
+    4300454: Crossbeam2
+    4300456: Crossbeam3
+    4300458: Crossbeam1
+    4300460: Crossbeam
+    4300462: Crossbeam4
+    4300464: Crossbeam2
+    4300466: Crossbeam3
+    4300468: Crossbeam1
+    4300470: Crossbeam
+    4300472: Crossbeam4
+    4300474: Crossbeam2
+    4300476: Crossbeam3
+    4300478: Crossbeam1
+    4300480: floor_altar
+    4300482: floor
+    4300484: arch_pointed_medium
+    4300486: arch_pointed_medium2
+    4300488: arch_pointed_medium3
+    4300490: pillar_short
+    4300492: arch_pointedx2
+    4300494: Painting_Wall_External
+    4300496: arch_pointed_tall1
+    4300498: wall_window1
+    4300500: wall_window
+    4300502: arch_smooth_a
+    4300504: arch_smooth_a3
+    4300506: pillar_tall_a1
+    4300508: pillar_tall_a2
+    4300510: pillar_tall_b
+    4300512: pillar_tall_b1
+    4300514: pillar_tall_b2
+    4300516: pillar_tall_b3
+    4300518: pillar_tall_b4
+    4300520: pillar_tall_b5
+    4300522: pillar_tall_b6
+    4300524: pillar_tall_b7
+    4300526: pillar_tall_c
+    4300528: pillar_tall_c1
+    4300530: pillar_tall_b8
+    4300532: pillar_tall_b9
+    4300534: aisle_wall1
+    4300536: aisle_wall9
+    4300538: aisle_wall10
+    4300540: aisle_wall11
+    4300542: aisle_wall12
+    4300544: aisle_wall13
+    4300546: aisle_wall14
+    4300548: aisle_wall15
+    4300550: arch_b1
+    4300552: arch_b9
+    4300554: arch_b10
+    4300556: arch_b11
+    4300558: arch_b12
+    4300560: arch_b13
+    4300562: arch_b14
+    4300564: arch_b15
+    4300566: pillar_medium_end
+    4300568: pillar_medium_end1
+    4300570: pillar_medium
+    4300572: altar_step01
+    4300574: altar_step02
+    4300576: altar01
+    4300578: altar_step04
+    4300580: altar02
+    4300582: altar_step03
+    4300584: altar03
+    4300586: altar_step06
+    4300588: altar_step05
+    4300590: dome_s2
+    4300592: dome_s3
+    4300594: dome_s4
+    4300596: pPrism5
+    4300598: pCylinder3
+    4300600: pCylinder2
+    4300602: pCube161
+    4300604: ornate_pillar_joint1
+    4300606: ornate_pillar_low
+    4300608: ornate_pillar_base1
+    4300610: polySurface1901
+    4300612: polySurface1900
+    4300614: polySurface1114
+    4300616: polySurface1118
+    4300618: polySurface1117
+    4300620: polySurface1113
+    4300622: polySurface1904
+    4300624: polySurface2232
+    4300626: polySurface2233
+    4300628: polySurface1901
+    4300630: polySurface1900
+    4300632: polySurface1114
+    4300634: polySurface1118
+    4300636: polySurface1117
+    4300638: polySurface1113
+    4300640: polySurface1904
+    4300642: polySurface2232
+    4300644: polySurface2233
+    4300646: arch_back
+    4300648: roof
+    4300650: wall_window_frame
+    4300652: dome_l
+    4300654: wall_window_original
+    4300656: wall_window_low
+    4300658: wall_bevel6
+    4300660: wall_bevel5
+    4300662: wall_bevel4
+    4300664: wall_bevel3
+    4300666: wall_bevel2
+    4300668: wall_bevel1
+    4300670: wall_bevel
+    4300672: polySurface1901
+    4300674: polySurface1900
+    4300676: polySurface1114
+    4300678: polySurface1118
+    4300680: polySurface1117
+    4300682: polySurface1113
+    4300684: polySurface1904
+    4300686: polySurface2232
+    4300688: polySurface2233
+    4300690: assumption_room
+    4300692: painting
+    4300694: altarpiece_size
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
