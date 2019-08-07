@@ -1,0 +1,1327 @@
+fileFormatVersion: 2
+guid: cee5c48ae6780974db4a6dfe2ae33b3e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: AltarPiece_LowPoly1_Brackets_Low_Bracket_Long
+    100004: AltarPiece_LowPoly1_Brackets_Low_PinnacleLeftBracket1
+    100006: AltarPiece_LowPoly1_FullTowerLeft_Spire_Low2
+    100008: AltarPiece_LowPoly1_FullTowerLeft_Spire_Low3
+    100010: AltarPiece_LowPoly1_FullTowerLeft_Spire_Low4
+    100012: AltarPiece_LowPoly1_FullTowerLeft_SpireShort2
+    100014: AltarPiece_LowPoly1_FullTowerRight
+    100016: AltarPiece_LowPoly1_FullTowerRight_Spire_Low2
+    100018: AltarPiece_LowPoly1_FullTowerRight_Spire_Low3
+    100020: AltarPiece_LowPoly1_FullTowerRight_Spire_Low4
+    100022: AltarPiece_LowPoly1_FullTowerRight_SpireShort2
+    100024: AltarPiece_LowPoly1_MainPanelCapitalRight
+    100026: AltarPiece_LowPoly1_MainPanelFramingCenter
+    100028: AltarPiece_LowPoly1_MainPanelFramingRight
+    100030: AltarPiece_LowPoly1_MainPanelFramingTwoRight
+    100032: AltarPiece_LowPoly1_PillarsShort_SpireShort3
+    100034: AltarPiece_LowPoly1_PillarsShort_SpireShort4
+    100036: AltarPiece_LowPoly1_PillarsShort_SpireTower3
+    100038: AltarPiece_LowPoly1_PillarsShort_SpireTower4
+    100040: AltarPiece_LowPoly1_PillarsShort_SpireTower5
+    100042: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleDecoLeft2
+    100044: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleTopDecoLeft4
+    100046: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleTopDecoLeft5
+    100048: AltarPiece_LowPoly1_PinnacleDecoRight
+    100050: AltarPiece_LowPoly1_PinnacleFrameRight
+    100052: AltarPiece_LowPoly1_Spire_Center_Low1
+    100054: AltarPiece_LowPoly1_UpperTierFramingRight
+    100056: AltarPieceBase
+    100058: AltarPieceCenterBar
+    100060: Bracket_Long2
+    100062: Bracket_Short5
+    100064: Bracket_Short6
+    100066: Bracket_Short7
+    100068: Bracket_Short8
+    100070: Brackets_Low
+    100072: CubeBase
+    100074: CubeBase 1
+    100076: CubeBase 2
+    100078: CubeBase 3
+    100080: CubeBase 4
+    100082: CubeBase 5
+    100084: CubeBase 6
+    100086: CubeBase 7
+    100088: CubeBase 8
+    100090: CubeBase 9
+    100092: CubeFlat
+    100094: CubeFlat 1
+    100096: CubeFlat 10
+    100098: CubeFlat 11
+    100100: CubeFlat 12
+    100102: CubeFlat 13
+    100104: CubeFlat 14
+    100106: CubeFlat 15
+    100108: CubeFlat 2
+    100110: CubeFlat 3
+    100112: CubeFlat 4
+    100114: CubeFlat 5
+    100116: CubeFlat 6
+    100118: CubeFlat 7
+    100120: CubeFlat 8
+    100122: CubeFlat 9
+    100124: CubeFlatSmall
+    100126: CubeFlatSmall 1
+    100128: CubeFlatSmall 2
+    100130: CubeFlatSmall 3
+    100132: CubeFlatSmall 4
+    100134: CubeFlatSmall 5
+    100136: CubeFlatSmall 6
+    100138: CubeFlatSmall 7
+    100140: CubeFlatSmall 8
+    100142: CubeFlatSmall 9
+    100144: CubeTall
+    100146: CubeTall 1
+    100148: CubeTall 2
+    100150: CubeTall 3
+    100152: CubeTall 4
+    100154: CubeTall 5
+    100156: CubeTall 6
+    100158: CubeTall 7
+    100160: CubeTall 8
+    100162: CubeTall 9
+    100164: CubeTall1
+    100166: CubeTall1 1
+    100168: CubeTall1 2
+    100170: CubeTall1 3
+    100172: CubeTall1 4
+    100174: CubeTall1 5
+    100176: CubeTall1 6
+    100178: CubeTall1 7
+    100180: CubeTall1 8
+    100182: CubeTall1 9
+    100184: CubeTall2
+    100186: CubeTall2 1
+    100188: CubeTall2 2
+    100190: CubeTall2 3
+    100192: CubeTall2 4
+    100194: CubeTall2 5
+    100196: CubeTop
+    100198: CubeTop 1
+    100200: CubeTop 2
+    100202: CubeTop 3
+    100204: CubeTop 4
+    100206: CubeTop 5
+    100208: CubeTop 6
+    100210: CubeTop 7
+    100212: CubeTop 8
+    100214: CubeTop 9
+    100216: CubeTop1
+    100218: CubeTop1 1
+    100220: CubeTop1 2
+    100222: CubeTop1 3
+    100224: CubeTop1 4
+    100226: CubeTop1 5
+    100228: CubeTop1 6
+    100230: CubeTop1 7
+    100232: CubeTop1 8
+    100234: CubeTop1 9
+    100236: CubeTopTall
+    100238: CubeTopTall 1
+    100240: CubeTopTall 2
+    100242: CubeTopTall 3
+    100244: CubeTopTall 4
+    100246: CubeTopTall 5
+    100248: CubeTopTall 6
+    100250: CubeTopTall 7
+    100252: CubeTopTall 8
+    100254: CubeTopTall 9
+    100256: FullTowerLeft
+    100258: MainPanelCapitalLeft1
+    100260: MainPanelCenter
+    100262: MainPanelCenter1
+    100264: MainPanelFramingLeft
+    100266: MainPanelFramingTwoLeft
+    100268: MainPanelLeft
+    100270: MainPanelRight
+    100272: Panels1
+    100274: PillarsShort
+    100276: PinnacleCenterBracket1
+    100278: PinnacleDecoCenter
+    100280: PinnacleDecoLeft
+    100282: PinnacleDecoLeft2
+    100284: PinnacleDecoLeft3
+    100286: PinnacleFrameCenter
+    100288: PinnacleFrameLeft
+    100290: PinnacleFrameTopLeft
+    100292: PinnacleFrameTopLeft 1
+    100294: PinnacleFrameTopLeft 2
+    100296: PinnacleLeftBracket2
+    100298: PinnaclePanelLeft2
+    100300: PinnaclePanelLeft3
+    100302: PinnaclePanelRight2
+    100304: PinnacleTopDecoLeft4
+    100306: PinnacleTopDecoLeft5
+    100308: PinnacleTopDecoLeft6
+    100310: PinnacleTopDecoLeft7
+    100312: Prism
+    100314: Prism 1
+    100316: Prism 2
+    100318: Prism 3
+    100320: Prism 4
+    100322: Prism 5
+    100324: Prism 6
+    100326: Prism 7
+    100328: Prism 8
+    100330: Prism 9
+    100332: Prism1
+    100334: Prism1 1
+    100336: Prism1 2
+    100338: Prism1 3
+    100340: Prism1 4
+    100342: Prism1 5
+    100344: Spire
+    100346: Spire 1
+    100348: Spire 2
+    100350: Spire 3
+    100352: Spire 4
+    100354: Spire 5
+    100356: Spire 6
+    100358: Spire 7
+    100360: Spire 8
+    100362: Spire 9
+    100364: Spire_Center_Low
+    100366: Spire_Low1
+    100368: Spire_Low1 1
+    100370: SpireBase
+    100372: SpireBase 1
+    100374: SpireBase 2
+    100376: SpireBase 3
+    100378: SpireBase 4
+    100380: SpireBase 5
+    100382: SpireBase 6
+    100384: SpireBase 7
+    100386: SpireBase 8
+    100388: SpireBase 9
+    100390: SpireMedium
+    100392: SpireMedium 1
+    100394: SpireShort
+    100396: SpireShort 1
+    100398: SpireShort 10
+    100400: SpireShort 11
+    100402: SpireShort 2
+    100404: SpireShort 3
+    100406: SpireShort 4
+    100408: SpireShort 5
+    100410: SpireShort 6
+    100412: SpireShort 7
+    100414: SpireShort 8
+    100416: SpireShort 9
+    100418: SpireShort5
+    100420: SpireTop
+    100422: SpireTop 1
+    100424: SpireTop 2
+    100426: SpireTop 3
+    100428: SpireTop 4
+    100430: SpireTop 5
+    100432: SpireTop 6
+    100434: SpireTop 7
+    100436: SpireTop 8
+    100438: SpireTop 9
+    100440: SpireWiggly
+    100442: SpireWiggly 1
+    100444: SpireWiggly 2
+    100446: SpireWiggly 3
+    100448: SpireWiggly 4
+    100450: SpireWiggly 5
+    100452: SpireWiggly 6
+    100454: SpireWiggly 7
+    100456: SpireWiggly 8
+    100458: SpireWiggly 9
+    100460: SpireWiggly1
+    100462: SpireWiggly1 1
+    100464: SpireWiggly1 2
+    100466: SpireWiggly1 3
+    100468: SpireWiggly1 4
+    100470: SpireWiggly1 5
+    100472: Top
+    100474: Top 1
+    100476: Top 2
+    100478: Top 3
+    100480: Top 4
+    100482: Top 5
+    100484: TowerLeft
+    100486: TowerLeft 1
+    100488: TowerPrism
+    100490: TowerPrism 1
+    100492: transform63
+    100494: UpperTierFramingCenter
+    100496: UpperTierFramingLeft1
+    100498: UpperTierPanelCenter1
+    100500: UpperTierPanelLeft1
+    100502: UpperTierPanelRight1
+    400000: //RootNode
+    400002: AltarPiece_LowPoly1_Brackets_Low_Bracket_Long
+    400004: AltarPiece_LowPoly1_Brackets_Low_PinnacleLeftBracket1
+    400006: AltarPiece_LowPoly1_FullTowerLeft_Spire_Low2
+    400008: AltarPiece_LowPoly1_FullTowerLeft_Spire_Low3
+    400010: AltarPiece_LowPoly1_FullTowerLeft_Spire_Low4
+    400012: AltarPiece_LowPoly1_FullTowerLeft_SpireShort2
+    400014: AltarPiece_LowPoly1_FullTowerRight
+    400016: AltarPiece_LowPoly1_FullTowerRight_Spire_Low2
+    400018: AltarPiece_LowPoly1_FullTowerRight_Spire_Low3
+    400020: AltarPiece_LowPoly1_FullTowerRight_Spire_Low4
+    400022: AltarPiece_LowPoly1_FullTowerRight_SpireShort2
+    400024: AltarPiece_LowPoly1_MainPanelCapitalRight
+    400026: AltarPiece_LowPoly1_MainPanelFramingCenter
+    400028: AltarPiece_LowPoly1_MainPanelFramingRight
+    400030: AltarPiece_LowPoly1_MainPanelFramingTwoRight
+    400032: AltarPiece_LowPoly1_PillarsShort_SpireShort3
+    400034: AltarPiece_LowPoly1_PillarsShort_SpireShort4
+    400036: AltarPiece_LowPoly1_PillarsShort_SpireTower3
+    400038: AltarPiece_LowPoly1_PillarsShort_SpireTower4
+    400040: AltarPiece_LowPoly1_PillarsShort_SpireTower5
+    400042: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleDecoLeft2
+    400044: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleTopDecoLeft4
+    400046: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleTopDecoLeft5
+    400048: AltarPiece_LowPoly1_PinnacleDecoRight
+    400050: AltarPiece_LowPoly1_PinnacleFrameRight
+    400052: AltarPiece_LowPoly1_Spire_Center_Low1
+    400054: AltarPiece_LowPoly1_UpperTierFramingRight
+    400056: AltarPieceBase
+    400058: AltarPieceCenterBar
+    400060: Bracket_Long2
+    400062: Bracket_Short5
+    400064: Bracket_Short6
+    400066: Bracket_Short7
+    400068: Bracket_Short8
+    400070: Brackets_Low
+    400072: CubeBase
+    400074: CubeBase 1
+    400076: CubeBase 2
+    400078: CubeBase 3
+    400080: CubeBase 4
+    400082: CubeBase 5
+    400084: CubeBase 6
+    400086: CubeBase 7
+    400088: CubeBase 8
+    400090: CubeBase 9
+    400092: CubeFlat
+    400094: CubeFlat 1
+    400096: CubeFlat 10
+    400098: CubeFlat 11
+    400100: CubeFlat 12
+    400102: CubeFlat 13
+    400104: CubeFlat 14
+    400106: CubeFlat 15
+    400108: CubeFlat 2
+    400110: CubeFlat 3
+    400112: CubeFlat 4
+    400114: CubeFlat 5
+    400116: CubeFlat 6
+    400118: CubeFlat 7
+    400120: CubeFlat 8
+    400122: CubeFlat 9
+    400124: CubeFlatSmall
+    400126: CubeFlatSmall 1
+    400128: CubeFlatSmall 2
+    400130: CubeFlatSmall 3
+    400132: CubeFlatSmall 4
+    400134: CubeFlatSmall 5
+    400136: CubeFlatSmall 6
+    400138: CubeFlatSmall 7
+    400140: CubeFlatSmall 8
+    400142: CubeFlatSmall 9
+    400144: CubeTall
+    400146: CubeTall 1
+    400148: CubeTall 2
+    400150: CubeTall 3
+    400152: CubeTall 4
+    400154: CubeTall 5
+    400156: CubeTall 6
+    400158: CubeTall 7
+    400160: CubeTall 8
+    400162: CubeTall 9
+    400164: CubeTall1
+    400166: CubeTall1 1
+    400168: CubeTall1 2
+    400170: CubeTall1 3
+    400172: CubeTall1 4
+    400174: CubeTall1 5
+    400176: CubeTall1 6
+    400178: CubeTall1 7
+    400180: CubeTall1 8
+    400182: CubeTall1 9
+    400184: CubeTall2
+    400186: CubeTall2 1
+    400188: CubeTall2 2
+    400190: CubeTall2 3
+    400192: CubeTall2 4
+    400194: CubeTall2 5
+    400196: CubeTop
+    400198: CubeTop 1
+    400200: CubeTop 2
+    400202: CubeTop 3
+    400204: CubeTop 4
+    400206: CubeTop 5
+    400208: CubeTop 6
+    400210: CubeTop 7
+    400212: CubeTop 8
+    400214: CubeTop 9
+    400216: CubeTop1
+    400218: CubeTop1 1
+    400220: CubeTop1 2
+    400222: CubeTop1 3
+    400224: CubeTop1 4
+    400226: CubeTop1 5
+    400228: CubeTop1 6
+    400230: CubeTop1 7
+    400232: CubeTop1 8
+    400234: CubeTop1 9
+    400236: CubeTopTall
+    400238: CubeTopTall 1
+    400240: CubeTopTall 2
+    400242: CubeTopTall 3
+    400244: CubeTopTall 4
+    400246: CubeTopTall 5
+    400248: CubeTopTall 6
+    400250: CubeTopTall 7
+    400252: CubeTopTall 8
+    400254: CubeTopTall 9
+    400256: FullTowerLeft
+    400258: MainPanelCapitalLeft1
+    400260: MainPanelCenter
+    400262: MainPanelCenter1
+    400264: MainPanelFramingLeft
+    400266: MainPanelFramingTwoLeft
+    400268: MainPanelLeft
+    400270: MainPanelRight
+    400272: Panels1
+    400274: PillarsShort
+    400276: PinnacleCenterBracket1
+    400278: PinnacleDecoCenter
+    400280: PinnacleDecoLeft
+    400282: PinnacleDecoLeft2
+    400284: PinnacleDecoLeft3
+    400286: PinnacleFrameCenter
+    400288: PinnacleFrameLeft
+    400290: PinnacleFrameTopLeft
+    400292: PinnacleFrameTopLeft 1
+    400294: PinnacleFrameTopLeft 2
+    400296: PinnacleLeftBracket2
+    400298: PinnaclePanelLeft2
+    400300: PinnaclePanelLeft3
+    400302: PinnaclePanelRight2
+    400304: PinnacleTopDecoLeft4
+    400306: PinnacleTopDecoLeft5
+    400308: PinnacleTopDecoLeft6
+    400310: PinnacleTopDecoLeft7
+    400312: Prism
+    400314: Prism 1
+    400316: Prism 2
+    400318: Prism 3
+    400320: Prism 4
+    400322: Prism 5
+    400324: Prism 6
+    400326: Prism 7
+    400328: Prism 8
+    400330: Prism 9
+    400332: Prism1
+    400334: Prism1 1
+    400336: Prism1 2
+    400338: Prism1 3
+    400340: Prism1 4
+    400342: Prism1 5
+    400344: Spire
+    400346: Spire 1
+    400348: Spire 2
+    400350: Spire 3
+    400352: Spire 4
+    400354: Spire 5
+    400356: Spire 6
+    400358: Spire 7
+    400360: Spire 8
+    400362: Spire 9
+    400364: Spire_Center_Low
+    400366: Spire_Low1
+    400368: Spire_Low1 1
+    400370: SpireBase
+    400372: SpireBase 1
+    400374: SpireBase 2
+    400376: SpireBase 3
+    400378: SpireBase 4
+    400380: SpireBase 5
+    400382: SpireBase 6
+    400384: SpireBase 7
+    400386: SpireBase 8
+    400388: SpireBase 9
+    400390: SpireMedium
+    400392: SpireMedium 1
+    400394: SpireShort
+    400396: SpireShort 1
+    400398: SpireShort 10
+    400400: SpireShort 11
+    400402: SpireShort 2
+    400404: SpireShort 3
+    400406: SpireShort 4
+    400408: SpireShort 5
+    400410: SpireShort 6
+    400412: SpireShort 7
+    400414: SpireShort 8
+    400416: SpireShort 9
+    400418: SpireShort5
+    400420: SpireTop
+    400422: SpireTop 1
+    400424: SpireTop 2
+    400426: SpireTop 3
+    400428: SpireTop 4
+    400430: SpireTop 5
+    400432: SpireTop 6
+    400434: SpireTop 7
+    400436: SpireTop 8
+    400438: SpireTop 9
+    400440: SpireWiggly
+    400442: SpireWiggly 1
+    400444: SpireWiggly 2
+    400446: SpireWiggly 3
+    400448: SpireWiggly 4
+    400450: SpireWiggly 5
+    400452: SpireWiggly 6
+    400454: SpireWiggly 7
+    400456: SpireWiggly 8
+    400458: SpireWiggly 9
+    400460: SpireWiggly1
+    400462: SpireWiggly1 1
+    400464: SpireWiggly1 2
+    400466: SpireWiggly1 3
+    400468: SpireWiggly1 4
+    400470: SpireWiggly1 5
+    400472: Top
+    400474: Top 1
+    400476: Top 2
+    400478: Top 3
+    400480: Top 4
+    400482: Top 5
+    400484: TowerLeft
+    400486: TowerLeft 1
+    400488: TowerPrism
+    400490: TowerPrism 1
+    400492: transform63
+    400494: UpperTierFramingCenter
+    400496: UpperTierFramingLeft1
+    400498: UpperTierPanelCenter1
+    400500: UpperTierPanelLeft1
+    400502: UpperTierPanelRight1
+    2100000: phong5
+    2100002: Panels1_MainPanelCenter1_MainPanelLeft_Lmb_Mat
+    2100004: Panels1_MainPanelCenter1_MainPanelRight_Lmb_Mat
+    2100006: Panels1_MainPanelCenter1_MainPanelCenter_Lmb_Mat
+    2100008: Panels1_UpperTierPanelLeft1_Lmb_Mat
+    2100010: Panels1_UpperTierPanelCenter1_Lmb_Mat
+    2100012: Panels1_UpperTierPanelRight1_Lmb_Mat
+    2100014: Panels1_PinnaclePanelLeft2_Lmb_Mat
+    2100016: Panels1_PinnaclePanelRight2_Lmb_Mat
+    2100018: Panels1_PinnaclePanelLeft3_Lmb_Mat
+    2300000: AltarPiece_LowPoly1_Brackets_Low_Bracket_Long
+    2300002: AltarPiece_LowPoly1_Brackets_Low_PinnacleLeftBracket1
+    2300004: AltarPiece_LowPoly1_MainPanelCapitalRight
+    2300006: AltarPiece_LowPoly1_MainPanelFramingCenter
+    2300008: AltarPiece_LowPoly1_MainPanelFramingRight
+    2300010: AltarPiece_LowPoly1_MainPanelFramingTwoRight
+    2300012: AltarPiece_LowPoly1_PillarsShort_SpireShort3
+    2300014: AltarPiece_LowPoly1_PillarsShort_SpireShort4
+    2300016: AltarPiece_LowPoly1_PillarsShort_SpireTower3
+    2300018: AltarPiece_LowPoly1_PillarsShort_SpireTower4
+    2300020: AltarPiece_LowPoly1_PillarsShort_SpireTower5
+    2300022: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleDecoLeft2
+    2300024: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleTopDecoLeft4
+    2300026: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleTopDecoLeft5
+    2300028: AltarPiece_LowPoly1_PinnacleFrameRight
+    2300030: AltarPiece_LowPoly1_UpperTierFramingRight
+    2300032: AltarPieceBase
+    2300034: AltarPieceCenterBar
+    2300036: Bracket_Long2
+    2300038: Bracket_Short5
+    2300040: Bracket_Short6
+    2300042: Bracket_Short7
+    2300044: Bracket_Short8
+    2300046: CubeBase
+    2300048: CubeBase 1
+    2300050: CubeBase 2
+    2300052: CubeBase 3
+    2300054: CubeBase 4
+    2300056: CubeBase 5
+    2300058: CubeBase 6
+    2300060: CubeBase 7
+    2300062: CubeBase 8
+    2300064: CubeBase 9
+    2300066: CubeFlat
+    2300068: CubeFlat 1
+    2300070: CubeFlat 10
+    2300072: CubeFlat 11
+    2300074: CubeFlat 12
+    2300076: CubeFlat 13
+    2300078: CubeFlat 14
+    2300080: CubeFlat 15
+    2300082: CubeFlat 2
+    2300084: CubeFlat 3
+    2300086: CubeFlat 4
+    2300088: CubeFlat 5
+    2300090: CubeFlat 6
+    2300092: CubeFlat 7
+    2300094: CubeFlat 8
+    2300096: CubeFlat 9
+    2300098: CubeFlatSmall
+    2300100: CubeFlatSmall 1
+    2300102: CubeFlatSmall 2
+    2300104: CubeFlatSmall 3
+    2300106: CubeFlatSmall 4
+    2300108: CubeFlatSmall 5
+    2300110: CubeFlatSmall 6
+    2300112: CubeFlatSmall 7
+    2300114: CubeFlatSmall 8
+    2300116: CubeFlatSmall 9
+    2300118: CubeTall
+    2300120: CubeTall 1
+    2300122: CubeTall 2
+    2300124: CubeTall 3
+    2300126: CubeTall 4
+    2300128: CubeTall 5
+    2300130: CubeTall 6
+    2300132: CubeTall 7
+    2300134: CubeTall 8
+    2300136: CubeTall 9
+    2300138: CubeTall1
+    2300140: CubeTall1 1
+    2300142: CubeTall1 2
+    2300144: CubeTall1 3
+    2300146: CubeTall1 4
+    2300148: CubeTall1 5
+    2300150: CubeTall1 6
+    2300152: CubeTall1 7
+    2300154: CubeTall1 8
+    2300156: CubeTall1 9
+    2300158: CubeTall2
+    2300160: CubeTall2 1
+    2300162: CubeTall2 2
+    2300164: CubeTall2 3
+    2300166: CubeTall2 4
+    2300168: CubeTall2 5
+    2300170: CubeTop
+    2300172: CubeTop 1
+    2300174: CubeTop 2
+    2300176: CubeTop 3
+    2300178: CubeTop 4
+    2300180: CubeTop 5
+    2300182: CubeTop 6
+    2300184: CubeTop 7
+    2300186: CubeTop 8
+    2300188: CubeTop 9
+    2300190: CubeTop1
+    2300192: CubeTop1 1
+    2300194: CubeTop1 2
+    2300196: CubeTop1 3
+    2300198: CubeTop1 4
+    2300200: CubeTop1 5
+    2300202: CubeTop1 6
+    2300204: CubeTop1 7
+    2300206: CubeTop1 8
+    2300208: CubeTop1 9
+    2300210: CubeTopTall
+    2300212: CubeTopTall 1
+    2300214: CubeTopTall 2
+    2300216: CubeTopTall 3
+    2300218: CubeTopTall 4
+    2300220: CubeTopTall 5
+    2300222: CubeTopTall 6
+    2300224: CubeTopTall 7
+    2300226: CubeTopTall 8
+    2300228: CubeTopTall 9
+    2300230: MainPanelCapitalLeft1
+    2300232: MainPanelCenter
+    2300234: MainPanelFramingLeft
+    2300236: MainPanelFramingTwoLeft
+    2300238: MainPanelLeft
+    2300240: MainPanelRight
+    2300242: PinnacleCenterBracket1
+    2300244: PinnacleDecoLeft2
+    2300246: PinnacleDecoLeft3
+    2300248: PinnacleFrameCenter
+    2300250: PinnacleFrameLeft
+    2300252: PinnacleFrameTopLeft
+    2300254: PinnacleFrameTopLeft 1
+    2300256: PinnacleFrameTopLeft 2
+    2300258: PinnacleLeftBracket2
+    2300260: PinnaclePanelLeft2
+    2300262: PinnaclePanelLeft3
+    2300264: PinnaclePanelRight2
+    2300266: PinnacleTopDecoLeft4
+    2300268: PinnacleTopDecoLeft5
+    2300270: PinnacleTopDecoLeft6
+    2300272: PinnacleTopDecoLeft7
+    2300274: Prism
+    2300276: Prism 1
+    2300278: Prism 2
+    2300280: Prism 3
+    2300282: Prism 4
+    2300284: Prism 5
+    2300286: Prism 6
+    2300288: Prism 7
+    2300290: Prism 8
+    2300292: Prism 9
+    2300294: Prism1
+    2300296: Prism1 1
+    2300298: Prism1 2
+    2300300: Prism1 3
+    2300302: Prism1 4
+    2300304: Prism1 5
+    2300306: Spire
+    2300308: Spire 1
+    2300310: Spire 2
+    2300312: Spire 3
+    2300314: Spire 4
+    2300316: Spire 5
+    2300318: Spire 6
+    2300320: Spire 7
+    2300322: Spire 8
+    2300324: Spire 9
+    2300326: SpireBase
+    2300328: SpireBase 1
+    2300330: SpireBase 2
+    2300332: SpireBase 3
+    2300334: SpireBase 4
+    2300336: SpireBase 5
+    2300338: SpireBase 6
+    2300340: SpireBase 7
+    2300342: SpireBase 8
+    2300344: SpireBase 9
+    2300346: SpireShort 1
+    2300348: SpireShort 10
+    2300350: SpireShort 11
+    2300352: SpireShort 3
+    2300354: SpireShort 4
+    2300356: SpireShort 5
+    2300358: SpireShort 6
+    2300360: SpireShort 7
+    2300362: SpireShort 8
+    2300364: SpireShort 9
+    2300366: SpireShort5
+    2300368: SpireTop
+    2300370: SpireTop 1
+    2300372: SpireTop 2
+    2300374: SpireTop 3
+    2300376: SpireTop 4
+    2300378: SpireTop 5
+    2300380: SpireTop 6
+    2300382: SpireTop 7
+    2300384: SpireTop 8
+    2300386: SpireTop 9
+    2300388: SpireWiggly
+    2300390: SpireWiggly 1
+    2300392: SpireWiggly 2
+    2300394: SpireWiggly 3
+    2300396: SpireWiggly 4
+    2300398: SpireWiggly 5
+    2300400: SpireWiggly 6
+    2300402: SpireWiggly 7
+    2300404: SpireWiggly 8
+    2300406: SpireWiggly 9
+    2300408: SpireWiggly1
+    2300410: SpireWiggly1 1
+    2300412: SpireWiggly1 2
+    2300414: SpireWiggly1 3
+    2300416: SpireWiggly1 4
+    2300418: SpireWiggly1 5
+    2300420: Top
+    2300422: Top 1
+    2300424: Top 2
+    2300426: Top 3
+    2300428: Top 4
+    2300430: Top 5
+    2300432: TowerLeft
+    2300434: TowerLeft 1
+    2300436: TowerPrism
+    2300438: TowerPrism 1
+    2300440: UpperTierFramingCenter
+    2300442: UpperTierFramingLeft1
+    2300444: UpperTierPanelCenter1
+    2300446: UpperTierPanelLeft1
+    2300448: UpperTierPanelRight1
+    3300000: AltarPiece_LowPoly1_Brackets_Low_Bracket_Long
+    3300002: AltarPiece_LowPoly1_Brackets_Low_PinnacleLeftBracket1
+    3300004: AltarPiece_LowPoly1_MainPanelCapitalRight
+    3300006: AltarPiece_LowPoly1_MainPanelFramingCenter
+    3300008: AltarPiece_LowPoly1_MainPanelFramingRight
+    3300010: AltarPiece_LowPoly1_MainPanelFramingTwoRight
+    3300012: AltarPiece_LowPoly1_PillarsShort_SpireShort3
+    3300014: AltarPiece_LowPoly1_PillarsShort_SpireShort4
+    3300016: AltarPiece_LowPoly1_PillarsShort_SpireTower3
+    3300018: AltarPiece_LowPoly1_PillarsShort_SpireTower4
+    3300020: AltarPiece_LowPoly1_PillarsShort_SpireTower5
+    3300022: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleDecoLeft2
+    3300024: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleTopDecoLeft4
+    3300026: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleTopDecoLeft5
+    3300028: AltarPiece_LowPoly1_PinnacleFrameRight
+    3300030: AltarPiece_LowPoly1_UpperTierFramingRight
+    3300032: AltarPieceBase
+    3300034: AltarPieceCenterBar
+    3300036: Bracket_Long2
+    3300038: Bracket_Short5
+    3300040: Bracket_Short6
+    3300042: Bracket_Short7
+    3300044: Bracket_Short8
+    3300046: CubeBase
+    3300048: CubeBase 1
+    3300050: CubeBase 2
+    3300052: CubeBase 3
+    3300054: CubeBase 4
+    3300056: CubeBase 5
+    3300058: CubeBase 6
+    3300060: CubeBase 7
+    3300062: CubeBase 8
+    3300064: CubeBase 9
+    3300066: CubeFlat
+    3300068: CubeFlat 1
+    3300070: CubeFlat 10
+    3300072: CubeFlat 11
+    3300074: CubeFlat 12
+    3300076: CubeFlat 13
+    3300078: CubeFlat 14
+    3300080: CubeFlat 15
+    3300082: CubeFlat 2
+    3300084: CubeFlat 3
+    3300086: CubeFlat 4
+    3300088: CubeFlat 5
+    3300090: CubeFlat 6
+    3300092: CubeFlat 7
+    3300094: CubeFlat 8
+    3300096: CubeFlat 9
+    3300098: CubeFlatSmall
+    3300100: CubeFlatSmall 1
+    3300102: CubeFlatSmall 2
+    3300104: CubeFlatSmall 3
+    3300106: CubeFlatSmall 4
+    3300108: CubeFlatSmall 5
+    3300110: CubeFlatSmall 6
+    3300112: CubeFlatSmall 7
+    3300114: CubeFlatSmall 8
+    3300116: CubeFlatSmall 9
+    3300118: CubeTall
+    3300120: CubeTall 1
+    3300122: CubeTall 2
+    3300124: CubeTall 3
+    3300126: CubeTall 4
+    3300128: CubeTall 5
+    3300130: CubeTall 6
+    3300132: CubeTall 7
+    3300134: CubeTall 8
+    3300136: CubeTall 9
+    3300138: CubeTall1
+    3300140: CubeTall1 1
+    3300142: CubeTall1 2
+    3300144: CubeTall1 3
+    3300146: CubeTall1 4
+    3300148: CubeTall1 5
+    3300150: CubeTall1 6
+    3300152: CubeTall1 7
+    3300154: CubeTall1 8
+    3300156: CubeTall1 9
+    3300158: CubeTall2
+    3300160: CubeTall2 1
+    3300162: CubeTall2 2
+    3300164: CubeTall2 3
+    3300166: CubeTall2 4
+    3300168: CubeTall2 5
+    3300170: CubeTop
+    3300172: CubeTop 1
+    3300174: CubeTop 2
+    3300176: CubeTop 3
+    3300178: CubeTop 4
+    3300180: CubeTop 5
+    3300182: CubeTop 6
+    3300184: CubeTop 7
+    3300186: CubeTop 8
+    3300188: CubeTop 9
+    3300190: CubeTop1
+    3300192: CubeTop1 1
+    3300194: CubeTop1 2
+    3300196: CubeTop1 3
+    3300198: CubeTop1 4
+    3300200: CubeTop1 5
+    3300202: CubeTop1 6
+    3300204: CubeTop1 7
+    3300206: CubeTop1 8
+    3300208: CubeTop1 9
+    3300210: CubeTopTall
+    3300212: CubeTopTall 1
+    3300214: CubeTopTall 2
+    3300216: CubeTopTall 3
+    3300218: CubeTopTall 4
+    3300220: CubeTopTall 5
+    3300222: CubeTopTall 6
+    3300224: CubeTopTall 7
+    3300226: CubeTopTall 8
+    3300228: CubeTopTall 9
+    3300230: MainPanelCapitalLeft1
+    3300232: MainPanelCenter
+    3300234: MainPanelFramingLeft
+    3300236: MainPanelFramingTwoLeft
+    3300238: MainPanelLeft
+    3300240: MainPanelRight
+    3300242: PinnacleCenterBracket1
+    3300244: PinnacleDecoLeft2
+    3300246: PinnacleDecoLeft3
+    3300248: PinnacleFrameCenter
+    3300250: PinnacleFrameLeft
+    3300252: PinnacleFrameTopLeft
+    3300254: PinnacleFrameTopLeft 1
+    3300256: PinnacleFrameTopLeft 2
+    3300258: PinnacleLeftBracket2
+    3300260: PinnaclePanelLeft2
+    3300262: PinnaclePanelLeft3
+    3300264: PinnaclePanelRight2
+    3300266: PinnacleTopDecoLeft4
+    3300268: PinnacleTopDecoLeft5
+    3300270: PinnacleTopDecoLeft6
+    3300272: PinnacleTopDecoLeft7
+    3300274: Prism
+    3300276: Prism 1
+    3300278: Prism 2
+    3300280: Prism 3
+    3300282: Prism 4
+    3300284: Prism 5
+    3300286: Prism 6
+    3300288: Prism 7
+    3300290: Prism 8
+    3300292: Prism 9
+    3300294: Prism1
+    3300296: Prism1 1
+    3300298: Prism1 2
+    3300300: Prism1 3
+    3300302: Prism1 4
+    3300304: Prism1 5
+    3300306: Spire
+    3300308: Spire 1
+    3300310: Spire 2
+    3300312: Spire 3
+    3300314: Spire 4
+    3300316: Spire 5
+    3300318: Spire 6
+    3300320: Spire 7
+    3300322: Spire 8
+    3300324: Spire 9
+    3300326: SpireBase
+    3300328: SpireBase 1
+    3300330: SpireBase 2
+    3300332: SpireBase 3
+    3300334: SpireBase 4
+    3300336: SpireBase 5
+    3300338: SpireBase 6
+    3300340: SpireBase 7
+    3300342: SpireBase 8
+    3300344: SpireBase 9
+    3300346: SpireShort 1
+    3300348: SpireShort 10
+    3300350: SpireShort 11
+    3300352: SpireShort 3
+    3300354: SpireShort 4
+    3300356: SpireShort 5
+    3300358: SpireShort 6
+    3300360: SpireShort 7
+    3300362: SpireShort 8
+    3300364: SpireShort 9
+    3300366: SpireShort5
+    3300368: SpireTop
+    3300370: SpireTop 1
+    3300372: SpireTop 2
+    3300374: SpireTop 3
+    3300376: SpireTop 4
+    3300378: SpireTop 5
+    3300380: SpireTop 6
+    3300382: SpireTop 7
+    3300384: SpireTop 8
+    3300386: SpireTop 9
+    3300388: SpireWiggly
+    3300390: SpireWiggly 1
+    3300392: SpireWiggly 2
+    3300394: SpireWiggly 3
+    3300396: SpireWiggly 4
+    3300398: SpireWiggly 5
+    3300400: SpireWiggly 6
+    3300402: SpireWiggly 7
+    3300404: SpireWiggly 8
+    3300406: SpireWiggly 9
+    3300408: SpireWiggly1
+    3300410: SpireWiggly1 1
+    3300412: SpireWiggly1 2
+    3300414: SpireWiggly1 3
+    3300416: SpireWiggly1 4
+    3300418: SpireWiggly1 5
+    3300420: Top
+    3300422: Top 1
+    3300424: Top 2
+    3300426: Top 3
+    3300428: Top 4
+    3300430: Top 5
+    3300432: TowerLeft
+    3300434: TowerLeft 1
+    3300436: TowerPrism
+    3300438: TowerPrism 1
+    3300440: UpperTierFramingCenter
+    3300442: UpperTierFramingLeft1
+    3300444: UpperTierPanelCenter1
+    3300446: UpperTierPanelLeft1
+    3300448: UpperTierPanelRight1
+    4300000: Bracket_Short7
+    4300002: Bracket_Short8
+    4300004: Bracket_Long2
+    4300006: PinnacleCenterBracket1
+    4300008: PinnacleLeftBracket2
+    4300010: Bracket_Short5
+    4300012: Bracket_Short6
+    4300014: AltarPiece_LowPoly1_Brackets_Low_Bracket_Long
+    4300016: AltarPiece_LowPoly1_Brackets_Low_PinnacleLeftBracket1
+    4300018: AltarPieceBase
+    4300020: AltarPieceCenterBar
+    4300022: MainPanelCapitalLeft1
+    4300024: MainPanelFramingLeft
+    4300026: MainPanelFramingTwoLeft
+    4300028: TowerPrism
+    4300030: TowerLeft
+    4300032: SpireBase
+    4300034: Spire
+    4300036: CubeFlat
+    4300038: CubeBase
+    4300040: CubeTall
+    4300042: CubeTop
+    4300044: SpireShort
+    4300046: CubeFlatSmall
+    4300048: CubeTop1
+    4300050: CubeTopTall
+    4300052: CubeTall1
+    4300054: Prism
+    4300056: SpireWiggly
+    4300058: SpireTop
+    4300060: CubeTall2
+    4300062: Prism1
+    4300064: SpireWiggly1
+    4300066: CubeFlat
+    4300068: Top
+    4300070: CubeTall2
+    4300072: Prism1
+    4300074: SpireWiggly1
+    4300076: CubeFlat
+    4300078: Top
+    4300080: SpireBase
+    4300082: Spire
+    4300084: CubeFlat
+    4300086: CubeBase
+    4300088: CubeTall
+    4300090: CubeTop
+    4300092: SpireShort
+    4300094: CubeFlatSmall
+    4300096: CubeTop1
+    4300098: CubeTopTall
+    4300100: CubeTall1
+    4300102: Prism
+    4300104: SpireWiggly
+    4300106: SpireTop
+    4300108: SpireBase
+    4300110: Spire
+    4300112: CubeFlat
+    4300114: CubeBase
+    4300116: CubeTall
+    4300118: CubeTop
+    4300120: SpireShort
+    4300122: CubeFlatSmall
+    4300124: CubeTop1
+    4300126: CubeTopTall
+    4300128: CubeTall1
+    4300130: Prism
+    4300132: SpireWiggly
+    4300134: SpireTop
+    4300136: SpireBase
+    4300138: Spire
+    4300140: CubeFlat
+    4300142: CubeBase
+    4300144: CubeTall
+    4300146: CubeTop
+    4300148: SpireShort
+    4300150: CubeFlatSmall
+    4300152: CubeTop1
+    4300154: CubeTopTall
+    4300156: CubeTall1
+    4300158: Prism
+    4300160: SpireWiggly
+    4300162: SpireTop
+    4300164: CubeTall2
+    4300166: Prism1
+    4300168: SpireWiggly1
+    4300170: CubeFlat
+    4300172: Top
+    4300174: SpireBase
+    4300176: Spire
+    4300178: CubeFlat
+    4300180: CubeBase
+    4300182: CubeTall
+    4300184: CubeTop
+    4300186: SpireShort
+    4300188: CubeFlatSmall
+    4300190: CubeTop1
+    4300192: CubeTopTall
+    4300194: CubeTall1
+    4300196: Prism
+    4300198: SpireWiggly
+    4300200: SpireTop
+    4300202: SpireShort5
+    4300204: AltarPiece_LowPoly1_PillarsShort_SpireShort3
+    4300206: AltarPiece_LowPoly1_PillarsShort_SpireShort4
+    4300208: AltarPiece_LowPoly1_PillarsShort_SpireTower3
+    4300210: AltarPiece_LowPoly1_PillarsShort_SpireTower4
+    4300212: AltarPiece_LowPoly1_PillarsShort_SpireTower5
+    4300214: UpperTierFramingLeft1
+    4300216: UpperTierFramingCenter
+    4300218: PinnacleFrameTopLeft
+    4300220: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleDecoLeft2
+    4300222: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleTopDecoLeft5
+    4300224: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleTopDecoLeft4
+    4300226: PinnacleFrameTopLeft
+    4300228: PinnacleTopDecoLeft6
+    4300230: PinnacleTopDecoLeft7
+    4300232: PinnacleDecoLeft3
+    4300234: PinnacleFrameCenter
+    4300236: PinnacleFrameLeft
+    4300238: SpireBase
+    4300240: Spire
+    4300242: CubeFlat
+    4300244: CubeBase
+    4300246: CubeTall
+    4300248: CubeTop
+    4300250: SpireShort
+    4300252: CubeFlatSmall
+    4300254: CubeTop1
+    4300256: CubeTopTall
+    4300258: CubeTall1
+    4300260: Prism
+    4300262: SpireWiggly
+    4300264: SpireTop
+    4300266: AltarPiece_LowPoly1_PinnacleFrameRight
+    4300268: PinnacleFrameTopLeft
+    4300270: PinnacleDecoLeft2
+    4300272: PinnacleTopDecoLeft4
+    4300274: PinnacleTopDecoLeft5
+    4300276: TowerPrism
+    4300278: TowerLeft
+    4300280: SpireBase
+    4300282: Spire
+    4300284: CubeFlat
+    4300286: CubeBase
+    4300288: CubeTall
+    4300290: CubeTop
+    4300292: SpireShort
+    4300294: CubeFlatSmall
+    4300296: CubeTop1
+    4300298: CubeTopTall
+    4300300: CubeTall1
+    4300302: Prism
+    4300304: SpireWiggly
+    4300306: SpireTop
+    4300308: CubeTall2
+    4300310: Prism1
+    4300312: SpireWiggly1
+    4300314: CubeFlat
+    4300316: Top
+    4300318: CubeTall2
+    4300320: Prism1
+    4300322: SpireWiggly1
+    4300324: CubeFlat
+    4300326: Top
+    4300328: SpireBase
+    4300330: Spire
+    4300332: CubeFlat
+    4300334: CubeBase
+    4300336: CubeTall
+    4300338: CubeTop
+    4300340: SpireShort
+    4300342: CubeFlatSmall
+    4300344: CubeTop1
+    4300346: CubeTopTall
+    4300348: CubeTall1
+    4300350: Prism
+    4300352: SpireWiggly
+    4300354: SpireTop
+    4300356: SpireBase
+    4300358: Spire
+    4300360: CubeFlat
+    4300362: CubeBase
+    4300364: CubeTall
+    4300366: CubeTop
+    4300368: SpireShort
+    4300370: CubeFlatSmall
+    4300372: CubeTop1
+    4300374: CubeTopTall
+    4300376: CubeTall1
+    4300378: Prism
+    4300380: SpireWiggly
+    4300382: SpireTop
+    4300384: SpireBase
+    4300386: Spire
+    4300388: CubeFlat
+    4300390: CubeBase
+    4300392: CubeTall
+    4300394: CubeTop
+    4300396: SpireShort
+    4300398: CubeFlatSmall
+    4300400: CubeTop1
+    4300402: CubeTopTall
+    4300404: CubeTall1
+    4300406: Prism
+    4300408: SpireWiggly
+    4300410: SpireTop
+    4300412: CubeTall2
+    4300414: Prism1
+    4300416: SpireWiggly1
+    4300418: CubeFlat
+    4300420: Top
+    4300422: AltarPiece_LowPoly1_UpperTierFramingRight
+    4300424: AltarPiece_LowPoly1_MainPanelFramingTwoRight
+    4300426: AltarPiece_LowPoly1_MainPanelFramingCenter
+    4300428: AltarPiece_LowPoly1_MainPanelFramingRight
+    4300430: AltarPiece_LowPoly1_MainPanelCapitalRight
+    4300432: MainPanelLeft
+    4300434: MainPanelRight
+    4300436: MainPanelCenter
+    4300438: UpperTierPanelLeft1
+    4300440: UpperTierPanelCenter1
+    4300442: UpperTierPanelRight1
+    4300444: PinnaclePanelLeft2
+    4300446: PinnaclePanelRight2
+    4300448: PinnaclePanelLeft3
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Panels1_MainPanelCenter1_MainPanelCenter_Lmb_Mat
+    second: {fileID: 2100000, guid: 8424cfa66946080459bcab89213e9150, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Panels1_MainPanelCenter1_MainPanelLeft_Lmb_Mat
+    second: {fileID: 2100000, guid: 3fb79d6da9553284b887d6fd63b43bba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Panels1_MainPanelCenter1_MainPanelRight_Lmb_Mat
+    second: {fileID: 2100000, guid: 7fadaa70ec88fbd4795cc40bf1c6b32b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Panels1_PinnaclePanelLeft2_Lmb_Mat
+    second: {fileID: 2100000, guid: a0ae79044a354a84eba408e0ffb9a0ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Panels1_PinnaclePanelLeft3_Lmb_Mat
+    second: {fileID: 2100000, guid: 49b09d6b4950b18438c970a1aded22d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Panels1_PinnaclePanelRight2_Lmb_Mat
+    second: {fileID: 2100000, guid: ef9419a9a4017424dbff71ee0e1b09bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Panels1_UpperTierPanelCenter1_Lmb_Mat
+    second: {fileID: 2100000, guid: ac1ae6a43ccccd648847e7df4e22befd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Panels1_UpperTierPanelLeft1_Lmb_Mat
+    second: {fileID: 2100000, guid: ca979b0bd4fd85144920533b5bedd472, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Panels1_UpperTierPanelRight1_Lmb_Mat
+    second: {fileID: 2100000, guid: 145a48a74c305b542ae39ef60903270d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong5
+    second: {fileID: 2100000, guid: d74a2b25ca8633842b3f56a6cb0cef02, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

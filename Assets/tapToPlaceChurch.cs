@@ -22,6 +22,17 @@ public class tapToPlaceChurch : MonoBehaviour {
 	public Transform ScannerOrigin;
 	public Animator anim;
 
+	public GameObject altarBase;
+
+
+	// void Start(){
+	// 	Debug.Log(this.gameObject.name);
+	// }
+
+	void Start(){
+		altarBase.SetActive(false);
+	}
+
 
 	void Update () {
 		if (Input.GetMouseButtonDown (0)) 
@@ -37,6 +48,7 @@ public class tapToPlaceChurch : MonoBehaviour {
 				}
 				church.transform.position = new Vector3(hit.point.x, hit.point.y + createHeight, hit.point.z);
 				Debug.Log ("debugging " + string.Format ("x:{0:0.######} y:{1:0.######} z:{2:0.######}", hit.point.x, hit.point.y, hit.point.z));
+				altarBase.SetActive(true);
 				if(paintingNum>-0.2){
 						StartCoroutine(showPainting());
 				}
@@ -74,8 +86,10 @@ public class tapToPlaceChurch : MonoBehaviour {
 	}
 	IEnumerator paint(){
 		Debug.Log("debugging --- go");
+		scanScript.startPainting();
+		yield return new WaitForSeconds(0.1f);
 		anim.SetTrigger("go");
-		yield return new WaitForSeconds(2f);
+		// yield return new WaitForSeconds(0.1f);
 		// ScannerOrigin.position = altarpiece.position;
 		scanScript.startPainting();
 		Debug.Log("debugging --- go end");

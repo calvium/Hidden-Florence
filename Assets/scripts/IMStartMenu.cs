@@ -31,6 +31,7 @@ public class IMStartMenu : MonoBehaviour {
 	[SerializeField] private CanvasGroup infoCanvas;
 	[SerializeField] private GameObject infoObject;
 	[SerializeField] private GameObject boundary;
+	public GameObject paintings;
 
  
 	// Use this for initialization
@@ -45,6 +46,7 @@ public class IMStartMenu : MonoBehaviour {
 		StartCoroutine(fadeOut(startBackground));
 		StartCoroutine(fadeIn(titleBox));
 		StartCoroutine(beginning());
+		paintings.SetActive(false);
 	}
 	
 	IEnumerator beginning(){ //Setting first text when you start
@@ -84,6 +86,7 @@ public class IMStartMenu : MonoBehaviour {
 				Debug.Log("debugging case 04");
 				yield return new WaitForSeconds(1f);
 				StartCoroutine(fadeOut(scanFloorIcon));
+				paintings.SetActive(true);
 				instructionsTextBox.text = texts[txt]; //See if you can find the church
 				yield return new WaitForSeconds(1f);
 				rayCastTarget.SetActive(true);
@@ -99,7 +102,7 @@ public class IMStartMenu : MonoBehaviour {
 			case 6:
 				dbScript.addToString("hit box");
 				StartCoroutine(fadeOut(subtitleBox));
-				StartCoroutine(turnOnBoundaries());
+				// StartCoroutine(turnOnBoundaries());
 				break;
 		}
 	}
@@ -125,6 +128,9 @@ public class IMStartMenu : MonoBehaviour {
 		}
 	}
 
+	public void boundariesOn(){
+		StartCoroutine(turnOnBoundaries());
+	}
 	IEnumerator turnOnBoundaries(){
 		yield return new WaitForSeconds(2f);
 		boundary.SetActive(true);

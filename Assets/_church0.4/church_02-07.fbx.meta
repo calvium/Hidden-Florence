@@ -1872,7 +1872,72 @@ ModelImporter:
     4300690: assumption_room
     4300692: painting
     4300694: altarpiece_size
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brick_mat
+    second: {fileID: 2100000, guid: bb4ead0961ed9304fbe5b6db7a181b53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor_stone_tile_mat
+    second: {fileID: 2100000, guid: 3dc4b6b2405a0554e869f7daaf1a3a1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor_tiles_mat
+    second: {fileID: 2100000, guid: 61cf7e839d15f18429092bee1a87d054, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: limestone_mat
+    second: {fileID: 2100000, guid: 09f9914ab77d6fe40a47c76afb4e7441, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ornate_pillar_mat
+    second: {fileID: 2100000, guid: b2bace71eee1bf5468cd6ede15535132, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong1
+    second: {fileID: 2100000, guid: d63b4af05daeb904195dc263c0e320af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong5
+    second: {fileID: 2100000, guid: b71f4e361ac363e44ab018f988abda42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pietraserena_mat
+    second: {fileID: 2100000, guid: ab1460217cce4f64290661a78efa7f35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plaster_mat
+    second: {fileID: 2100000, guid: 654919bc4a5ea994ab9d69da73a23765, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: south_wall_mat
+    second: {fileID: 2100000, guid: 7d2471c2fd05bde4b9b128bdbe2c2d9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: step_mat
+    second: {fileID: 2100000, guid: 0de9eebe87d28a248af54b9e67a508c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood_lattice_mat
+    second: {fileID: 2100000, guid: a59d5c27decb9d4429d4d49e17f754a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood_mat
+    second: {fileID: 2100000, guid: 1379c2279d3019b4892da3b336aa0dcb, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

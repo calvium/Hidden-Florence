@@ -37,6 +37,7 @@ public class ScannerEffectDemo : MonoBehaviour
 	[SerializeField] private Color _particlesStart;
 	[SerializeField] private Color _particlesOff;
 	[SerializeField] private debugLogTextScript dbScript;
+	[SerializeField] private IMStartMenu menuScript;
 
 	void Start()
 	{
@@ -48,11 +49,14 @@ public class ScannerEffectDemo : MonoBehaviour
 	{
 		if (_scanning) {
 			ScanDistance += Time.deltaTime * speed;
-			speed += Time.deltaTime/2;
+			speed += Time.deltaTime/5;
 			EffectMaterial.SetFloat("_ScanDistance", ScanDistance);
 		}
 
-		if (_unscanning && tapToPlace) {
+		// if (_unscanning && tapToPlace) {//
+		if (_unscanning) {
+			ScanDistance -= Time.deltaTime * speed;
+			speed += Time.deltaTime/3;
 			// ScanDistance -= Time.deltaTime * speed;
 			// speed += Time.deltaTime/1f;
 			EffectMaterial.SetFloat("_ScanDistance", ScanDistance);
@@ -99,32 +103,35 @@ public class ScannerEffectDemo : MonoBehaviour
 	}
 
 	public void startPainting(){
+		ScanDistance = 0;
 		EffectMaterial.SetInt("_rev", 0);
 		Debug.Log("debugging --- startPainting00");
 		_scanning = true;
+		speed=0.25f;
 		Debug.Log("debugging --- startPainting01");
-		ScanDistance = 0;
 		StartCoroutine(turnOffCam02());
 	}
 
 	public void reversePainting(){
 		// EffectMaterial.SetInt("_rev", 1);
 		Debug.Log("debugging --- reversePainting00");
-		_scanning = true;
+		_unscanning = true;
 		Debug.Log("debugging --- reversePainting01");
-		ScanDistance = 0;
+		speed = 0.25f;
+		// ScanDistance = 0;
 	}
 	// End Demo Code
 
 	IEnumerator turnOffCam02(){
 		yield return new WaitForSeconds (30f);
-		EffectMaterial.SetInt("_rev", 1);
+		// EffectMaterial.SetInt("_rev", 1);
 		_scanning = false;
 		// ScanDistance = 100;
 		// speed = 0;
 		dbScript.addToString("camera off");
 		// // cam02.SetActive(false);
 		Debug.Log("debugging --- cam02 off");
+		// menuScript.boundariesOn();
 	}
 
 	void OnEnable()

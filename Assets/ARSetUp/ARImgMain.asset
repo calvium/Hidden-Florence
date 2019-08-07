@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Name: ARImgMain
   m_EditorClassIdentifier: 
   imageName: main
-  imageTexture: {fileID: 2800000, guid: 10711f0b18c4d1743847b5d86b2fbf9c, type: 3}
-  physicalSize: 0.5
+  imageTexture: {fileID: 2800000, guid: 3d6a907a2d2afd84e984af6ef3fbce2c, type: 3}
+  physicalSize: 0.9

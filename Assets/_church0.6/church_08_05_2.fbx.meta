@@ -1,0 +1,3127 @@
+fileFormatVersion: 2
+guid: 1e34a29b61a6f5848a0137e09d5feac5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: aisle_arches
+    100002: aisle_wall1
+    100004: aisle_wall10
+    100006: aisle_wall11
+    100008: aisle_wall12
+    100010: aisle_wall13
+    100012: aisle_wall14
+    100014: aisle_wall15
+    100016: aisle_wall9
+    100018: aisle_walls
+    100020: alcove_row
+    100022: altar01
+    100024: altar_step01
+    100026: altar_step01_old
+    100028: altar_step02
+    100030: altar_step02_old
+    100032: AltarPiece_LowPoly1_Brackets_Low_Bracket_Long
+    100034: AltarPiece_LowPoly1_Brackets_Low_PinnacleLeftBracket1
+    100036: AltarPiece_LowPoly1_FullTowerLeft_Spire_Low2
+    100038: AltarPiece_LowPoly1_FullTowerLeft_Spire_Low3
+    100040: AltarPiece_LowPoly1_FullTowerLeft_Spire_Low4
+    100042: AltarPiece_LowPoly1_FullTowerLeft_SpireShort2
+    100044: AltarPiece_LowPoly1_FullTowerRight
+    100046: AltarPiece_LowPoly1_FullTowerRight_Spire_Low2
+    100048: AltarPiece_LowPoly1_FullTowerRight_Spire_Low3
+    100050: AltarPiece_LowPoly1_FullTowerRight_Spire_Low4
+    100052: AltarPiece_LowPoly1_FullTowerRight_SpireShort2
+    100054: AltarPiece_LowPoly1_MainPanelCapitalRight
+    100056: AltarPiece_LowPoly1_MainPanelFramingCenter
+    100058: AltarPiece_LowPoly1_MainPanelFramingRight
+    100060: AltarPiece_LowPoly1_MainPanelFramingTwoRight
+    100062: AltarPiece_LowPoly1_PillarsShort_SpireShort3
+    100064: AltarPiece_LowPoly1_PillarsShort_SpireShort4
+    100066: AltarPiece_LowPoly1_PillarsShort_SpireTower3
+    100068: AltarPiece_LowPoly1_PillarsShort_SpireTower4
+    100070: AltarPiece_LowPoly1_PillarsShort_SpireTower5
+    100072: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleDecoLeft2
+    100074: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleTopDecoLeft4
+    100076: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleTopDecoLeft5
+    100078: AltarPiece_LowPoly1_PinnacleDecoRight
+    100080: AltarPiece_LowPoly1_PinnacleFrameRight
+    100082: AltarPiece_LowPoly1_Spire_Center_Low1
+    100084: AltarPiece_LowPoly1_UpperTierFramingRight
+    100086: AltarPiece_LowPoly_Final
+    100088: AltarPieceBase
+    100090: AltarPieceCenterBar
+    100092: Altars
+    100094: arch_A1
+    100096: arch_A2
+    100098: arch_A3
+    100100: arch_A4
+    100102: arch_b1
+    100104: arch_b10
+    100106: arch_b11
+    100108: arch_b12
+    100110: arch_b13
+    100112: arch_b14
+    100114: arch_b15
+    100116: arch_b9
+    100118: arch_back
+    100120: arch_pointed_medium
+    100122: arch_pointed_medium2
+    100124: arch_pointed_medium3
+    100126: arch_pointed_tall
+    100128: arch_pointed_tall1
+    100130: arch_pointedx2
+    100132: arch_smooth_a
+    100134: arch_smooth_a3
+    100136: arch_smooth_b
+    100138: assumption_room
+    100140: back_facade
+    100142: balcony
+    100144: balcony_arch01
+    100146: balcony_arch02
+    100148: balcony_arch03
+    100150: balcony_arch04
+    100152: balcony_arch05
+    100154: balcony_arch06
+    100156: balcony_arch_wall
+    100158: balcony_bevel01
+    100160: balcony_bevel02
+    100162: balcony_bevel03
+    100164: balcony_bottom
+    100166: balcony_ceiling01
+    100168: balcony_ceiling02
+    100170: balcony_post01
+    100172: balcony_post02
+    100174: balcony_post03
+    100176: balcony_post04
+    100178: balcony_top
+    100180: BlockerPlane
+    100182: Bracket_Long2
+    100184: Bracket_Short5
+    100186: Bracket_Short6
+    100188: Bracket_Short7
+    100190: Bracket_Short8
+    100192: Brackets_Low
+    100194: ceilings
+    100196: center_altar
+    100198: CenterChapel
+    100200: central_pier
+    100202: church
+    100204: Church_02_07
+    100206: //RootNode
+    100208: corner_pier
+    100210: cross
+    100212: cross_group
+    100214: crossbase01
+    100216: crossbase02
+    100218: crossbase03
+    100220: crossbase04
+    100222: crossbase05
+    100224: crossbase06
+    100226: crossbase07
+    100228: crossbase08
+    100230: crossbase09
+    100232: crossbase10
+    100234: crossbase11
+    100236: Crossbeam
+    100238: crossbeam
+    100240: Crossbeam 1
+    100242: Crossbeam 10
+    100244: Crossbeam 11
+    100246: Crossbeam 12
+    100248: Crossbeam 2
+    100250: Crossbeam 3
+    100252: Crossbeam 4
+    100254: Crossbeam 5
+    100256: Crossbeam 6
+    100258: Crossbeam 7
+    100260: Crossbeam 8
+    100262: Crossbeam 9
+    100264: Crossbeam1
+    100266: crossbeam1
+    100268: Crossbeam1 1
+    100270: Crossbeam1 10
+    100272: Crossbeam1 11
+    100274: Crossbeam1 12
+    100276: Crossbeam1 2
+    100278: Crossbeam1 3
+    100280: Crossbeam1 4
+    100282: Crossbeam1 5
+    100284: Crossbeam1 6
+    100286: Crossbeam1 7
+    100288: Crossbeam1 8
+    100290: Crossbeam1 9
+    100292: crossbeam10
+    100294: crossbeam11
+    100296: crossbeam12
+    100298: Crossbeam2
+    100300: crossbeam2
+    100302: Crossbeam2 1
+    100304: Crossbeam2 10
+    100306: Crossbeam2 11
+    100308: Crossbeam2 12
+    100310: Crossbeam2 2
+    100312: Crossbeam2 3
+    100314: Crossbeam2 4
+    100316: Crossbeam2 5
+    100318: Crossbeam2 6
+    100320: Crossbeam2 7
+    100322: Crossbeam2 8
+    100324: Crossbeam2 9
+    100326: Crossbeam3
+    100328: crossbeam3
+    100330: Crossbeam3 1
+    100332: Crossbeam3 10
+    100334: Crossbeam3 11
+    100336: Crossbeam3 12
+    100338: Crossbeam3 2
+    100340: Crossbeam3 3
+    100342: Crossbeam3 4
+    100344: Crossbeam3 5
+    100346: Crossbeam3 6
+    100348: Crossbeam3 7
+    100350: Crossbeam3 8
+    100352: Crossbeam3 9
+    100354: Crossbeam4
+    100356: crossbeam4
+    100358: Crossbeam4 1
+    100360: Crossbeam4 10
+    100362: Crossbeam4 11
+    100364: Crossbeam4 12
+    100366: Crossbeam4 2
+    100368: Crossbeam4 3
+    100370: Crossbeam4 4
+    100372: Crossbeam4 5
+    100374: Crossbeam4 6
+    100376: Crossbeam4 7
+    100378: Crossbeam4 8
+    100380: Crossbeam4 9
+    100382: crossbeam5
+    100384: crossbeam6
+    100386: crossbeam7
+    100388: crossbeam8
+    100390: crossbeam9
+    100392: CubeBase
+    100394: CubeBase 1
+    100396: CubeBase 2
+    100398: CubeBase 3
+    100400: CubeBase 4
+    100402: CubeBase 5
+    100404: CubeBase 6
+    100406: CubeBase 7
+    100408: CubeBase 8
+    100410: CubeBase 9
+    100412: CubeFlat
+    100414: CubeFlat 1
+    100416: CubeFlat 10
+    100418: CubeFlat 11
+    100420: CubeFlat 12
+    100422: CubeFlat 13
+    100424: CubeFlat 14
+    100426: CubeFlat 15
+    100428: CubeFlat 2
+    100430: CubeFlat 3
+    100432: CubeFlat 4
+    100434: CubeFlat 5
+    100436: CubeFlat 6
+    100438: CubeFlat 7
+    100440: CubeFlat 8
+    100442: CubeFlat 9
+    100444: CubeFlatSmall
+    100446: CubeFlatSmall 1
+    100448: CubeFlatSmall 2
+    100450: CubeFlatSmall 3
+    100452: CubeFlatSmall 4
+    100454: CubeFlatSmall 5
+    100456: CubeFlatSmall 6
+    100458: CubeFlatSmall 7
+    100460: CubeFlatSmall 8
+    100462: CubeFlatSmall 9
+    100464: CubeTall
+    100466: CubeTall 1
+    100468: CubeTall 2
+    100470: CubeTall 3
+    100472: CubeTall 4
+    100474: CubeTall 5
+    100476: CubeTall 6
+    100478: CubeTall 7
+    100480: CubeTall 8
+    100482: CubeTall 9
+    100484: CubeTall1
+    100486: CubeTall1 1
+    100488: CubeTall1 2
+    100490: CubeTall1 3
+    100492: CubeTall1 4
+    100494: CubeTall1 5
+    100496: CubeTall1 6
+    100498: CubeTall1 7
+    100500: CubeTall1 8
+    100502: CubeTall1 9
+    100504: CubeTall2
+    100506: CubeTall2 1
+    100508: CubeTall2 2
+    100510: CubeTall2 3
+    100512: CubeTall2 4
+    100514: CubeTall2 5
+    100516: CubeTop
+    100518: CubeTop 1
+    100520: CubeTop 2
+    100522: CubeTop 3
+    100524: CubeTop 4
+    100526: CubeTop 5
+    100528: CubeTop 6
+    100530: CubeTop 7
+    100532: CubeTop 8
+    100534: CubeTop 9
+    100536: CubeTop1
+    100538: CubeTop1 1
+    100540: CubeTop1 2
+    100542: CubeTop1 3
+    100544: CubeTop1 4
+    100546: CubeTop1 5
+    100548: CubeTop1 6
+    100550: CubeTop1 7
+    100552: CubeTop1 8
+    100554: CubeTop1 9
+    100556: CubeTopTall
+    100558: CubeTopTall 1
+    100560: CubeTopTall 2
+    100562: CubeTopTall 3
+    100564: CubeTopTall 4
+    100566: CubeTopTall 5
+    100568: CubeTopTall 6
+    100570: CubeTopTall 7
+    100572: CubeTopTall 8
+    100574: CubeTopTall 9
+    100576: floor
+    100578: floor_altar
+    100580: front_base
+    100582: front_base_new
+    100584: front_base_new1
+    100586: front_center_door_bevel
+    100588: front_center_door_bevel1
+    100590: front_center_door_bevel2
+    100592: front_face
+    100594: front_frame
+    100596: front_frame_side01
+    100598: front_frame_side1
+    100600: front_interior_wall
+    100602: front_post_new
+    100604: front_post_new1
+    100606: front_wall
+    100608: front_window_frame
+    100610: FullTowerLeft
+    100612: low_roof
+    100614: low_roof1
+    100616: MainAltar
+    100618: MainPanelCapitalLeft1
+    100620: MainPanelCenter
+    100622: MainPanelCenter1
+    100624: MainPanelFramingLeft
+    100626: MainPanelFramingTwoLeft
+    100628: MainPanelLeft
+    100630: MainPanelRight
+    100632: narrow
+    100634: north_side
+    100636: nun_s_balcony
+    100638: Ornament_low
+    100640: Ornament_low 1
+    100642: Ornament_low1
+    100644: Ornament_low1 1
+    100646: Ornament_low3
+    100648: Ornament_low3 1
+    100650: ornate_pillar_balcony
+    100652: ornate_pillar_joint1
+    100654: ornate_pillar_low
+    100656: ornate_pillar_top_low
+    100658: painting
+    100660: Painting_Wall_External
+    100662: Panels1
+    100664: pCube138
+    100666: pCube161
+    100668: pCylinder2
+    100670: pCylinder3
+    100672: pilaster_base
+    100674: pilaster_base 1
+    100676: pilaster_low
+    100678: pilaster_low1
+    100680: pillar_medium
+    100682: pillar_medium 1
+    100684: pillar_medium04
+    100686: pillar_medium_end
+    100688: pillar_medium_end1
+    100690: pillar_short
+    100692: pillar_tall
+    100694: pillar_tall_a1
+    100696: pillar_tall_a2
+    100698: pillar_tall_b
+    100700: pillar_tall_b1
+    100702: pillar_tall_b2
+    100704: pillar_tall_b3
+    100706: pillar_tall_b4
+    100708: pillar_tall_b5
+    100710: pillar_tall_b6
+    100712: pillar_tall_b7
+    100714: pillar_tall_b8
+    100716: pillar_tall_b9
+    100718: pillar_tall_c
+    100720: pillar_tall_c1
+    100722: PillarsShort
+    100724: PinnacleCenterBracket1
+    100726: PinnacleDecoCenter
+    100728: PinnacleDecoLeft
+    100730: PinnacleDecoLeft2
+    100732: PinnacleDecoLeft3
+    100734: PinnacleFrameCenter
+    100736: PinnacleFrameLeft
+    100738: PinnacleFrameTopLeft
+    100740: PinnacleFrameTopLeft 1
+    100742: PinnacleFrameTopLeft 2
+    100744: PinnacleLeftBracket2
+    100746: PinnaclePanelLeft2
+    100748: PinnaclePanelLeft3
+    100750: PinnaclePanelRight2
+    100752: PinnacleTopDecoLeft4
+    100754: PinnacleTopDecoLeft5
+    100756: PinnacleTopDecoLeft6
+    100758: PinnacleTopDecoLeft7
+    100760: pointed_roof
+    100762: pointed_roof1
+    100764: pointed_roof2
+    100766: pointed_roof3
+    100768: pointed_roof4
+    100770: polySurface1113
+    100772: polySurface1113 1
+    100774: polySurface1113 2
+    100776: polySurface1113 3
+    100778: polySurface1113 4
+    100780: polySurface1114
+    100782: polySurface1114 1
+    100784: polySurface1114 2
+    100786: polySurface1114 3
+    100788: polySurface1114 4
+    100790: polySurface1117
+    100792: polySurface1117 1
+    100794: polySurface1117 2
+    100796: polySurface1117 3
+    100798: polySurface1117 4
+    100800: polySurface1118
+    100802: polySurface1118 1
+    100804: polySurface1118 2
+    100806: polySurface1118 3
+    100808: polySurface1118 4
+    100810: polySurface1146
+    100812: polySurface1148
+    100814: polySurface1150
+    100816: polySurface1151
+    100818: polySurface1152
+    100820: polySurface1153
+    100822: polySurface1155
+    100824: polySurface1156
+    100826: polySurface1157
+    100828: polySurface1441
+    100830: polySurface1900
+    100832: polySurface1900 1
+    100834: polySurface1900 2
+    100836: polySurface1900 3
+    100838: polySurface1900 4
+    100840: polySurface1901
+    100842: polySurface1901 1
+    100844: polySurface1901 2
+    100846: polySurface1901 3
+    100848: polySurface1901 4
+    100850: polySurface1904
+    100852: polySurface1904 1
+    100854: polySurface1904 2
+    100856: polySurface1904 3
+    100858: polySurface1904 4
+    100860: polySurface2232
+    100862: polySurface2232 1
+    100864: polySurface2232 2
+    100866: polySurface2232 3
+    100868: polySurface2232 4
+    100870: polySurface2233
+    100872: polySurface2233 1
+    100874: polySurface2233 2
+    100876: polySurface2233 3
+    100878: polySurface2233 4
+    100880: pPrism4
+    100882: pPrism5
+    100884: Prism
+    100886: Prism 1
+    100888: Prism 2
+    100890: Prism 3
+    100892: Prism 4
+    100894: Prism 5
+    100896: Prism 6
+    100898: Prism 7
+    100900: Prism 8
+    100902: Prism 9
+    100904: Prism1
+    100906: Prism1 1
+    100908: Prism1 2
+    100910: Prism1 3
+    100912: Prism1 4
+    100914: Prism1 5
+    100916: reduced_seal
+    100918: renovated_arch
+    100920: ribbed_vault
+    100922: ribbed_vault_conjoined
+    100924: roof
+    100926: roof_a
+    100928: roof_arch
+    100930: roof_beams
+    100932: roofarch2
+    100934: SideAltar1
+    100936: SideAltar10
+    100938: SideAltar11
+    100940: SideAltar12
+    100942: SideAltar13
+    100944: SideAltar14
+    100946: SideAltar15
+    100948: SideAltar16
+    100950: SideAltar17
+    100952: SideAltar18
+    100954: SideAltar19
+    100956: SideAltar2
+    100958: SideAltar20
+    100960: SideAltar21
+    100962: SideAltar22
+    100964: SideAltar23
+    100966: SideAltar3
+    100968: SideAltar4
+    100970: SideAltar5
+    100972: SideAltar6
+    100974: SideAltar7
+    100976: SideAltar8
+    100978: SideAltar9
+    100980: SideAltar_Step1
+    100982: SideAltar_Step10
+    100984: SideAltar_Step11
+    100986: SideAltar_Step12
+    100988: SideAltar_Step13
+    100990: SideAltar_Step14
+    100992: SideAltar_Step15
+    100994: SideAltar_Step16
+    100996: SideAltar_Step17
+    100998: SideAltar_Step18
+    101000: SideAltar_Step19
+    101002: SideAltar_Step2
+    101004: SideAltar_Step20
+    101006: SideAltar_Step21
+    101008: SideAltar_Step22
+    101010: SideAltar_Step23
+    101012: SideAltar_Step3
+    101014: SideAltar_Step4
+    101016: SideAltar_Step5
+    101018: SideAltar_Step6
+    101020: SideAltar_Step7
+    101022: SideAltar_Step8
+    101024: SideAltar_Step9
+    101026: SideAltar_Step_Stone1
+    101028: SideAltar_Step_Stone2
+    101030: SideAltar_Step_Stone3
+    101032: SideAltar_Step_Stone4
+    101034: SideAltar_Steps
+    101036: SideAltar_Steps_Stone
+    101038: SideAltars
+    101040: sideroof
+    101042: sideroof1
+    101044: sideroof_low
+    101046: smooth_arch
+    101048: south_ceilings
+    101050: south_roof
+    101052: south_side
+    101054: Spire
+    101056: Spire 1
+    101058: Spire 2
+    101060: Spire 3
+    101062: Spire 4
+    101064: Spire 5
+    101066: Spire 6
+    101068: Spire 7
+    101070: Spire 8
+    101072: Spire 9
+    101074: Spire_Center_Low
+    101076: Spire_Low1
+    101078: Spire_Low1 1
+    101080: SpireBase
+    101082: SpireBase 1
+    101084: SpireBase 2
+    101086: SpireBase 3
+    101088: SpireBase 4
+    101090: SpireBase 5
+    101092: SpireBase 6
+    101094: SpireBase 7
+    101096: SpireBase 8
+    101098: SpireBase 9
+    101100: SpireMedium
+    101102: SpireMedium 1
+    101104: SpireShort
+    101106: SpireShort 1
+    101108: SpireShort 10
+    101110: SpireShort 11
+    101112: SpireShort 2
+    101114: SpireShort 3
+    101116: SpireShort 4
+    101118: SpireShort 5
+    101120: SpireShort 6
+    101122: SpireShort 7
+    101124: SpireShort 8
+    101126: SpireShort 9
+    101128: SpireShort5
+    101130: SpireTop
+    101132: SpireTop 1
+    101134: SpireTop 2
+    101136: SpireTop 3
+    101138: SpireTop 4
+    101140: SpireTop 5
+    101142: SpireTop 6
+    101144: SpireTop 7
+    101146: SpireTop 8
+    101148: SpireTop 9
+    101150: SpireWiggly
+    101152: SpireWiggly 1
+    101154: SpireWiggly 2
+    101156: SpireWiggly 3
+    101158: SpireWiggly 4
+    101160: SpireWiggly 5
+    101162: SpireWiggly 6
+    101164: SpireWiggly 7
+    101166: SpireWiggly 8
+    101168: SpireWiggly 9
+    101170: SpireWiggly1
+    101172: SpireWiggly1 1
+    101174: SpireWiggly1 2
+    101176: SpireWiggly1 3
+    101178: SpireWiggly1 4
+    101180: SpireWiggly1 5
+    101182: Top
+    101184: Top 1
+    101186: Top 2
+    101188: Top 3
+    101190: Top 4
+    101192: Top 5
+    101194: TowerLeft
+    101196: TowerLeft 1
+    101198: TowerPrism
+    101200: TowerPrism 1
+    101202: transept_column
+    101204: transept_column 1
+    101206: transept_column_base
+    101208: transept_column_capital_t1
+    101210: transept_column_capital_t2
+    101212: transform16
+    101214: transform63
+    101216: UpperTierFramingCenter
+    101218: UpperTierFramingLeft1
+    101220: UpperTierPanelCenter1
+    101222: UpperTierPanelLeft1
+    101224: UpperTierPanelRight1
+    101226: vaulted_ceiling
+    101228: vaulted_ceiling 1
+    101230: vaulted_ceiling5
+    101232: vaulted_ceiling6
+    101234: vaulted_ceiling7
+    101236: vaulted_ceiling8
+    101238: vaulted_ceiling9
+    101240: wall
+    101242: wall 1
+    101244: wall_bevel
+    101246: wall_bevel1
+    101248: wall_bevel2
+    101250: wall_bevel3
+    101252: wall_bevel4
+    101254: wall_bevel5
+    101256: wall_bevel6
+    101258: wall_bevels
+    101260: wall_long
+    101262: wall_ornate
+    101264: wall_pillar
+    101266: wall_short
+    101268: wall_window
+    101270: wall_window1
+    101272: wall_window_corner
+    101274: wall_window_frame
+    101276: wall_window_low
+    101278: walls
+    101280: wide
+    101282: window
+    101284: window2
+    101286: window5
+    101288: window_big
+    101290: window_frame
+    101292: window_south
+    101294: wood_lattice_long
+    101296: wood_lattice_short
+    101298: wood_lattice_short1
+    400000: aisle_arches
+    400002: aisle_wall1
+    400004: aisle_wall10
+    400006: aisle_wall11
+    400008: aisle_wall12
+    400010: aisle_wall13
+    400012: aisle_wall14
+    400014: aisle_wall15
+    400016: aisle_wall9
+    400018: aisle_walls
+    400020: alcove_row
+    400022: altar01
+    400024: altar_step01
+    400026: altar_step01_old
+    400028: altar_step02
+    400030: altar_step02_old
+    400032: AltarPiece_LowPoly1_Brackets_Low_Bracket_Long
+    400034: AltarPiece_LowPoly1_Brackets_Low_PinnacleLeftBracket1
+    400036: AltarPiece_LowPoly1_FullTowerLeft_Spire_Low2
+    400038: AltarPiece_LowPoly1_FullTowerLeft_Spire_Low3
+    400040: AltarPiece_LowPoly1_FullTowerLeft_Spire_Low4
+    400042: AltarPiece_LowPoly1_FullTowerLeft_SpireShort2
+    400044: AltarPiece_LowPoly1_FullTowerRight
+    400046: AltarPiece_LowPoly1_FullTowerRight_Spire_Low2
+    400048: AltarPiece_LowPoly1_FullTowerRight_Spire_Low3
+    400050: AltarPiece_LowPoly1_FullTowerRight_Spire_Low4
+    400052: AltarPiece_LowPoly1_FullTowerRight_SpireShort2
+    400054: AltarPiece_LowPoly1_MainPanelCapitalRight
+    400056: AltarPiece_LowPoly1_MainPanelFramingCenter
+    400058: AltarPiece_LowPoly1_MainPanelFramingRight
+    400060: AltarPiece_LowPoly1_MainPanelFramingTwoRight
+    400062: AltarPiece_LowPoly1_PillarsShort_SpireShort3
+    400064: AltarPiece_LowPoly1_PillarsShort_SpireShort4
+    400066: AltarPiece_LowPoly1_PillarsShort_SpireTower3
+    400068: AltarPiece_LowPoly1_PillarsShort_SpireTower4
+    400070: AltarPiece_LowPoly1_PillarsShort_SpireTower5
+    400072: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleDecoLeft2
+    400074: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleTopDecoLeft4
+    400076: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleTopDecoLeft5
+    400078: AltarPiece_LowPoly1_PinnacleDecoRight
+    400080: AltarPiece_LowPoly1_PinnacleFrameRight
+    400082: AltarPiece_LowPoly1_Spire_Center_Low1
+    400084: AltarPiece_LowPoly1_UpperTierFramingRight
+    400086: AltarPiece_LowPoly_Final
+    400088: AltarPieceBase
+    400090: AltarPieceCenterBar
+    400092: Altars
+    400094: arch_A1
+    400096: arch_A2
+    400098: arch_A3
+    400100: arch_A4
+    400102: arch_b1
+    400104: arch_b10
+    400106: arch_b11
+    400108: arch_b12
+    400110: arch_b13
+    400112: arch_b14
+    400114: arch_b15
+    400116: arch_b9
+    400118: arch_back
+    400120: arch_pointed_medium
+    400122: arch_pointed_medium2
+    400124: arch_pointed_medium3
+    400126: arch_pointed_tall
+    400128: arch_pointed_tall1
+    400130: arch_pointedx2
+    400132: arch_smooth_a
+    400134: arch_smooth_a3
+    400136: arch_smooth_b
+    400138: assumption_room
+    400140: back_facade
+    400142: balcony
+    400144: balcony_arch01
+    400146: balcony_arch02
+    400148: balcony_arch03
+    400150: balcony_arch04
+    400152: balcony_arch05
+    400154: balcony_arch06
+    400156: balcony_arch_wall
+    400158: balcony_bevel01
+    400160: balcony_bevel02
+    400162: balcony_bevel03
+    400164: balcony_bottom
+    400166: balcony_ceiling01
+    400168: balcony_ceiling02
+    400170: balcony_post01
+    400172: balcony_post02
+    400174: balcony_post03
+    400176: balcony_post04
+    400178: balcony_top
+    400180: BlockerPlane
+    400182: Bracket_Long2
+    400184: Bracket_Short5
+    400186: Bracket_Short6
+    400188: Bracket_Short7
+    400190: Bracket_Short8
+    400192: Brackets_Low
+    400194: ceilings
+    400196: center_altar
+    400198: CenterChapel
+    400200: central_pier
+    400202: church
+    400204: Church_02_07
+    400206: //RootNode
+    400208: corner_pier
+    400210: cross
+    400212: cross_group
+    400214: crossbase01
+    400216: crossbase02
+    400218: crossbase03
+    400220: crossbase04
+    400222: crossbase05
+    400224: crossbase06
+    400226: crossbase07
+    400228: crossbase08
+    400230: crossbase09
+    400232: crossbase10
+    400234: crossbase11
+    400236: Crossbeam
+    400238: crossbeam
+    400240: Crossbeam 1
+    400242: Crossbeam 10
+    400244: Crossbeam 11
+    400246: Crossbeam 12
+    400248: Crossbeam 2
+    400250: Crossbeam 3
+    400252: Crossbeam 4
+    400254: Crossbeam 5
+    400256: Crossbeam 6
+    400258: Crossbeam 7
+    400260: Crossbeam 8
+    400262: Crossbeam 9
+    400264: Crossbeam1
+    400266: crossbeam1
+    400268: Crossbeam1 1
+    400270: Crossbeam1 10
+    400272: Crossbeam1 11
+    400274: Crossbeam1 12
+    400276: Crossbeam1 2
+    400278: Crossbeam1 3
+    400280: Crossbeam1 4
+    400282: Crossbeam1 5
+    400284: Crossbeam1 6
+    400286: Crossbeam1 7
+    400288: Crossbeam1 8
+    400290: Crossbeam1 9
+    400292: crossbeam10
+    400294: crossbeam11
+    400296: crossbeam12
+    400298: Crossbeam2
+    400300: crossbeam2
+    400302: Crossbeam2 1
+    400304: Crossbeam2 10
+    400306: Crossbeam2 11
+    400308: Crossbeam2 12
+    400310: Crossbeam2 2
+    400312: Crossbeam2 3
+    400314: Crossbeam2 4
+    400316: Crossbeam2 5
+    400318: Crossbeam2 6
+    400320: Crossbeam2 7
+    400322: Crossbeam2 8
+    400324: Crossbeam2 9
+    400326: Crossbeam3
+    400328: crossbeam3
+    400330: Crossbeam3 1
+    400332: Crossbeam3 10
+    400334: Crossbeam3 11
+    400336: Crossbeam3 12
+    400338: Crossbeam3 2
+    400340: Crossbeam3 3
+    400342: Crossbeam3 4
+    400344: Crossbeam3 5
+    400346: Crossbeam3 6
+    400348: Crossbeam3 7
+    400350: Crossbeam3 8
+    400352: Crossbeam3 9
+    400354: Crossbeam4
+    400356: crossbeam4
+    400358: Crossbeam4 1
+    400360: Crossbeam4 10
+    400362: Crossbeam4 11
+    400364: Crossbeam4 12
+    400366: Crossbeam4 2
+    400368: Crossbeam4 3
+    400370: Crossbeam4 4
+    400372: Crossbeam4 5
+    400374: Crossbeam4 6
+    400376: Crossbeam4 7
+    400378: Crossbeam4 8
+    400380: Crossbeam4 9
+    400382: crossbeam5
+    400384: crossbeam6
+    400386: crossbeam7
+    400388: crossbeam8
+    400390: crossbeam9
+    400392: CubeBase
+    400394: CubeBase 1
+    400396: CubeBase 2
+    400398: CubeBase 3
+    400400: CubeBase 4
+    400402: CubeBase 5
+    400404: CubeBase 6
+    400406: CubeBase 7
+    400408: CubeBase 8
+    400410: CubeBase 9
+    400412: CubeFlat
+    400414: CubeFlat 1
+    400416: CubeFlat 10
+    400418: CubeFlat 11
+    400420: CubeFlat 12
+    400422: CubeFlat 13
+    400424: CubeFlat 14
+    400426: CubeFlat 15
+    400428: CubeFlat 2
+    400430: CubeFlat 3
+    400432: CubeFlat 4
+    400434: CubeFlat 5
+    400436: CubeFlat 6
+    400438: CubeFlat 7
+    400440: CubeFlat 8
+    400442: CubeFlat 9
+    400444: CubeFlatSmall
+    400446: CubeFlatSmall 1
+    400448: CubeFlatSmall 2
+    400450: CubeFlatSmall 3
+    400452: CubeFlatSmall 4
+    400454: CubeFlatSmall 5
+    400456: CubeFlatSmall 6
+    400458: CubeFlatSmall 7
+    400460: CubeFlatSmall 8
+    400462: CubeFlatSmall 9
+    400464: CubeTall
+    400466: CubeTall 1
+    400468: CubeTall 2
+    400470: CubeTall 3
+    400472: CubeTall 4
+    400474: CubeTall 5
+    400476: CubeTall 6
+    400478: CubeTall 7
+    400480: CubeTall 8
+    400482: CubeTall 9
+    400484: CubeTall1
+    400486: CubeTall1 1
+    400488: CubeTall1 2
+    400490: CubeTall1 3
+    400492: CubeTall1 4
+    400494: CubeTall1 5
+    400496: CubeTall1 6
+    400498: CubeTall1 7
+    400500: CubeTall1 8
+    400502: CubeTall1 9
+    400504: CubeTall2
+    400506: CubeTall2 1
+    400508: CubeTall2 2
+    400510: CubeTall2 3
+    400512: CubeTall2 4
+    400514: CubeTall2 5
+    400516: CubeTop
+    400518: CubeTop 1
+    400520: CubeTop 2
+    400522: CubeTop 3
+    400524: CubeTop 4
+    400526: CubeTop 5
+    400528: CubeTop 6
+    400530: CubeTop 7
+    400532: CubeTop 8
+    400534: CubeTop 9
+    400536: CubeTop1
+    400538: CubeTop1 1
+    400540: CubeTop1 2
+    400542: CubeTop1 3
+    400544: CubeTop1 4
+    400546: CubeTop1 5
+    400548: CubeTop1 6
+    400550: CubeTop1 7
+    400552: CubeTop1 8
+    400554: CubeTop1 9
+    400556: CubeTopTall
+    400558: CubeTopTall 1
+    400560: CubeTopTall 2
+    400562: CubeTopTall 3
+    400564: CubeTopTall 4
+    400566: CubeTopTall 5
+    400568: CubeTopTall 6
+    400570: CubeTopTall 7
+    400572: CubeTopTall 8
+    400574: CubeTopTall 9
+    400576: floor
+    400578: floor_altar
+    400580: front_base
+    400582: front_base_new
+    400584: front_base_new1
+    400586: front_center_door_bevel
+    400588: front_center_door_bevel1
+    400590: front_center_door_bevel2
+    400592: front_face
+    400594: front_frame
+    400596: front_frame_side01
+    400598: front_frame_side1
+    400600: front_interior_wall
+    400602: front_post_new
+    400604: front_post_new1
+    400606: front_wall
+    400608: front_window_frame
+    400610: FullTowerLeft
+    400612: low_roof
+    400614: low_roof1
+    400616: MainAltar
+    400618: MainPanelCapitalLeft1
+    400620: MainPanelCenter
+    400622: MainPanelCenter1
+    400624: MainPanelFramingLeft
+    400626: MainPanelFramingTwoLeft
+    400628: MainPanelLeft
+    400630: MainPanelRight
+    400632: narrow
+    400634: north_side
+    400636: nun_s_balcony
+    400638: Ornament_low
+    400640: Ornament_low 1
+    400642: Ornament_low1
+    400644: Ornament_low1 1
+    400646: Ornament_low3
+    400648: Ornament_low3 1
+    400650: ornate_pillar_balcony
+    400652: ornate_pillar_joint1
+    400654: ornate_pillar_low
+    400656: ornate_pillar_top_low
+    400658: painting
+    400660: Painting_Wall_External
+    400662: Panels1
+    400664: pCube138
+    400666: pCube161
+    400668: pCylinder2
+    400670: pCylinder3
+    400672: pilaster_base
+    400674: pilaster_base 1
+    400676: pilaster_low
+    400678: pilaster_low1
+    400680: pillar_medium
+    400682: pillar_medium 1
+    400684: pillar_medium04
+    400686: pillar_medium_end
+    400688: pillar_medium_end1
+    400690: pillar_short
+    400692: pillar_tall
+    400694: pillar_tall_a1
+    400696: pillar_tall_a2
+    400698: pillar_tall_b
+    400700: pillar_tall_b1
+    400702: pillar_tall_b2
+    400704: pillar_tall_b3
+    400706: pillar_tall_b4
+    400708: pillar_tall_b5
+    400710: pillar_tall_b6
+    400712: pillar_tall_b7
+    400714: pillar_tall_b8
+    400716: pillar_tall_b9
+    400718: pillar_tall_c
+    400720: pillar_tall_c1
+    400722: PillarsShort
+    400724: PinnacleCenterBracket1
+    400726: PinnacleDecoCenter
+    400728: PinnacleDecoLeft
+    400730: PinnacleDecoLeft2
+    400732: PinnacleDecoLeft3
+    400734: PinnacleFrameCenter
+    400736: PinnacleFrameLeft
+    400738: PinnacleFrameTopLeft
+    400740: PinnacleFrameTopLeft 1
+    400742: PinnacleFrameTopLeft 2
+    400744: PinnacleLeftBracket2
+    400746: PinnaclePanelLeft2
+    400748: PinnaclePanelLeft3
+    400750: PinnaclePanelRight2
+    400752: PinnacleTopDecoLeft4
+    400754: PinnacleTopDecoLeft5
+    400756: PinnacleTopDecoLeft6
+    400758: PinnacleTopDecoLeft7
+    400760: pointed_roof
+    400762: pointed_roof1
+    400764: pointed_roof2
+    400766: pointed_roof3
+    400768: pointed_roof4
+    400770: polySurface1113
+    400772: polySurface1113 1
+    400774: polySurface1113 2
+    400776: polySurface1113 3
+    400778: polySurface1113 4
+    400780: polySurface1114
+    400782: polySurface1114 1
+    400784: polySurface1114 2
+    400786: polySurface1114 3
+    400788: polySurface1114 4
+    400790: polySurface1117
+    400792: polySurface1117 1
+    400794: polySurface1117 2
+    400796: polySurface1117 3
+    400798: polySurface1117 4
+    400800: polySurface1118
+    400802: polySurface1118 1
+    400804: polySurface1118 2
+    400806: polySurface1118 3
+    400808: polySurface1118 4
+    400810: polySurface1146
+    400812: polySurface1148
+    400814: polySurface1150
+    400816: polySurface1151
+    400818: polySurface1152
+    400820: polySurface1153
+    400822: polySurface1155
+    400824: polySurface1156
+    400826: polySurface1157
+    400828: polySurface1441
+    400830: polySurface1900
+    400832: polySurface1900 1
+    400834: polySurface1900 2
+    400836: polySurface1900 3
+    400838: polySurface1900 4
+    400840: polySurface1901
+    400842: polySurface1901 1
+    400844: polySurface1901 2
+    400846: polySurface1901 3
+    400848: polySurface1901 4
+    400850: polySurface1904
+    400852: polySurface1904 1
+    400854: polySurface1904 2
+    400856: polySurface1904 3
+    400858: polySurface1904 4
+    400860: polySurface2232
+    400862: polySurface2232 1
+    400864: polySurface2232 2
+    400866: polySurface2232 3
+    400868: polySurface2232 4
+    400870: polySurface2233
+    400872: polySurface2233 1
+    400874: polySurface2233 2
+    400876: polySurface2233 3
+    400878: polySurface2233 4
+    400880: pPrism4
+    400882: pPrism5
+    400884: Prism
+    400886: Prism 1
+    400888: Prism 2
+    400890: Prism 3
+    400892: Prism 4
+    400894: Prism 5
+    400896: Prism 6
+    400898: Prism 7
+    400900: Prism 8
+    400902: Prism 9
+    400904: Prism1
+    400906: Prism1 1
+    400908: Prism1 2
+    400910: Prism1 3
+    400912: Prism1 4
+    400914: Prism1 5
+    400916: reduced_seal
+    400918: renovated_arch
+    400920: ribbed_vault
+    400922: ribbed_vault_conjoined
+    400924: roof
+    400926: roof_a
+    400928: roof_arch
+    400930: roof_beams
+    400932: roofarch2
+    400934: SideAltar1
+    400936: SideAltar10
+    400938: SideAltar11
+    400940: SideAltar12
+    400942: SideAltar13
+    400944: SideAltar14
+    400946: SideAltar15
+    400948: SideAltar16
+    400950: SideAltar17
+    400952: SideAltar18
+    400954: SideAltar19
+    400956: SideAltar2
+    400958: SideAltar20
+    400960: SideAltar21
+    400962: SideAltar22
+    400964: SideAltar23
+    400966: SideAltar3
+    400968: SideAltar4
+    400970: SideAltar5
+    400972: SideAltar6
+    400974: SideAltar7
+    400976: SideAltar8
+    400978: SideAltar9
+    400980: SideAltar_Step1
+    400982: SideAltar_Step10
+    400984: SideAltar_Step11
+    400986: SideAltar_Step12
+    400988: SideAltar_Step13
+    400990: SideAltar_Step14
+    400992: SideAltar_Step15
+    400994: SideAltar_Step16
+    400996: SideAltar_Step17
+    400998: SideAltar_Step18
+    401000: SideAltar_Step19
+    401002: SideAltar_Step2
+    401004: SideAltar_Step20
+    401006: SideAltar_Step21
+    401008: SideAltar_Step22
+    401010: SideAltar_Step23
+    401012: SideAltar_Step3
+    401014: SideAltar_Step4
+    401016: SideAltar_Step5
+    401018: SideAltar_Step6
+    401020: SideAltar_Step7
+    401022: SideAltar_Step8
+    401024: SideAltar_Step9
+    401026: SideAltar_Step_Stone1
+    401028: SideAltar_Step_Stone2
+    401030: SideAltar_Step_Stone3
+    401032: SideAltar_Step_Stone4
+    401034: SideAltar_Steps
+    401036: SideAltar_Steps_Stone
+    401038: SideAltars
+    401040: sideroof
+    401042: sideroof1
+    401044: sideroof_low
+    401046: smooth_arch
+    401048: south_ceilings
+    401050: south_roof
+    401052: south_side
+    401054: Spire
+    401056: Spire 1
+    401058: Spire 2
+    401060: Spire 3
+    401062: Spire 4
+    401064: Spire 5
+    401066: Spire 6
+    401068: Spire 7
+    401070: Spire 8
+    401072: Spire 9
+    401074: Spire_Center_Low
+    401076: Spire_Low1
+    401078: Spire_Low1 1
+    401080: SpireBase
+    401082: SpireBase 1
+    401084: SpireBase 2
+    401086: SpireBase 3
+    401088: SpireBase 4
+    401090: SpireBase 5
+    401092: SpireBase 6
+    401094: SpireBase 7
+    401096: SpireBase 8
+    401098: SpireBase 9
+    401100: SpireMedium
+    401102: SpireMedium 1
+    401104: SpireShort
+    401106: SpireShort 1
+    401108: SpireShort 10
+    401110: SpireShort 11
+    401112: SpireShort 2
+    401114: SpireShort 3
+    401116: SpireShort 4
+    401118: SpireShort 5
+    401120: SpireShort 6
+    401122: SpireShort 7
+    401124: SpireShort 8
+    401126: SpireShort 9
+    401128: SpireShort5
+    401130: SpireTop
+    401132: SpireTop 1
+    401134: SpireTop 2
+    401136: SpireTop 3
+    401138: SpireTop 4
+    401140: SpireTop 5
+    401142: SpireTop 6
+    401144: SpireTop 7
+    401146: SpireTop 8
+    401148: SpireTop 9
+    401150: SpireWiggly
+    401152: SpireWiggly 1
+    401154: SpireWiggly 2
+    401156: SpireWiggly 3
+    401158: SpireWiggly 4
+    401160: SpireWiggly 5
+    401162: SpireWiggly 6
+    401164: SpireWiggly 7
+    401166: SpireWiggly 8
+    401168: SpireWiggly 9
+    401170: SpireWiggly1
+    401172: SpireWiggly1 1
+    401174: SpireWiggly1 2
+    401176: SpireWiggly1 3
+    401178: SpireWiggly1 4
+    401180: SpireWiggly1 5
+    401182: Top
+    401184: Top 1
+    401186: Top 2
+    401188: Top 3
+    401190: Top 4
+    401192: Top 5
+    401194: TowerLeft
+    401196: TowerLeft 1
+    401198: TowerPrism
+    401200: TowerPrism 1
+    401202: transept_column
+    401204: transept_column 1
+    401206: transept_column_base
+    401208: transept_column_capital_t1
+    401210: transept_column_capital_t2
+    401212: transform16
+    401214: transform63
+    401216: UpperTierFramingCenter
+    401218: UpperTierFramingLeft1
+    401220: UpperTierPanelCenter1
+    401222: UpperTierPanelLeft1
+    401224: UpperTierPanelRight1
+    401226: vaulted_ceiling
+    401228: vaulted_ceiling 1
+    401230: vaulted_ceiling5
+    401232: vaulted_ceiling6
+    401234: vaulted_ceiling7
+    401236: vaulted_ceiling8
+    401238: vaulted_ceiling9
+    401240: wall
+    401242: wall 1
+    401244: wall_bevel
+    401246: wall_bevel1
+    401248: wall_bevel2
+    401250: wall_bevel3
+    401252: wall_bevel4
+    401254: wall_bevel5
+    401256: wall_bevel6
+    401258: wall_bevels
+    401260: wall_long
+    401262: wall_ornate
+    401264: wall_pillar
+    401266: wall_short
+    401268: wall_window
+    401270: wall_window1
+    401272: wall_window_corner
+    401274: wall_window_frame
+    401276: wall_window_low
+    401278: walls
+    401280: wide
+    401282: window
+    401284: window2
+    401286: window5
+    401288: window_big
+    401290: window_frame
+    401292: window_south
+    401294: wood_lattice_long
+    401296: wood_lattice_short
+    401298: wood_lattice_short1
+    2100000: limestone_mat
+    2100002: plaster_mat
+    2100004: brick_mat
+    2100006: facadedoor
+    2100008: phong5
+    2100010: phong1
+    2100012: oculus_glass_mat
+    2100014: ornate_pillar_mat
+    2100016: wood_mat
+    2100018: wood_lattice_mat
+    2100020: ceiling_mat
+    2100022: south_wall_mat
+    2100024: pilaster_mat
+    2100026: floor_stone_tile_mat
+    2100028: step_mat
+    2100030: floor_tiles_mat
+    2100032: pietraserena_mat
+    2100034: Panels1_MainPanelCenter1_MainPanelLeft_Lmb_Mat
+    2100036: Panels1_MainPanelCenter1_MainPanelRight_Lmb_Mat
+    2100038: Panels1_MainPanelCenter1_MainPanelCenter_Lmb_Mat
+    2100040: Panels1_UpperTierPanelLeft1_Lmb_Mat
+    2100042: Panels1_UpperTierPanelCenter1_Lmb_Mat
+    2100044: Panels1_UpperTierPanelRight1_Lmb_Mat
+    2100046: Panels1_PinnaclePanelLeft2_Lmb_Mat
+    2100048: Default_Material
+    2100050: Panels1_PinnaclePanelLeft3_Lmb_Mat
+    2300000: aisle_wall1
+    2300002: aisle_wall10
+    2300004: aisle_wall11
+    2300006: aisle_wall12
+    2300008: aisle_wall13
+    2300010: aisle_wall14
+    2300012: aisle_wall15
+    2300014: aisle_wall9
+    2300016: altar01
+    2300018: altar_step01
+    2300020: altar_step01_old
+    2300022: altar_step02
+    2300024: altar_step02_old
+    2300026: AltarPiece_LowPoly1_Brackets_Low_Bracket_Long
+    2300028: AltarPiece_LowPoly1_Brackets_Low_PinnacleLeftBracket1
+    2300030: AltarPiece_LowPoly1_MainPanelCapitalRight
+    2300032: AltarPiece_LowPoly1_MainPanelFramingCenter
+    2300034: AltarPiece_LowPoly1_MainPanelFramingRight
+    2300036: AltarPiece_LowPoly1_MainPanelFramingTwoRight
+    2300038: AltarPiece_LowPoly1_PillarsShort_SpireShort3
+    2300040: AltarPiece_LowPoly1_PillarsShort_SpireShort4
+    2300042: AltarPiece_LowPoly1_PillarsShort_SpireTower3
+    2300044: AltarPiece_LowPoly1_PillarsShort_SpireTower4
+    2300046: AltarPiece_LowPoly1_PillarsShort_SpireTower5
+    2300048: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleDecoLeft2
+    2300050: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleTopDecoLeft4
+    2300052: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleTopDecoLeft5
+    2300054: AltarPiece_LowPoly1_PinnacleFrameRight
+    2300056: AltarPiece_LowPoly1_UpperTierFramingRight
+    2300058: AltarPieceBase
+    2300060: AltarPieceCenterBar
+    2300062: arch_A1
+    2300064: arch_A4
+    2300066: arch_b1
+    2300068: arch_b10
+    2300070: arch_b11
+    2300072: arch_b12
+    2300074: arch_b13
+    2300076: arch_b14
+    2300078: arch_b15
+    2300080: arch_b9
+    2300082: arch_back
+    2300084: arch_pointed_medium
+    2300086: arch_pointed_medium2
+    2300088: arch_pointed_medium3
+    2300090: arch_pointed_tall
+    2300092: arch_pointed_tall1
+    2300094: arch_pointedx2
+    2300096: arch_smooth_a
+    2300098: arch_smooth_a3
+    2300100: arch_smooth_b
+    2300102: assumption_room
+    2300104: balcony_arch01
+    2300106: balcony_arch02
+    2300108: balcony_arch03
+    2300110: balcony_arch04
+    2300112: balcony_arch05
+    2300114: balcony_arch06
+    2300116: balcony_arch_wall
+    2300118: balcony_bevel01
+    2300120: balcony_bevel02
+    2300122: balcony_bevel03
+    2300124: balcony_bottom
+    2300126: balcony_ceiling01
+    2300128: balcony_ceiling02
+    2300130: balcony_post01
+    2300132: balcony_post02
+    2300134: balcony_post03
+    2300136: balcony_post04
+    2300138: balcony_top
+    2300140: BlockerPlane
+    2300142: Bracket_Long2
+    2300144: Bracket_Short5
+    2300146: Bracket_Short6
+    2300148: Bracket_Short7
+    2300150: Bracket_Short8
+    2300152: CenterChapel
+    2300154: central_pier
+    2300156: corner_pier
+    2300158: cross
+    2300160: crossbase01
+    2300162: crossbase02
+    2300164: crossbase03
+    2300166: crossbase04
+    2300168: crossbase05
+    2300170: crossbase06
+    2300172: crossbase07
+    2300174: crossbase08
+    2300176: crossbase09
+    2300178: crossbase10
+    2300180: crossbase11
+    2300182: Crossbeam
+    2300184: Crossbeam 1
+    2300186: Crossbeam 10
+    2300188: Crossbeam 11
+    2300190: Crossbeam 12
+    2300192: Crossbeam 2
+    2300194: Crossbeam 3
+    2300196: Crossbeam 4
+    2300198: Crossbeam 5
+    2300200: Crossbeam 6
+    2300202: Crossbeam 7
+    2300204: Crossbeam 8
+    2300206: Crossbeam 9
+    2300208: Crossbeam1
+    2300210: Crossbeam1 1
+    2300212: Crossbeam1 10
+    2300214: Crossbeam1 11
+    2300216: Crossbeam1 12
+    2300218: Crossbeam1 2
+    2300220: Crossbeam1 3
+    2300222: Crossbeam1 4
+    2300224: Crossbeam1 5
+    2300226: Crossbeam1 6
+    2300228: Crossbeam1 7
+    2300230: Crossbeam1 8
+    2300232: Crossbeam1 9
+    2300234: Crossbeam2
+    2300236: Crossbeam2 1
+    2300238: Crossbeam2 10
+    2300240: Crossbeam2 11
+    2300242: Crossbeam2 12
+    2300244: Crossbeam2 2
+    2300246: Crossbeam2 3
+    2300248: Crossbeam2 4
+    2300250: Crossbeam2 5
+    2300252: Crossbeam2 6
+    2300254: Crossbeam2 7
+    2300256: Crossbeam2 8
+    2300258: Crossbeam2 9
+    2300260: Crossbeam3
+    2300262: Crossbeam3 1
+    2300264: Crossbeam3 10
+    2300266: Crossbeam3 11
+    2300268: Crossbeam3 12
+    2300270: Crossbeam3 2
+    2300272: Crossbeam3 3
+    2300274: Crossbeam3 4
+    2300276: Crossbeam3 5
+    2300278: Crossbeam3 6
+    2300280: Crossbeam3 7
+    2300282: Crossbeam3 8
+    2300284: Crossbeam3 9
+    2300286: Crossbeam4
+    2300288: Crossbeam4 1
+    2300290: Crossbeam4 10
+    2300292: Crossbeam4 11
+    2300294: Crossbeam4 12
+    2300296: Crossbeam4 2
+    2300298: Crossbeam4 3
+    2300300: Crossbeam4 4
+    2300302: Crossbeam4 5
+    2300304: Crossbeam4 6
+    2300306: Crossbeam4 7
+    2300308: Crossbeam4 8
+    2300310: Crossbeam4 9
+    2300312: CubeBase
+    2300314: CubeBase 1
+    2300316: CubeBase 2
+    2300318: CubeBase 3
+    2300320: CubeBase 4
+    2300322: CubeBase 5
+    2300324: CubeBase 6
+    2300326: CubeBase 7
+    2300328: CubeBase 8
+    2300330: CubeBase 9
+    2300332: CubeFlat
+    2300334: CubeFlat 1
+    2300336: CubeFlat 10
+    2300338: CubeFlat 11
+    2300340: CubeFlat 12
+    2300342: CubeFlat 13
+    2300344: CubeFlat 14
+    2300346: CubeFlat 15
+    2300348: CubeFlat 2
+    2300350: CubeFlat 3
+    2300352: CubeFlat 4
+    2300354: CubeFlat 5
+    2300356: CubeFlat 6
+    2300358: CubeFlat 7
+    2300360: CubeFlat 8
+    2300362: CubeFlat 9
+    2300364: CubeFlatSmall
+    2300366: CubeFlatSmall 1
+    2300368: CubeFlatSmall 2
+    2300370: CubeFlatSmall 3
+    2300372: CubeFlatSmall 4
+    2300374: CubeFlatSmall 5
+    2300376: CubeFlatSmall 6
+    2300378: CubeFlatSmall 7
+    2300380: CubeFlatSmall 8
+    2300382: CubeFlatSmall 9
+    2300384: CubeTall
+    2300386: CubeTall 1
+    2300388: CubeTall 2
+    2300390: CubeTall 3
+    2300392: CubeTall 4
+    2300394: CubeTall 5
+    2300396: CubeTall 6
+    2300398: CubeTall 7
+    2300400: CubeTall 8
+    2300402: CubeTall 9
+    2300404: CubeTall1
+    2300406: CubeTall1 1
+    2300408: CubeTall1 2
+    2300410: CubeTall1 3
+    2300412: CubeTall1 4
+    2300414: CubeTall1 5
+    2300416: CubeTall1 6
+    2300418: CubeTall1 7
+    2300420: CubeTall1 8
+    2300422: CubeTall1 9
+    2300424: CubeTall2
+    2300426: CubeTall2 1
+    2300428: CubeTall2 2
+    2300430: CubeTall2 3
+    2300432: CubeTall2 4
+    2300434: CubeTall2 5
+    2300436: CubeTop
+    2300438: CubeTop 1
+    2300440: CubeTop 2
+    2300442: CubeTop 3
+    2300444: CubeTop 4
+    2300446: CubeTop 5
+    2300448: CubeTop 6
+    2300450: CubeTop 7
+    2300452: CubeTop 8
+    2300454: CubeTop 9
+    2300456: CubeTop1
+    2300458: CubeTop1 1
+    2300460: CubeTop1 2
+    2300462: CubeTop1 3
+    2300464: CubeTop1 4
+    2300466: CubeTop1 5
+    2300468: CubeTop1 6
+    2300470: CubeTop1 7
+    2300472: CubeTop1 8
+    2300474: CubeTop1 9
+    2300476: CubeTopTall
+    2300478: CubeTopTall 1
+    2300480: CubeTopTall 2
+    2300482: CubeTopTall 3
+    2300484: CubeTopTall 4
+    2300486: CubeTopTall 5
+    2300488: CubeTopTall 6
+    2300490: CubeTopTall 7
+    2300492: CubeTopTall 8
+    2300494: CubeTopTall 9
+    2300496: floor
+    2300498: floor_altar
+    2300500: front_base
+    2300502: front_base_new
+    2300504: front_base_new1
+    2300506: front_center_door_bevel
+    2300508: front_center_door_bevel1
+    2300510: front_center_door_bevel2
+    2300512: front_frame
+    2300514: front_frame_side01
+    2300516: front_frame_side1
+    2300518: front_interior_wall
+    2300520: front_post_new
+    2300522: front_post_new1
+    2300524: front_window_frame
+    2300526: low_roof
+    2300528: low_roof1
+    2300530: MainAltar
+    2300532: MainPanelCapitalLeft1
+    2300534: MainPanelCenter
+    2300536: MainPanelFramingLeft
+    2300538: MainPanelFramingTwoLeft
+    2300540: MainPanelLeft
+    2300542: MainPanelRight
+    2300544: Ornament_low
+    2300546: Ornament_low 1
+    2300548: Ornament_low1
+    2300550: Ornament_low1 1
+    2300552: Ornament_low3
+    2300554: Ornament_low3 1
+    2300556: ornate_pillar_joint1
+    2300558: ornate_pillar_low
+    2300560: painting
+    2300562: Painting_Wall_External
+    2300564: pCube138
+    2300566: pCube161
+    2300568: pCylinder2
+    2300570: pCylinder3
+    2300572: pilaster_base
+    2300574: pilaster_base 1
+    2300576: pillar_medium 1
+    2300578: pillar_medium04
+    2300580: pillar_medium_end
+    2300582: pillar_medium_end1
+    2300584: pillar_short
+    2300586: pillar_tall_a1
+    2300588: pillar_tall_a2
+    2300590: pillar_tall_b
+    2300592: pillar_tall_b1
+    2300594: pillar_tall_b2
+    2300596: pillar_tall_b3
+    2300598: pillar_tall_b4
+    2300600: pillar_tall_b5
+    2300602: pillar_tall_b6
+    2300604: pillar_tall_b7
+    2300606: pillar_tall_b8
+    2300608: pillar_tall_b9
+    2300610: pillar_tall_c
+    2300612: pillar_tall_c1
+    2300614: PinnacleCenterBracket1
+    2300616: PinnacleDecoLeft2
+    2300618: PinnacleDecoLeft3
+    2300620: PinnacleFrameCenter
+    2300622: PinnacleFrameLeft
+    2300624: PinnacleFrameTopLeft
+    2300626: PinnacleFrameTopLeft 1
+    2300628: PinnacleFrameTopLeft 2
+    2300630: PinnacleLeftBracket2
+    2300632: PinnaclePanelLeft2
+    2300634: PinnaclePanelLeft3
+    2300636: PinnaclePanelRight2
+    2300638: PinnacleTopDecoLeft4
+    2300640: PinnacleTopDecoLeft5
+    2300642: PinnacleTopDecoLeft6
+    2300644: PinnacleTopDecoLeft7
+    2300646: pointed_roof
+    2300648: pointed_roof1
+    2300650: pointed_roof2
+    2300652: pointed_roof3
+    2300654: pointed_roof4
+    2300656: polySurface1113
+    2300658: polySurface1113 1
+    2300660: polySurface1113 2
+    2300662: polySurface1113 3
+    2300664: polySurface1113 4
+    2300666: polySurface1114
+    2300668: polySurface1114 1
+    2300670: polySurface1114 2
+    2300672: polySurface1114 3
+    2300674: polySurface1114 4
+    2300676: polySurface1117
+    2300678: polySurface1117 1
+    2300680: polySurface1117 2
+    2300682: polySurface1117 3
+    2300684: polySurface1117 4
+    2300686: polySurface1118
+    2300688: polySurface1118 1
+    2300690: polySurface1118 2
+    2300692: polySurface1118 3
+    2300694: polySurface1118 4
+    2300696: polySurface1146
+    2300698: polySurface1148
+    2300700: polySurface1150
+    2300702: polySurface1151
+    2300704: polySurface1152
+    2300706: polySurface1153
+    2300708: polySurface1155
+    2300710: polySurface1156
+    2300712: polySurface1157
+    2300714: polySurface1441
+    2300716: polySurface1900
+    2300718: polySurface1900 1
+    2300720: polySurface1900 2
+    2300722: polySurface1900 3
+    2300724: polySurface1900 4
+    2300726: polySurface1901
+    2300728: polySurface1901 1
+    2300730: polySurface1901 2
+    2300732: polySurface1901 3
+    2300734: polySurface1901 4
+    2300736: polySurface1904
+    2300738: polySurface1904 1
+    2300740: polySurface1904 2
+    2300742: polySurface1904 3
+    2300744: polySurface1904 4
+    2300746: polySurface2232
+    2300748: polySurface2232 1
+    2300750: polySurface2232 2
+    2300752: polySurface2232 3
+    2300754: polySurface2232 4
+    2300756: polySurface2233
+    2300758: polySurface2233 1
+    2300760: polySurface2233 2
+    2300762: polySurface2233 3
+    2300764: polySurface2233 4
+    2300766: pPrism4
+    2300768: pPrism5
+    2300770: Prism
+    2300772: Prism 1
+    2300774: Prism 2
+    2300776: Prism 3
+    2300778: Prism 4
+    2300780: Prism 5
+    2300782: Prism 6
+    2300784: Prism 7
+    2300786: Prism 8
+    2300788: Prism 9
+    2300790: Prism1
+    2300792: Prism1 1
+    2300794: Prism1 2
+    2300796: Prism1 3
+    2300798: Prism1 4
+    2300800: Prism1 5
+    2300802: renovated_arch
+    2300804: ribbed_vault
+    2300806: ribbed_vault_conjoined
+    2300808: roof
+    2300810: roof_a
+    2300812: roof_arch
+    2300814: roofarch2
+    2300816: SideAltar1
+    2300818: SideAltar10
+    2300820: SideAltar11
+    2300822: SideAltar12
+    2300824: SideAltar13
+    2300826: SideAltar14
+    2300828: SideAltar15
+    2300830: SideAltar16
+    2300832: SideAltar17
+    2300834: SideAltar18
+    2300836: SideAltar19
+    2300838: SideAltar2
+    2300840: SideAltar20
+    2300842: SideAltar21
+    2300844: SideAltar22
+    2300846: SideAltar23
+    2300848: SideAltar3
+    2300850: SideAltar4
+    2300852: SideAltar5
+    2300854: SideAltar6
+    2300856: SideAltar7
+    2300858: SideAltar8
+    2300860: SideAltar9
+    2300862: SideAltar_Step1
+    2300864: SideAltar_Step10
+    2300866: SideAltar_Step11
+    2300868: SideAltar_Step12
+    2300870: SideAltar_Step13
+    2300872: SideAltar_Step14
+    2300874: SideAltar_Step15
+    2300876: SideAltar_Step16
+    2300878: SideAltar_Step17
+    2300880: SideAltar_Step18
+    2300882: SideAltar_Step19
+    2300884: SideAltar_Step2
+    2300886: SideAltar_Step20
+    2300888: SideAltar_Step21
+    2300890: SideAltar_Step22
+    2300892: SideAltar_Step23
+    2300894: SideAltar_Step3
+    2300896: SideAltar_Step4
+    2300898: SideAltar_Step5
+    2300900: SideAltar_Step6
+    2300902: SideAltar_Step7
+    2300904: SideAltar_Step8
+    2300906: SideAltar_Step9
+    2300908: SideAltar_Step_Stone1
+    2300910: SideAltar_Step_Stone2
+    2300912: SideAltar_Step_Stone3
+    2300914: SideAltar_Step_Stone4
+    2300916: sideroof
+    2300918: sideroof1
+    2300920: smooth_arch
+    2300922: Spire
+    2300924: Spire 1
+    2300926: Spire 2
+    2300928: Spire 3
+    2300930: Spire 4
+    2300932: Spire 5
+    2300934: Spire 6
+    2300936: Spire 7
+    2300938: Spire 8
+    2300940: Spire 9
+    2300942: SpireBase
+    2300944: SpireBase 1
+    2300946: SpireBase 2
+    2300948: SpireBase 3
+    2300950: SpireBase 4
+    2300952: SpireBase 5
+    2300954: SpireBase 6
+    2300956: SpireBase 7
+    2300958: SpireBase 8
+    2300960: SpireBase 9
+    2300962: SpireShort 1
+    2300964: SpireShort 10
+    2300966: SpireShort 11
+    2300968: SpireShort 3
+    2300970: SpireShort 4
+    2300972: SpireShort 5
+    2300974: SpireShort 6
+    2300976: SpireShort 7
+    2300978: SpireShort 8
+    2300980: SpireShort 9
+    2300982: SpireShort5
+    2300984: SpireTop
+    2300986: SpireTop 1
+    2300988: SpireTop 2
+    2300990: SpireTop 3
+    2300992: SpireTop 4
+    2300994: SpireTop 5
+    2300996: SpireTop 6
+    2300998: SpireTop 7
+    2301000: SpireTop 8
+    2301002: SpireTop 9
+    2301004: SpireWiggly
+    2301006: SpireWiggly 1
+    2301008: SpireWiggly 2
+    2301010: SpireWiggly 3
+    2301012: SpireWiggly 4
+    2301014: SpireWiggly 5
+    2301016: SpireWiggly 6
+    2301018: SpireWiggly 7
+    2301020: SpireWiggly 8
+    2301022: SpireWiggly 9
+    2301024: SpireWiggly1
+    2301026: SpireWiggly1 1
+    2301028: SpireWiggly1 2
+    2301030: SpireWiggly1 3
+    2301032: SpireWiggly1 4
+    2301034: SpireWiggly1 5
+    2301036: Top
+    2301038: Top 1
+    2301040: Top 2
+    2301042: Top 3
+    2301044: Top 4
+    2301046: Top 5
+    2301048: TowerLeft
+    2301050: TowerLeft 1
+    2301052: TowerPrism
+    2301054: TowerPrism 1
+    2301056: transept_column 1
+    2301058: transept_column_base
+    2301060: transept_column_capital_t1
+    2301062: transept_column_capital_t2
+    2301064: UpperTierFramingCenter
+    2301066: UpperTierFramingLeft1
+    2301068: UpperTierPanelCenter1
+    2301070: UpperTierPanelLeft1
+    2301072: UpperTierPanelRight1
+    2301074: vaulted_ceiling
+    2301076: vaulted_ceiling 1
+    2301078: vaulted_ceiling5
+    2301080: vaulted_ceiling6
+    2301082: vaulted_ceiling7
+    2301084: vaulted_ceiling8
+    2301086: vaulted_ceiling9
+    2301088: wall
+    2301090: wall 1
+    2301092: wall_bevel
+    2301094: wall_bevel1
+    2301096: wall_bevel2
+    2301098: wall_bevel3
+    2301100: wall_bevel4
+    2301102: wall_bevel5
+    2301104: wall_bevel6
+    2301106: wall_long
+    2301108: wall_ornate
+    2301110: wall_pillar
+    2301112: wall_short
+    2301114: wall_window
+    2301116: wall_window1
+    2301118: wall_window_corner
+    2301120: wall_window_frame
+    2301122: wall_window_low
+    2301124: window_frame
+    2301126: wood_lattice_long
+    2301128: wood_lattice_short
+    2301130: wood_lattice_short1
+    3300000: aisle_wall1
+    3300002: aisle_wall10
+    3300004: aisle_wall11
+    3300006: aisle_wall12
+    3300008: aisle_wall13
+    3300010: aisle_wall14
+    3300012: aisle_wall15
+    3300014: aisle_wall9
+    3300016: altar01
+    3300018: altar_step01
+    3300020: altar_step01_old
+    3300022: altar_step02
+    3300024: altar_step02_old
+    3300026: AltarPiece_LowPoly1_Brackets_Low_Bracket_Long
+    3300028: AltarPiece_LowPoly1_Brackets_Low_PinnacleLeftBracket1
+    3300030: AltarPiece_LowPoly1_MainPanelCapitalRight
+    3300032: AltarPiece_LowPoly1_MainPanelFramingCenter
+    3300034: AltarPiece_LowPoly1_MainPanelFramingRight
+    3300036: AltarPiece_LowPoly1_MainPanelFramingTwoRight
+    3300038: AltarPiece_LowPoly1_PillarsShort_SpireShort3
+    3300040: AltarPiece_LowPoly1_PillarsShort_SpireShort4
+    3300042: AltarPiece_LowPoly1_PillarsShort_SpireTower3
+    3300044: AltarPiece_LowPoly1_PillarsShort_SpireTower4
+    3300046: AltarPiece_LowPoly1_PillarsShort_SpireTower5
+    3300048: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleDecoLeft2
+    3300050: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleTopDecoLeft4
+    3300052: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleTopDecoLeft5
+    3300054: AltarPiece_LowPoly1_PinnacleFrameRight
+    3300056: AltarPiece_LowPoly1_UpperTierFramingRight
+    3300058: AltarPieceBase
+    3300060: AltarPieceCenterBar
+    3300062: arch_A1
+    3300064: arch_A4
+    3300066: arch_b1
+    3300068: arch_b10
+    3300070: arch_b11
+    3300072: arch_b12
+    3300074: arch_b13
+    3300076: arch_b14
+    3300078: arch_b15
+    3300080: arch_b9
+    3300082: arch_back
+    3300084: arch_pointed_medium
+    3300086: arch_pointed_medium2
+    3300088: arch_pointed_medium3
+    3300090: arch_pointed_tall
+    3300092: arch_pointed_tall1
+    3300094: arch_pointedx2
+    3300096: arch_smooth_a
+    3300098: arch_smooth_a3
+    3300100: arch_smooth_b
+    3300102: assumption_room
+    3300104: balcony_arch01
+    3300106: balcony_arch02
+    3300108: balcony_arch03
+    3300110: balcony_arch04
+    3300112: balcony_arch05
+    3300114: balcony_arch06
+    3300116: balcony_arch_wall
+    3300118: balcony_bevel01
+    3300120: balcony_bevel02
+    3300122: balcony_bevel03
+    3300124: balcony_bottom
+    3300126: balcony_ceiling01
+    3300128: balcony_ceiling02
+    3300130: balcony_post01
+    3300132: balcony_post02
+    3300134: balcony_post03
+    3300136: balcony_post04
+    3300138: balcony_top
+    3300140: BlockerPlane
+    3300142: Bracket_Long2
+    3300144: Bracket_Short5
+    3300146: Bracket_Short6
+    3300148: Bracket_Short7
+    3300150: Bracket_Short8
+    3300152: CenterChapel
+    3300154: central_pier
+    3300156: corner_pier
+    3300158: cross
+    3300160: crossbase01
+    3300162: crossbase02
+    3300164: crossbase03
+    3300166: crossbase04
+    3300168: crossbase05
+    3300170: crossbase06
+    3300172: crossbase07
+    3300174: crossbase08
+    3300176: crossbase09
+    3300178: crossbase10
+    3300180: crossbase11
+    3300182: Crossbeam
+    3300184: Crossbeam 1
+    3300186: Crossbeam 10
+    3300188: Crossbeam 11
+    3300190: Crossbeam 12
+    3300192: Crossbeam 2
+    3300194: Crossbeam 3
+    3300196: Crossbeam 4
+    3300198: Crossbeam 5
+    3300200: Crossbeam 6
+    3300202: Crossbeam 7
+    3300204: Crossbeam 8
+    3300206: Crossbeam 9
+    3300208: Crossbeam1
+    3300210: Crossbeam1 1
+    3300212: Crossbeam1 10
+    3300214: Crossbeam1 11
+    3300216: Crossbeam1 12
+    3300218: Crossbeam1 2
+    3300220: Crossbeam1 3
+    3300222: Crossbeam1 4
+    3300224: Crossbeam1 5
+    3300226: Crossbeam1 6
+    3300228: Crossbeam1 7
+    3300230: Crossbeam1 8
+    3300232: Crossbeam1 9
+    3300234: Crossbeam2
+    3300236: Crossbeam2 1
+    3300238: Crossbeam2 10
+    3300240: Crossbeam2 11
+    3300242: Crossbeam2 12
+    3300244: Crossbeam2 2
+    3300246: Crossbeam2 3
+    3300248: Crossbeam2 4
+    3300250: Crossbeam2 5
+    3300252: Crossbeam2 6
+    3300254: Crossbeam2 7
+    3300256: Crossbeam2 8
+    3300258: Crossbeam2 9
+    3300260: Crossbeam3
+    3300262: Crossbeam3 1
+    3300264: Crossbeam3 10
+    3300266: Crossbeam3 11
+    3300268: Crossbeam3 12
+    3300270: Crossbeam3 2
+    3300272: Crossbeam3 3
+    3300274: Crossbeam3 4
+    3300276: Crossbeam3 5
+    3300278: Crossbeam3 6
+    3300280: Crossbeam3 7
+    3300282: Crossbeam3 8
+    3300284: Crossbeam3 9
+    3300286: Crossbeam4
+    3300288: Crossbeam4 1
+    3300290: Crossbeam4 10
+    3300292: Crossbeam4 11
+    3300294: Crossbeam4 12
+    3300296: Crossbeam4 2
+    3300298: Crossbeam4 3
+    3300300: Crossbeam4 4
+    3300302: Crossbeam4 5
+    3300304: Crossbeam4 6
+    3300306: Crossbeam4 7
+    3300308: Crossbeam4 8
+    3300310: Crossbeam4 9
+    3300312: CubeBase
+    3300314: CubeBase 1
+    3300316: CubeBase 2
+    3300318: CubeBase 3
+    3300320: CubeBase 4
+    3300322: CubeBase 5
+    3300324: CubeBase 6
+    3300326: CubeBase 7
+    3300328: CubeBase 8
+    3300330: CubeBase 9
+    3300332: CubeFlat
+    3300334: CubeFlat 1
+    3300336: CubeFlat 10
+    3300338: CubeFlat 11
+    3300340: CubeFlat 12
+    3300342: CubeFlat 13
+    3300344: CubeFlat 14
+    3300346: CubeFlat 15
+    3300348: CubeFlat 2
+    3300350: CubeFlat 3
+    3300352: CubeFlat 4
+    3300354: CubeFlat 5
+    3300356: CubeFlat 6
+    3300358: CubeFlat 7
+    3300360: CubeFlat 8
+    3300362: CubeFlat 9
+    3300364: CubeFlatSmall
+    3300366: CubeFlatSmall 1
+    3300368: CubeFlatSmall 2
+    3300370: CubeFlatSmall 3
+    3300372: CubeFlatSmall 4
+    3300374: CubeFlatSmall 5
+    3300376: CubeFlatSmall 6
+    3300378: CubeFlatSmall 7
+    3300380: CubeFlatSmall 8
+    3300382: CubeFlatSmall 9
+    3300384: CubeTall
+    3300386: CubeTall 1
+    3300388: CubeTall 2
+    3300390: CubeTall 3
+    3300392: CubeTall 4
+    3300394: CubeTall 5
+    3300396: CubeTall 6
+    3300398: CubeTall 7
+    3300400: CubeTall 8
+    3300402: CubeTall 9
+    3300404: CubeTall1
+    3300406: CubeTall1 1
+    3300408: CubeTall1 2
+    3300410: CubeTall1 3
+    3300412: CubeTall1 4
+    3300414: CubeTall1 5
+    3300416: CubeTall1 6
+    3300418: CubeTall1 7
+    3300420: CubeTall1 8
+    3300422: CubeTall1 9
+    3300424: CubeTall2
+    3300426: CubeTall2 1
+    3300428: CubeTall2 2
+    3300430: CubeTall2 3
+    3300432: CubeTall2 4
+    3300434: CubeTall2 5
+    3300436: CubeTop
+    3300438: CubeTop 1
+    3300440: CubeTop 2
+    3300442: CubeTop 3
+    3300444: CubeTop 4
+    3300446: CubeTop 5
+    3300448: CubeTop 6
+    3300450: CubeTop 7
+    3300452: CubeTop 8
+    3300454: CubeTop 9
+    3300456: CubeTop1
+    3300458: CubeTop1 1
+    3300460: CubeTop1 2
+    3300462: CubeTop1 3
+    3300464: CubeTop1 4
+    3300466: CubeTop1 5
+    3300468: CubeTop1 6
+    3300470: CubeTop1 7
+    3300472: CubeTop1 8
+    3300474: CubeTop1 9
+    3300476: CubeTopTall
+    3300478: CubeTopTall 1
+    3300480: CubeTopTall 2
+    3300482: CubeTopTall 3
+    3300484: CubeTopTall 4
+    3300486: CubeTopTall 5
+    3300488: CubeTopTall 6
+    3300490: CubeTopTall 7
+    3300492: CubeTopTall 8
+    3300494: CubeTopTall 9
+    3300496: floor
+    3300498: floor_altar
+    3300500: front_base
+    3300502: front_base_new
+    3300504: front_base_new1
+    3300506: front_center_door_bevel
+    3300508: front_center_door_bevel1
+    3300510: front_center_door_bevel2
+    3300512: front_frame
+    3300514: front_frame_side01
+    3300516: front_frame_side1
+    3300518: front_interior_wall
+    3300520: front_post_new
+    3300522: front_post_new1
+    3300524: front_window_frame
+    3300526: low_roof
+    3300528: low_roof1
+    3300530: MainAltar
+    3300532: MainPanelCapitalLeft1
+    3300534: MainPanelCenter
+    3300536: MainPanelFramingLeft
+    3300538: MainPanelFramingTwoLeft
+    3300540: MainPanelLeft
+    3300542: MainPanelRight
+    3300544: Ornament_low
+    3300546: Ornament_low 1
+    3300548: Ornament_low1
+    3300550: Ornament_low1 1
+    3300552: Ornament_low3
+    3300554: Ornament_low3 1
+    3300556: ornate_pillar_joint1
+    3300558: ornate_pillar_low
+    3300560: painting
+    3300562: Painting_Wall_External
+    3300564: pCube138
+    3300566: pCube161
+    3300568: pCylinder2
+    3300570: pCylinder3
+    3300572: pilaster_base
+    3300574: pilaster_base 1
+    3300576: pillar_medium 1
+    3300578: pillar_medium04
+    3300580: pillar_medium_end
+    3300582: pillar_medium_end1
+    3300584: pillar_short
+    3300586: pillar_tall_a1
+    3300588: pillar_tall_a2
+    3300590: pillar_tall_b
+    3300592: pillar_tall_b1
+    3300594: pillar_tall_b2
+    3300596: pillar_tall_b3
+    3300598: pillar_tall_b4
+    3300600: pillar_tall_b5
+    3300602: pillar_tall_b6
+    3300604: pillar_tall_b7
+    3300606: pillar_tall_b8
+    3300608: pillar_tall_b9
+    3300610: pillar_tall_c
+    3300612: pillar_tall_c1
+    3300614: PinnacleCenterBracket1
+    3300616: PinnacleDecoLeft2
+    3300618: PinnacleDecoLeft3
+    3300620: PinnacleFrameCenter
+    3300622: PinnacleFrameLeft
+    3300624: PinnacleFrameTopLeft
+    3300626: PinnacleFrameTopLeft 1
+    3300628: PinnacleFrameTopLeft 2
+    3300630: PinnacleLeftBracket2
+    3300632: PinnaclePanelLeft2
+    3300634: PinnaclePanelLeft3
+    3300636: PinnaclePanelRight2
+    3300638: PinnacleTopDecoLeft4
+    3300640: PinnacleTopDecoLeft5
+    3300642: PinnacleTopDecoLeft6
+    3300644: PinnacleTopDecoLeft7
+    3300646: pointed_roof
+    3300648: pointed_roof1
+    3300650: pointed_roof2
+    3300652: pointed_roof3
+    3300654: pointed_roof4
+    3300656: polySurface1113
+    3300658: polySurface1113 1
+    3300660: polySurface1113 2
+    3300662: polySurface1113 3
+    3300664: polySurface1113 4
+    3300666: polySurface1114
+    3300668: polySurface1114 1
+    3300670: polySurface1114 2
+    3300672: polySurface1114 3
+    3300674: polySurface1114 4
+    3300676: polySurface1117
+    3300678: polySurface1117 1
+    3300680: polySurface1117 2
+    3300682: polySurface1117 3
+    3300684: polySurface1117 4
+    3300686: polySurface1118
+    3300688: polySurface1118 1
+    3300690: polySurface1118 2
+    3300692: polySurface1118 3
+    3300694: polySurface1118 4
+    3300696: polySurface1146
+    3300698: polySurface1148
+    3300700: polySurface1150
+    3300702: polySurface1151
+    3300704: polySurface1152
+    3300706: polySurface1153
+    3300708: polySurface1155
+    3300710: polySurface1156
+    3300712: polySurface1157
+    3300714: polySurface1441
+    3300716: polySurface1900
+    3300718: polySurface1900 1
+    3300720: polySurface1900 2
+    3300722: polySurface1900 3
+    3300724: polySurface1900 4
+    3300726: polySurface1901
+    3300728: polySurface1901 1
+    3300730: polySurface1901 2
+    3300732: polySurface1901 3
+    3300734: polySurface1901 4
+    3300736: polySurface1904
+    3300738: polySurface1904 1
+    3300740: polySurface1904 2
+    3300742: polySurface1904 3
+    3300744: polySurface1904 4
+    3300746: polySurface2232
+    3300748: polySurface2232 1
+    3300750: polySurface2232 2
+    3300752: polySurface2232 3
+    3300754: polySurface2232 4
+    3300756: polySurface2233
+    3300758: polySurface2233 1
+    3300760: polySurface2233 2
+    3300762: polySurface2233 3
+    3300764: polySurface2233 4
+    3300766: pPrism4
+    3300768: pPrism5
+    3300770: Prism
+    3300772: Prism 1
+    3300774: Prism 2
+    3300776: Prism 3
+    3300778: Prism 4
+    3300780: Prism 5
+    3300782: Prism 6
+    3300784: Prism 7
+    3300786: Prism 8
+    3300788: Prism 9
+    3300790: Prism1
+    3300792: Prism1 1
+    3300794: Prism1 2
+    3300796: Prism1 3
+    3300798: Prism1 4
+    3300800: Prism1 5
+    3300802: renovated_arch
+    3300804: ribbed_vault
+    3300806: ribbed_vault_conjoined
+    3300808: roof
+    3300810: roof_a
+    3300812: roof_arch
+    3300814: roofarch2
+    3300816: SideAltar1
+    3300818: SideAltar10
+    3300820: SideAltar11
+    3300822: SideAltar12
+    3300824: SideAltar13
+    3300826: SideAltar14
+    3300828: SideAltar15
+    3300830: SideAltar16
+    3300832: SideAltar17
+    3300834: SideAltar18
+    3300836: SideAltar19
+    3300838: SideAltar2
+    3300840: SideAltar20
+    3300842: SideAltar21
+    3300844: SideAltar22
+    3300846: SideAltar23
+    3300848: SideAltar3
+    3300850: SideAltar4
+    3300852: SideAltar5
+    3300854: SideAltar6
+    3300856: SideAltar7
+    3300858: SideAltar8
+    3300860: SideAltar9
+    3300862: SideAltar_Step1
+    3300864: SideAltar_Step10
+    3300866: SideAltar_Step11
+    3300868: SideAltar_Step12
+    3300870: SideAltar_Step13
+    3300872: SideAltar_Step14
+    3300874: SideAltar_Step15
+    3300876: SideAltar_Step16
+    3300878: SideAltar_Step17
+    3300880: SideAltar_Step18
+    3300882: SideAltar_Step19
+    3300884: SideAltar_Step2
+    3300886: SideAltar_Step20
+    3300888: SideAltar_Step21
+    3300890: SideAltar_Step22
+    3300892: SideAltar_Step23
+    3300894: SideAltar_Step3
+    3300896: SideAltar_Step4
+    3300898: SideAltar_Step5
+    3300900: SideAltar_Step6
+    3300902: SideAltar_Step7
+    3300904: SideAltar_Step8
+    3300906: SideAltar_Step9
+    3300908: SideAltar_Step_Stone1
+    3300910: SideAltar_Step_Stone2
+    3300912: SideAltar_Step_Stone3
+    3300914: SideAltar_Step_Stone4
+    3300916: sideroof
+    3300918: sideroof1
+    3300920: smooth_arch
+    3300922: Spire
+    3300924: Spire 1
+    3300926: Spire 2
+    3300928: Spire 3
+    3300930: Spire 4
+    3300932: Spire 5
+    3300934: Spire 6
+    3300936: Spire 7
+    3300938: Spire 8
+    3300940: Spire 9
+    3300942: SpireBase
+    3300944: SpireBase 1
+    3300946: SpireBase 2
+    3300948: SpireBase 3
+    3300950: SpireBase 4
+    3300952: SpireBase 5
+    3300954: SpireBase 6
+    3300956: SpireBase 7
+    3300958: SpireBase 8
+    3300960: SpireBase 9
+    3300962: SpireShort 1
+    3300964: SpireShort 10
+    3300966: SpireShort 11
+    3300968: SpireShort 3
+    3300970: SpireShort 4
+    3300972: SpireShort 5
+    3300974: SpireShort 6
+    3300976: SpireShort 7
+    3300978: SpireShort 8
+    3300980: SpireShort 9
+    3300982: SpireShort5
+    3300984: SpireTop
+    3300986: SpireTop 1
+    3300988: SpireTop 2
+    3300990: SpireTop 3
+    3300992: SpireTop 4
+    3300994: SpireTop 5
+    3300996: SpireTop 6
+    3300998: SpireTop 7
+    3301000: SpireTop 8
+    3301002: SpireTop 9
+    3301004: SpireWiggly
+    3301006: SpireWiggly 1
+    3301008: SpireWiggly 2
+    3301010: SpireWiggly 3
+    3301012: SpireWiggly 4
+    3301014: SpireWiggly 5
+    3301016: SpireWiggly 6
+    3301018: SpireWiggly 7
+    3301020: SpireWiggly 8
+    3301022: SpireWiggly 9
+    3301024: SpireWiggly1
+    3301026: SpireWiggly1 1
+    3301028: SpireWiggly1 2
+    3301030: SpireWiggly1 3
+    3301032: SpireWiggly1 4
+    3301034: SpireWiggly1 5
+    3301036: Top
+    3301038: Top 1
+    3301040: Top 2
+    3301042: Top 3
+    3301044: Top 4
+    3301046: Top 5
+    3301048: TowerLeft
+    3301050: TowerLeft 1
+    3301052: TowerPrism
+    3301054: TowerPrism 1
+    3301056: transept_column 1
+    3301058: transept_column_base
+    3301060: transept_column_capital_t1
+    3301062: transept_column_capital_t2
+    3301064: UpperTierFramingCenter
+    3301066: UpperTierFramingLeft1
+    3301068: UpperTierPanelCenter1
+    3301070: UpperTierPanelLeft1
+    3301072: UpperTierPanelRight1
+    3301074: vaulted_ceiling
+    3301076: vaulted_ceiling 1
+    3301078: vaulted_ceiling5
+    3301080: vaulted_ceiling6
+    3301082: vaulted_ceiling7
+    3301084: vaulted_ceiling8
+    3301086: vaulted_ceiling9
+    3301088: wall
+    3301090: wall 1
+    3301092: wall_bevel
+    3301094: wall_bevel1
+    3301096: wall_bevel2
+    3301098: wall_bevel3
+    3301100: wall_bevel4
+    3301102: wall_bevel5
+    3301104: wall_bevel6
+    3301106: wall_long
+    3301108: wall_ornate
+    3301110: wall_pillar
+    3301112: wall_short
+    3301114: wall_window
+    3301116: wall_window1
+    3301118: wall_window_corner
+    3301120: wall_window_frame
+    3301122: wall_window_low
+    3301124: window_frame
+    3301126: wood_lattice_long
+    3301128: wood_lattice_short
+    3301130: wood_lattice_short1
+    4300000: ribbed_vault_conjoined
+    4300002: ribbed_vault
+    4300004: front_center_door_bevel2
+    4300006: front_center_door_bevel1
+    4300008: front_center_door_bevel
+    4300010: front_interior_wall
+    4300012: front_frame
+    4300014: front_frame_side01
+    4300016: front_frame_side1
+    4300018: front_post_new1
+    4300020: front_post_new
+    4300022: front_base_new
+    4300024: front_base_new1
+    4300026: front_base
+    4300028: front_window_frame
+    4300030: roof_arch
+    4300032: cross
+    4300034: crossbase11
+    4300036: crossbase10
+    4300038: crossbase09
+    4300040: crossbase08
+    4300042: crossbase07
+    4300044: crossbase06
+    4300046: crossbase05
+    4300048: crossbase04
+    4300050: crossbase03
+    4300052: crossbase02
+    4300054: crossbase01
+    4300056: polySurface1441
+    4300058: polySurface1146
+    4300060: polySurface1148
+    4300062: polySurface1150
+    4300064: polySurface1153
+    4300066: polySurface1152
+    4300068: polySurface1151
+    4300070: polySurface1156
+    4300072: polySurface1157
+    4300074: polySurface1155
+    4300076: pCube138
+    4300078: pPrism5
+    4300080: pCylinder3
+    4300082: pCylinder2
+    4300084: pCube161
+    4300086: ornate_pillar_low
+    4300088: ornate_pillar_joint1
+    4300090: balcony_arch_wall
+    4300092: balcony_arch01
+    4300094: balcony_arch02
+    4300096: balcony_arch03
+    4300098: balcony_arch04
+    4300100: balcony_arch05
+    4300102: balcony_arch06
+    4300104: balcony_ceiling01
+    4300106: balcony_ceiling02
+    4300108: balcony_bevel01
+    4300110: balcony_bevel02
+    4300112: balcony_bevel03
+    4300114: balcony_top
+    4300116: balcony_bottom
+    4300118: balcony_post01
+    4300120: balcony_post02
+    4300122: balcony_post03
+    4300124: balcony_post04
+    4300126: wood_lattice_long
+    4300128: wood_lattice_short1
+    4300130: wood_lattice_short
+    4300132: wall_long
+    4300134: low_roof
+    4300136: wall_window_corner
+    4300138: polySurface1901
+    4300140: polySurface1900
+    4300142: polySurface1114
+    4300144: polySurface1118
+    4300146: polySurface1117
+    4300148: polySurface1113
+    4300150: polySurface1904
+    4300152: polySurface2232
+    4300154: polySurface2233
+    4300156: sideroof1
+    4300158: roof_a
+    4300160: pointed_roof
+    4300162: pointed_roof1
+    4300164: pointed_roof2
+    4300166: pointed_roof3
+    4300168: pointed_roof4
+    4300170: wall
+    4300172: low_roof1
+    4300174: vaulted_ceiling9
+    4300176: vaulted_ceiling
+    4300178: roofarch2
+    4300180: arch_A1
+    4300182: arch_A4
+    4300184: vaulted_ceiling
+    4300186: vaulted_ceiling5
+    4300188: vaulted_ceiling6
+    4300190: vaulted_ceiling7
+    4300192: vaulted_ceiling8
+    4300194: wall
+    4300196: renovated_arch
+    4300198: smooth_arch
+    4300200: wall_short
+    4300202: wall_ornate
+    4300204: window_frame
+    4300206: arch_pointed_tall
+    4300208: wall_pillar
+    4300210: arch_smooth_b
+    4300212: pillar_medium04
+    4300214: polySurface1901
+    4300216: polySurface1900
+    4300218: polySurface1114
+    4300220: polySurface1118
+    4300222: polySurface1117
+    4300224: polySurface1113
+    4300226: polySurface1904
+    4300228: polySurface2232
+    4300230: polySurface2233
+    4300232: Ornament_low
+    4300234: Ornament_low1
+    4300236: Ornament_low3
+    4300238: pilaster_base
+    4300240: Ornament_low
+    4300242: Ornament_low1
+    4300244: Ornament_low3
+    4300246: pilaster_base
+    4300248: pPrism4
+    4300250: sideroof
+    4300252: Crossbeam
+    4300254: Crossbeam4
+    4300256: Crossbeam2
+    4300258: Crossbeam3
+    4300260: Crossbeam1
+    4300262: Crossbeam
+    4300264: Crossbeam4
+    4300266: Crossbeam2
+    4300268: Crossbeam3
+    4300270: Crossbeam1
+    4300272: Crossbeam
+    4300274: Crossbeam4
+    4300276: Crossbeam2
+    4300278: Crossbeam3
+    4300280: Crossbeam1
+    4300282: Crossbeam
+    4300284: Crossbeam4
+    4300286: Crossbeam2
+    4300288: Crossbeam3
+    4300290: Crossbeam1
+    4300292: Crossbeam
+    4300294: Crossbeam4
+    4300296: Crossbeam2
+    4300298: Crossbeam3
+    4300300: Crossbeam1
+    4300302: Crossbeam
+    4300304: Crossbeam4
+    4300306: Crossbeam2
+    4300308: Crossbeam3
+    4300310: Crossbeam1
+    4300312: Crossbeam
+    4300314: Crossbeam4
+    4300316: Crossbeam2
+    4300318: Crossbeam3
+    4300320: Crossbeam1
+    4300322: Crossbeam
+    4300324: Crossbeam4
+    4300326: Crossbeam2
+    4300328: Crossbeam3
+    4300330: Crossbeam1
+    4300332: Crossbeam
+    4300334: Crossbeam4
+    4300336: Crossbeam2
+    4300338: Crossbeam3
+    4300340: Crossbeam1
+    4300342: Crossbeam
+    4300344: Crossbeam4
+    4300346: Crossbeam2
+    4300348: Crossbeam3
+    4300350: Crossbeam1
+    4300352: Crossbeam
+    4300354: Crossbeam4
+    4300356: Crossbeam2
+    4300358: Crossbeam3
+    4300360: Crossbeam1
+    4300362: Crossbeam
+    4300364: Crossbeam4
+    4300366: Crossbeam2
+    4300368: Crossbeam3
+    4300370: Crossbeam1
+    4300372: Crossbeam
+    4300374: Crossbeam4
+    4300376: Crossbeam2
+    4300378: Crossbeam3
+    4300380: Crossbeam1
+    4300382: floor_altar
+    4300384: floor
+    4300386: CenterChapel
+    4300388: arch_pointed_medium
+    4300390: arch_pointed_medium2
+    4300392: arch_pointed_medium3
+    4300394: pillar_short
+    4300396: arch_pointedx2
+    4300398: Painting_Wall_External
+    4300400: arch_pointed_tall1
+    4300402: wall_window1
+    4300404: wall_window
+    4300406: arch_smooth_a
+    4300408: arch_smooth_a3
+    4300410: pillar_tall_a1
+    4300412: pillar_tall_a2
+    4300414: pillar_tall_b
+    4300416: pillar_tall_b1
+    4300418: pillar_tall_b2
+    4300420: pillar_tall_b3
+    4300422: pillar_tall_b4
+    4300424: pillar_tall_b5
+    4300426: pillar_tall_b6
+    4300428: pillar_tall_b7
+    4300430: pillar_tall_c
+    4300432: pillar_tall_c1
+    4300434: pillar_tall_b8
+    4300436: pillar_tall_b9
+    4300438: aisle_wall1
+    4300440: aisle_wall9
+    4300442: aisle_wall10
+    4300444: aisle_wall11
+    4300446: aisle_wall12
+    4300448: aisle_wall13
+    4300450: aisle_wall14
+    4300452: aisle_wall15
+    4300454: arch_b1
+    4300456: arch_b9
+    4300458: arch_b10
+    4300460: arch_b11
+    4300462: arch_b12
+    4300464: arch_b13
+    4300466: arch_b14
+    4300468: arch_b15
+    4300470: pillar_medium_end
+    4300472: pillar_medium_end1
+    4300474: pillar_medium
+    4300476: polySurface1901
+    4300478: polySurface1900
+    4300480: polySurface1114
+    4300482: polySurface1118
+    4300484: polySurface1117
+    4300486: polySurface1113
+    4300488: polySurface1904
+    4300490: polySurface2232
+    4300492: polySurface2233
+    4300494: polySurface1901
+    4300496: polySurface1900
+    4300498: polySurface1114
+    4300500: polySurface1118
+    4300502: polySurface1117
+    4300504: polySurface1113
+    4300506: polySurface1904
+    4300508: polySurface2232
+    4300510: polySurface2233
+    4300512: arch_back
+    4300514: roof
+    4300516: wall_window_frame
+    4300518: wall_window_low
+    4300520: wall_bevel6
+    4300522: wall_bevel5
+    4300524: wall_bevel4
+    4300526: wall_bevel3
+    4300528: wall_bevel2
+    4300530: wall_bevel1
+    4300532: wall_bevel
+    4300534: polySurface1901
+    4300536: polySurface1900
+    4300538: polySurface1114
+    4300540: polySurface1118
+    4300542: polySurface1117
+    4300544: polySurface1113
+    4300546: polySurface1904
+    4300548: polySurface2232
+    4300550: polySurface2233
+    4300552: altar_step02_old
+    4300554: altar_step01_old
+    4300556: altar01
+    4300558: altar_step02
+    4300560: altar_step01
+    4300562: assumption_room
+    4300564: painting
+    4300566: MainAltar
+    4300568: SideAltar_Step1
+    4300570: SideAltar_Step2
+    4300572: SideAltar_Step3
+    4300574: SideAltar_Step4
+    4300576: SideAltar_Step5
+    4300578: SideAltar_Step6
+    4300580: SideAltar_Step7
+    4300582: SideAltar_Step8
+    4300584: SideAltar_Step9
+    4300586: SideAltar_Step10
+    4300588: SideAltar_Step11
+    4300590: SideAltar_Step12
+    4300592: SideAltar_Step13
+    4300594: SideAltar_Step14
+    4300596: SideAltar_Step15
+    4300598: SideAltar_Step16
+    4300600: SideAltar_Step17
+    4300602: SideAltar_Step18
+    4300604: SideAltar_Step19
+    4300606: SideAltar_Step20
+    4300608: SideAltar_Step21
+    4300610: SideAltar_Step22
+    4300612: SideAltar_Step23
+    4300614: SideAltar1
+    4300616: SideAltar2
+    4300618: SideAltar3
+    4300620: SideAltar4
+    4300622: SideAltar5
+    4300624: SideAltar6
+    4300626: SideAltar7
+    4300628: SideAltar8
+    4300630: SideAltar9
+    4300632: SideAltar10
+    4300634: SideAltar11
+    4300636: SideAltar12
+    4300638: SideAltar13
+    4300640: SideAltar14
+    4300642: SideAltar15
+    4300644: SideAltar16
+    4300646: SideAltar17
+    4300648: SideAltar18
+    4300650: SideAltar19
+    4300652: SideAltar20
+    4300654: SideAltar21
+    4300656: SideAltar22
+    4300658: SideAltar23
+    4300660: SideAltar_Step_Stone1
+    4300662: SideAltar_Step_Stone2
+    4300664: SideAltar_Step_Stone3
+    4300666: SideAltar_Step_Stone4
+    4300668: BlockerPlane
+    4300670: Bracket_Short7
+    4300672: Bracket_Short8
+    4300674: Bracket_Long2
+    4300676: PinnacleCenterBracket1
+    4300678: PinnacleLeftBracket2
+    4300680: Bracket_Short5
+    4300682: Bracket_Short6
+    4300684: AltarPiece_LowPoly1_Brackets_Low_Bracket_Long
+    4300686: AltarPiece_LowPoly1_Brackets_Low_PinnacleLeftBracket1
+    4300688: AltarPieceBase
+    4300690: AltarPieceCenterBar
+    4300692: MainPanelCapitalLeft1
+    4300694: MainPanelFramingLeft
+    4300696: MainPanelFramingTwoLeft
+    4300698: TowerPrism
+    4300700: TowerLeft
+    4300702: SpireBase
+    4300704: Spire
+    4300706: CubeFlat
+    4300708: CubeBase
+    4300710: CubeTall
+    4300712: CubeTop
+    4300714: SpireShort
+    4300716: CubeFlatSmall
+    4300718: CubeTop1
+    4300720: CubeTopTall
+    4300722: CubeTall1
+    4300724: Prism
+    4300726: SpireWiggly
+    4300728: SpireTop
+    4300730: CubeTall2
+    4300732: Prism1
+    4300734: SpireWiggly1
+    4300736: CubeFlat
+    4300738: Top
+    4300740: CubeTall2
+    4300742: Prism1
+    4300744: SpireWiggly1
+    4300746: CubeFlat
+    4300748: Top
+    4300750: SpireBase
+    4300752: Spire
+    4300754: CubeFlat
+    4300756: CubeBase
+    4300758: CubeTall
+    4300760: CubeTop
+    4300762: SpireShort
+    4300764: CubeFlatSmall
+    4300766: CubeTop1
+    4300768: CubeTopTall
+    4300770: CubeTall1
+    4300772: Prism
+    4300774: SpireWiggly
+    4300776: SpireTop
+    4300778: SpireBase
+    4300780: Spire
+    4300782: CubeFlat
+    4300784: CubeBase
+    4300786: CubeTall
+    4300788: CubeTop
+    4300790: SpireShort
+    4300792: CubeFlatSmall
+    4300794: CubeTop1
+    4300796: CubeTopTall
+    4300798: CubeTall1
+    4300800: Prism
+    4300802: SpireWiggly
+    4300804: SpireTop
+    4300806: SpireBase
+    4300808: Spire
+    4300810: CubeFlat
+    4300812: CubeBase
+    4300814: CubeTall
+    4300816: CubeTop
+    4300818: SpireShort
+    4300820: CubeFlatSmall
+    4300822: CubeTop1
+    4300824: CubeTopTall
+    4300826: CubeTall1
+    4300828: Prism
+    4300830: SpireWiggly
+    4300832: SpireTop
+    4300834: CubeTall2
+    4300836: Prism1
+    4300838: SpireWiggly1
+    4300840: CubeFlat
+    4300842: Top
+    4300844: SpireBase
+    4300846: Spire
+    4300848: CubeFlat
+    4300850: CubeBase
+    4300852: CubeTall
+    4300854: CubeTop
+    4300856: SpireShort
+    4300858: CubeFlatSmall
+    4300860: CubeTop1
+    4300862: CubeTopTall
+    4300864: CubeTall1
+    4300866: Prism
+    4300868: SpireWiggly
+    4300870: SpireTop
+    4300872: SpireShort5
+    4300874: AltarPiece_LowPoly1_PillarsShort_SpireShort3
+    4300876: AltarPiece_LowPoly1_PillarsShort_SpireShort4
+    4300878: AltarPiece_LowPoly1_PillarsShort_SpireTower3
+    4300880: AltarPiece_LowPoly1_PillarsShort_SpireTower4
+    4300882: AltarPiece_LowPoly1_PillarsShort_SpireTower5
+    4300884: UpperTierFramingLeft1
+    4300886: UpperTierFramingCenter
+    4300888: PinnacleFrameTopLeft
+    4300890: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleDecoLeft2
+    4300892: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleTopDecoLeft5
+    4300894: AltarPiece_LowPoly1_PinnacleDecoLeft_PinnacleTopDecoLeft4
+    4300896: PinnacleFrameTopLeft
+    4300898: PinnacleTopDecoLeft6
+    4300900: PinnacleTopDecoLeft7
+    4300902: PinnacleDecoLeft3
+    4300904: PinnacleFrameCenter
+    4300906: PinnacleFrameLeft
+    4300908: SpireBase
+    4300910: Spire
+    4300912: CubeFlat
+    4300914: CubeBase
+    4300916: CubeTall
+    4300918: CubeTop
+    4300920: SpireShort
+    4300922: CubeFlatSmall
+    4300924: CubeTop1
+    4300926: CubeTopTall
+    4300928: CubeTall1
+    4300930: Prism
+    4300932: SpireWiggly
+    4300934: SpireTop
+    4300936: AltarPiece_LowPoly1_PinnacleFrameRight
+    4300938: PinnacleFrameTopLeft
+    4300940: PinnacleDecoLeft2
+    4300942: PinnacleTopDecoLeft4
+    4300944: PinnacleTopDecoLeft5
+    4300946: TowerPrism
+    4300948: TowerLeft
+    4300950: SpireBase
+    4300952: Spire
+    4300954: CubeFlat
+    4300956: CubeBase
+    4300958: CubeTall
+    4300960: CubeTop
+    4300962: SpireShort
+    4300964: CubeFlatSmall
+    4300966: CubeTop1
+    4300968: CubeTopTall
+    4300970: CubeTall1
+    4300972: Prism
+    4300974: SpireWiggly
+    4300976: SpireTop
+    4300978: CubeTall2
+    4300980: Prism1
+    4300982: SpireWiggly1
+    4300984: CubeFlat
+    4300986: Top
+    4300988: CubeTall2
+    4300990: Prism1
+    4300992: SpireWiggly1
+    4300994: CubeFlat
+    4300996: Top
+    4300998: SpireBase
+    4301000: Spire
+    4301002: CubeFlat
+    4301004: CubeBase
+    4301006: CubeTall
+    4301008: CubeTop
+    4301010: SpireShort
+    4301012: CubeFlatSmall
+    4301014: CubeTop1
+    4301016: CubeTopTall
+    4301018: CubeTall1
+    4301020: Prism
+    4301022: SpireWiggly
+    4301024: SpireTop
+    4301026: SpireBase
+    4301028: Spire
+    4301030: CubeFlat
+    4301032: CubeBase
+    4301034: CubeTall
+    4301036: CubeTop
+    4301038: SpireShort
+    4301040: CubeFlatSmall
+    4301042: CubeTop1
+    4301044: CubeTopTall
+    4301046: CubeTall1
+    4301048: Prism
+    4301050: SpireWiggly
+    4301052: SpireTop
+    4301054: SpireBase
+    4301056: Spire
+    4301058: CubeFlat
+    4301060: CubeBase
+    4301062: CubeTall
+    4301064: CubeTop
+    4301066: SpireShort
+    4301068: CubeFlatSmall
+    4301070: CubeTop1
+    4301072: CubeTopTall
+    4301074: CubeTall1
+    4301076: Prism
+    4301078: SpireWiggly
+    4301080: SpireTop
+    4301082: CubeTall2
+    4301084: Prism1
+    4301086: SpireWiggly1
+    4301088: CubeFlat
+    4301090: Top
+    4301092: AltarPiece_LowPoly1_UpperTierFramingRight
+    4301094: AltarPiece_LowPoly1_MainPanelFramingTwoRight
+    4301096: AltarPiece_LowPoly1_MainPanelFramingCenter
+    4301098: AltarPiece_LowPoly1_MainPanelFramingRight
+    4301100: AltarPiece_LowPoly1_MainPanelCapitalRight
+    4301102: MainPanelLeft
+    4301104: MainPanelRight
+    4301106: MainPanelCenter
+    4301108: UpperTierPanelLeft1
+    4301110: UpperTierPanelCenter1
+    4301112: UpperTierPanelRight1
+    4301114: PinnaclePanelLeft2
+    4301116: PinnaclePanelRight2
+    4301118: PinnaclePanelLeft3
+    4301120: transept_column_capital_t2
+    4301122: transept_column_capital_t1
+    4301124: transept_column
+    4301126: transept_column_base
+    4301128: central_pier
+    4301130: corner_pier
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: facadedoor
+    second: {fileID: 2100000, guid: 47e39e970353baa4d8f85655ea5ff3ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: oculus_glass_mat
+    second: {fileID: 2100000, guid: 59c0a53c6e2759045831dfb9771b03a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong5
+    second: {fileID: 2100000, guid: b71f4e361ac363e44ab018f988abda42, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
