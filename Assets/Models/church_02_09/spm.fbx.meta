@@ -630,6 +630,8 @@ ModelImporter:
     101248: wood_lattice_short
     101250: wood_lattice_short1
     101252: Blocker
+    101254: base
+    101256: pillar_medium1
     400000: aisle_arches
     400002: aisle_wall1
     400004: aisle_wall10
@@ -1257,6 +1259,8 @@ ModelImporter:
     401248: wood_lattice_short
     401250: wood_lattice_short1
     401252: Blocker
+    401254: base
+    401256: pillar_medium1
     2100000: limestone_mat
     2100002: plaster_mat
     2100004: brick_mat
@@ -1823,6 +1827,8 @@ ModelImporter:
     2301072: wood_lattice_short1
     2301074: Blocker
     2301076: Capital
+    2301078: base
+    2301080: pillar_medium1
     3300000: aisle_wall1
     3300002: aisle_wall10
     3300004: aisle_wall11
@@ -2362,6 +2368,8 @@ ModelImporter:
     3301072: wood_lattice_short1
     3301074: Blocker
     3301076: Capital
+    3301078: base
+    3301080: pillar_medium1
     4300000: ribbed_vault_conjoined
     4300002: ribbed_vault
     4300004: front_center_door_bevel2
@@ -2901,6 +2909,8 @@ ModelImporter:
     4301072: PinnaclePanelLeft3
     4301074: Blocker
     4301076: Capital
+    4301078: base
+    4301080: pillar_medium1
     2186277476908879412: ImportLogs
   externalObjects:
   - first:
