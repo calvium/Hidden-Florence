@@ -5,7 +5,8 @@ Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: altarpiece mat
   m_Shader: {fileID: 4800000, guid: c255d8531f2b0e149abbf118fed6e439, type: 3}
   m_ShaderKeywords: _NORMALMAP _PARALLAXMAP
@@ -81,11 +82,11 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.518
+    - _Glossiness: 0.634
     - _GlossyReflections: 1
     - _GlowLevel: 60
     - _Level: 1
-    - _Metallic: 0.602
+    - _Metallic: 0.401
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.01
