@@ -6,31 +6,23 @@ using TMPro;
 using UnityEngine.SceneManagement;
 
 public class IMStartMenu : MonoBehaviour {
-	[SerializeField] TextMeshProUGUI titleTextBox;
-	[SerializeField] TextMeshProUGUI instructionsTextBox;
+	[SerializeField] TextMeshProUGUI titleTextBox, instructionsTextBox;
 	[SerializeField] string[] texts;
-	[SerializeField] private CanvasGroup startBackground;
-	[SerializeField] private CanvasGroup titleBox;
-	[SerializeField] private CanvasGroup subtitleText;
-	[SerializeField] private CanvasGroup subtitleBox;
+	[SerializeField] private CanvasGroup startBackground, titleBox, subtitleText, subtitleBox;
 	[SerializeField] private float speed;
-	[SerializeField] private CanvasGroup scanFloorIcon;
-	[SerializeField] private CanvasGroup paintingIcon;
-	[SerializeField] private CanvasGroup churchIcon;
+	[SerializeField] private CanvasGroup scanFloorIcon, paintingIcon, churchIcon;
 	public Image dialChurch;
-	[SerializeField] private activateChurchTriggers churchScript;
+	[SerializeField] private activateChurchTriggers _act;
 	[SerializeField] private debugLogTextScript dbScript;
 	public bool foundH = true;
 	public bool foundV = true;
 
 	[SerializeField] private triggerMain arScript;
-	[SerializeField] private GameObject sCol;
-	[SerializeField] private GameObject rayCastTarget;
-	[SerializeField] private GameObject unscanners;
+	[SerializeField] private GameObject sCol, rayCastTarget, unscanners;
 
 	[SerializeField] private CanvasGroup infoCanvas;
 	[SerializeField] private GameObject infoObject;
-	[SerializeField] private GameObject boundary;
+	// [SerializeField] private GameObject boundary;//
 	public GameObject paintings;
 
  
@@ -42,7 +34,7 @@ public class IMStartMenu : MonoBehaviour {
 		startBackground.alpha=1;
 		rayCastTarget.SetActive(false);
 		unscanners.SetActive(false);
-		boundary.SetActive(false);
+		// boundary.SetActive(false);
 		StartCoroutine(fadeOut(startBackground));
 		StartCoroutine(fadeIn(titleBox));
 		StartCoroutine(beginning());
@@ -100,7 +92,13 @@ public class IMStartMenu : MonoBehaviour {
 				dbScript.addToString("found church");
 				break;
 			case 6:
+				instructionsTextBox.text = texts[txt]; //Look back at the painting
+				Debug.Log("debugging case 06");
+				_act.bigRaycast.SetActive(true);
 				dbScript.addToString("hit box");
+				break;
+			case 7:
+				dbScript.addToString("hit raycast");
 				StartCoroutine(fadeOut(subtitleBox));
 				// StartCoroutine(turnOnBoundaries());
 				break;
@@ -133,7 +131,7 @@ public class IMStartMenu : MonoBehaviour {
 	}
 	IEnumerator turnOnBoundaries(){
 		yield return new WaitForSeconds(2f);
-		boundary.SetActive(true);
+		// boundary.SetActive(true);
 		unscanners.SetActive(true);
 	}
 

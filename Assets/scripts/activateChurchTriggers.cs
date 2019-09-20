@@ -7,7 +7,7 @@ public class activateChurchTriggers : MonoBehaviour {
 
 	[SerializeField] private GameObject churchImg;
 	[SerializeField] private GameObject triggerCube;
-	[SerializeField] private GameObject raycast;
+	public GameObject smlRaycast, bigRaycast;
 	[SerializeField] private Material glowmat;
 	[SerializeField] private debugLogTextScript dbScript;
 	[SerializeField] private IMStartMenu menu;
@@ -15,6 +15,7 @@ public class activateChurchTriggers : MonoBehaviour {
 	[SerializeField] private bool started;
 	[SerializeField] private float downTime;
 	[SerializeField] private float activateTime;
+	public scanTrigger _scanTrigger;
 
 	// Use this for initialization
 	void Start () {
@@ -22,6 +23,7 @@ public class activateChurchTriggers : MonoBehaviour {
 		// menu = GameObject.Find("canvasUI").GetComponent<IMStartMenu>();
 		churchImg.SetActive(false);
 		triggerCube.SetActive(false);
+		bigRaycast.SetActive(false);
 	}
 
 	void Update(){
@@ -31,11 +33,14 @@ public class activateChurchTriggers : MonoBehaviour {
 		RaycastHit hit;
 
         if (Physics.Raycast(ray, out hit, 200)) {
-			if(raycast == hit.collider.gameObject){
+			if(smlRaycast == hit.collider.gameObject){
 				Debug.Log("You have selected the " + hit.collider.name);
 				started = true;
 			}else{
 				started = false;
+			}
+			if(bigRaycast == hit.collider.gameObject){
+				_scanTrigger.startScan();
 			}
 		}
 		if(started && downTime<activateTime){
@@ -43,6 +48,7 @@ public class activateChurchTriggers : MonoBehaviour {
 			menu.dialChurch.fillAmount = downTime/activateTime;
 			if(downTime >= activateTime){
 				turnOn();
+				smlRaycast.SetActive(false);
 			}
 		}
 	}
