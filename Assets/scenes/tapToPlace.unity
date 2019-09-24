@@ -9285,7 +9285,7 @@ MonoBehaviour:
   scanScript: {fileID: 18}
   paintingMat: {fileID: 2100000, guid: ba6d83a0f8180aa4fb6c0ea13751070e, type: 2}
   paintingNum: 1.2
-  altarpiece: {fileID: 0}
+  altarpiece: {fileID: 32406969}
   ScannerOrigin: {fileID: 604085996}
   anim: {fileID: 1952152132}
   altarBase: {fileID: 32406968}
