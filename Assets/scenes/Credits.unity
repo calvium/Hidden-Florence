@@ -618,14 +618,19 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6316346681948380373, guid: 4285413763c734794835e10b13ed98d3,
+    - target: {fileID: 570323693137741848, guid: 4285413763c734794835e10b13ed98d3,
         type: 3}
-      propertyPath: m_Name
-      value: UI_Canvas
+      propertyPath: m_AnchoredPosition.y
+      value: -467.6
       objectReference: {fileID: 0}
-    - target: {fileID: 6316346681948380373, guid: 4285413763c734794835e10b13ed98d3,
+    - target: {fileID: 570323693137741848, guid: 4285413763c734794835e10b13ed98d3,
         type: 3}
-      propertyPath: m_IsActive
+      propertyPath: m_SizeDelta.y
+      value: 935.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5722104579447239208, guid: 4285413763c734794835e10b13ed98d3,
+        type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6316346681948380369, guid: 4285413763c734794835e10b13ed98d3,
@@ -733,9 +738,14 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5722104579447239208, guid: 4285413763c734794835e10b13ed98d3,
+    - target: {fileID: 6316346681948380373, guid: 4285413763c734794835e10b13ed98d3,
         type: 3}
-      propertyPath: m_Enabled
+      propertyPath: m_Name
+      value: UI_Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316346681948380373, guid: 4285413763c734794835e10b13ed98d3,
+        type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6342343737338994533, guid: 4285413763c734794835e10b13ed98d3,
@@ -777,16 +787,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_MovementType
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 570323693137741848, guid: 4285413763c734794835e10b13ed98d3,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -467.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 570323693137741848, guid: 4285413763c734794835e10b13ed98d3,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 935.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4285413763c734794835e10b13ed98d3, type: 3}

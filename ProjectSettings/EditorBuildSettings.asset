@@ -6,12 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/scenes/_start.unity
-    guid: 0f463e586ef649b4c8345da07dfc8f5d
+    path: Assets/Scenes/_Start.unity
+    guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/scenes/imageAnchor.unity
+    path: Assets/Scenes/MainMenu.unity
+    guid: 68e95d93fa16946558bd349d16349c18
+  - enabled: 1
+    path: Assets/Scenes/ExperienceSelector.unity
+    guid: dfe378d2f31fb4dcfaea5b2c03ed00bb
+  - enabled: 1
+    path: Assets/Scenes/ExperienceLoader.unity
+    guid: dc2b2a64514fa4d4994babf26a3b4e4e
+  - enabled: 1
+    path: Assets/Scenes/imageAnchor.unity
     guid: b3b84c8362dcfb94592e98fa227927bf
   - enabled: 1
-    path: Assets/scenes/tapToPlace.unity
+    path: Assets/Scenes/tapToPlace.unity
     guid: 6eea48fabbf240e46b0c574f4d37583c
+  - enabled: 1
+    path: Assets/Scenes/About.unity
+    guid: 586a36c063f3048c0a44a3fa879aab60
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 50c0bb2ccc22340218820f2bce9943a5
+  - enabled: 1
+    path: Assets/Scenes/Extras.unity
+    guid: d5c36443925124128be131e42fde2b39
   m_configObjects: {}

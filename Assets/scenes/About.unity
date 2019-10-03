@@ -88,7 +88,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 09c81d146d49040328863f6d290fd742,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -204,11 +205,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: LinkButton (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_Text
-      value: Download Android
-      objectReference: {fileID: 0}
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -247,7 +243,7 @@ PrefabInstance:
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
@@ -267,17 +263,17 @@ PrefabInstance:
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 334
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -510.8003
+      value: -647
       objectReference: {fileID: 0}
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 350
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
@@ -333,7 +329,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1799235798}
+      objectReference: {fileID: 0}
     - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -348,6 +344,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: https://play.google.com/store/apps/details?id=uk.ac.exeter.hiddenflorence
+      objectReference: {fileID: 0}
+    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_Text
+      value: Download on Android
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3250267ba7613490e819c1d58bb59af6, type: 3}
@@ -387,12 +388,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 427249177}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 317, y: 162}
-  m_SizeDelta: {x: 650, y: 135}
+  m_AnchoredPosition: {x: 367.5, y: 179.69995}
+  m_SizeDelta: {x: 633, y: 126}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &79750725
 MonoBehaviour:
@@ -427,7 +428,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Download Hidden Florence
+  m_Text: "Download \nHidden Florence"
 --- !u!222 &79750726
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -543,6 +544,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2060849229}
+  - {fileID: 2080447539}
   - {fileID: 79750724}
   - {fileID: 613429038}
   - {fileID: 1873547075}
@@ -589,10 +591,10 @@ RectTransform:
   m_Father: {fileID: 1082383734}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 685.33, y: -758.9555}
-  m_SizeDelta: {x: 1368, y: 485.4}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 1.3399658, y: 1150.3}
+  m_SizeDelta: {x: 0, y: -3264.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &547659219
 GameObject:
@@ -626,10 +628,10 @@ RectTransform:
   m_Father: {fileID: 524929318}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 317, y: 205.20001}
-  m_SizeDelta: {x: 650, y: 75}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 212.55005, y: -37.799988}
+  m_SizeDelta: {x: -626.9, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &547659221
 MonoBehaviour:
@@ -789,8 +791,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -447.3}
-  m_SizeDelta: {x: 610, y: 487}
+  m_AnchoredPosition: {x: 0, y: -358.5}
+  m_SizeDelta: {x: 619, y: 717}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &595336025
 MonoBehaviour:
@@ -812,7 +814,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 8851330bc0b91451da90f21f920833ff, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 406f92e25eb9c4cdf8ddeaeb85bf1214, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -859,12 +861,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 427249177}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 317, y: -159.2}
-  m_SizeDelta: {x: 650, y: 507.4}
+  m_AnchoredPosition: {x: 368, y: -187.9}
+  m_SizeDelta: {x: 632, y: 570.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &613429039
 MonoBehaviour:
@@ -923,11 +925,6 @@ PrefabInstance:
     - target: {fileID: 1263377286925462, guid: 3250267ba7613490e819c1d58bb59af6, type: 3}
       propertyPath: m_Name
       value: LinkButton
-      objectReference: {fileID: 0}
-    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_Text
-      value: Find out more
       objectReference: {fileID: 0}
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
@@ -992,7 +989,7 @@ PrefabInstance:
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -591
+      value: -549.3
       objectReference: {fileID: 0}
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
@@ -1053,7 +1050,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1799235798}
+      objectReference: {fileID: 0}
     - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -1068,6 +1065,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: https://www.nationalgallery.org.uk/paintings/jacopo-di-cione-and-workshop-the-coronation-of-the-virgin-central-main-tier-panel
+      objectReference: {fileID: 0}
+    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_Text
+      value: Find out more
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3250267ba7613490e819c1d58bb59af6, type: 3}
@@ -1103,10 +1105,10 @@ RectTransform:
   m_Father: {fileID: 524929318}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 317, y: -109.44997}
-  m_SizeDelta: {x: 650, y: 554.3}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 212.5, y: -116.29997}
+  m_SizeDelta: {x: -626.8, y: 82}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &946178098
 MonoBehaviour:
@@ -1144,9 +1146,9 @@ MonoBehaviour:
   m_Text: "San Pier Maggiore was one of the most important churches in Florence, attached
     to a prestigious convent of Benedictine nuns.  The church was demolished in the
     eighteenth century to make way for a covered market and all that remains today
-    is a street of the same name. Its artworks are now dispersed in collections around
-    the world, including Jacopo di Cione\u2019s altarpiece painted for the church\u2019s
-    the high altar in 1371, now in the National Gallery."
+    is a street of the same name. \n\nIts artworks are now dispersed in collections
+    around the world, including Jacopo di Cione\u2019s altarpiece painted for the
+    church\u2019s the high altar in 1371, now in the National Gallery. "
 --- !u!222 &946178099
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1237,11 +1239,6 @@ PrefabInstance:
     - target: {fileID: 1263377286925462, guid: 3250267ba7613490e819c1d58bb59af6, type: 3}
       propertyPath: m_Name
       value: LinkButton
-      objectReference: {fileID: 0}
-    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_Text
-      value: Find out more
       objectReference: {fileID: 0}
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
@@ -1367,7 +1364,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1799235798}
+      objectReference: {fileID: 0}
     - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -1383,6 +1380,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: https://hiddenflorence.org/hf-3d/rebuilding-a-church-in-3d/
       objectReference: {fileID: 0}
+    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_Text
+      value: Find out more
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3250267ba7613490e819c1d58bb59af6, type: 3}
 --- !u!1 &1408945365
@@ -1397,7 +1399,7 @@ GameObject:
   - component: {fileID: 1408945368}
   - component: {fileID: 1408945367}
   m_Layer: 5
-  m_Name: Body_Label
+  m_Name: Description_Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1417,10 +1419,10 @@ RectTransform:
   m_Father: {fileID: 1082383734}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 100, y: -150}
-  m_SizeDelta: {x: 981, y: 332}
+  m_SizeDelta: {x: -200, y: -3418}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1408945367
 MonoBehaviour:
@@ -1505,7 +1507,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 685.28, y: -3149}
+  m_AnchoredPosition: {x: 684, y: -3306}
   m_SizeDelta: {x: 1368, y: 485.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1481213446
@@ -1518,11 +1520,6 @@ PrefabInstance:
     - target: {fileID: 1263377286925462, guid: 3250267ba7613490e819c1d58bb59af6, type: 3}
       propertyPath: m_Name
       value: LinkButton
-      objectReference: {fileID: 0}
-    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_Text
-      value: Find out more
       objectReference: {fileID: 0}
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
@@ -1582,12 +1579,12 @@ PrefabInstance:
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -8
+      value: 525.9
       objectReference: {fileID: 0}
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -475
+      value: -718.3
       objectReference: {fileID: 0}
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
@@ -1602,22 +1599,22 @@ PrefabInstance:
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
@@ -1648,7 +1645,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1799235798}
+      objectReference: {fileID: 0}
     - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -1663,6 +1660,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: https://hiddenflorence.org/hf-3d/about/
+      objectReference: {fileID: 0}
+    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_Text
+      value: Find out more
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3250267ba7613490e819c1d58bb59af6, type: 3}
@@ -1716,10 +1718,10 @@ RectTransform:
   m_Father: {fileID: 524929318}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -352.15002}
-  m_SizeDelta: {x: 610, y: 487}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -78.5}
+  m_SizeDelta: {x: -872, y: 157}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1616561736
 MonoBehaviour:
@@ -1741,7 +1743,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 8851330bc0b91451da90f21f920833ff, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 909596d5f79a147778cfc91075f38283, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1854,7 +1856,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 8851330bc0b91451da90f21f920833ff, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 71cb34e715700416cbad3d9532a2225c, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1905,8 +1907,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -289.35, y: -204.6}
-  m_SizeDelta: {x: 593.2, y: 594.7}
+  m_AnchoredPosition: {x: -275.7, y: -190.77}
+  m_SizeDelta: {x: 620.5, y: 567.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1766135658
 MonoBehaviour:
@@ -2077,55 +2079,68 @@ PrefabInstance:
       propertyPath: m_Text
       value: About
       objectReference: {fileID: 0}
+    - target: {fileID: 6519934683788168516, guid: 4285413763c734794835e10b13ed98d3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 570323693137741848, guid: 4285413763c734794835e10b13ed98d3,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1270.0507
+      value: -1363.1
       objectReference: {fileID: 0}
     - target: {fileID: 570323693137741848, guid: 4285413763c734794835e10b13ed98d3,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 3564.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 570323693137741848, guid: 4285413763c734794835e10b13ed98d3,
-        type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 570323693137741848, guid: 4285413763c734794835e10b13ed98d3,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 570323693137741848, guid: 4285413763c734794835e10b13ed98d3,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 570323693137741848, guid: 4285413763c734794835e10b13ed98d3,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 2726.2
       objectReference: {fileID: 0}
     - target: {fileID: 570323693137741848, guid: 4285413763c734794835e10b13ed98d3,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1368
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 570323693137741848, guid: 4285413763c734794835e10b13ed98d3,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 570323693137741848, guid: 4285413763c734794835e10b13ed98d3,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 570323693137741848, guid: 4285413763c734794835e10b13ed98d3,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 570323693137741848, guid: 4285413763c734794835e10b13ed98d3,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3363697010763957919, guid: 4285413763c734794835e10b13ed98d3,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: FadeToPreviousScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 7813549571241205600, guid: 4285413763c734794835e10b13ed98d3,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7821895772939723326, guid: 4285413763c734794835e10b13ed98d3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 382673799134717266, guid: 4285413763c734794835e10b13ed98d3,
+        type: 3}
+      propertyPath: sceneChangerAnimator
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4285413763c734794835e10b13ed98d3, type: 3}
---- !u!114 &1799235798 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1533919533881130917, guid: 4285413763c734794835e10b13ed98d3,
-    type: 3}
-  m_PrefabInstance: {fileID: 1799235797}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 298bbb615602a4916aaf1e5fe57568f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1851511192
 GameObject:
   m_ObjectHideFlags: 0
@@ -2161,7 +2176,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -585.95, y: 167.7}
-  m_SizeDelta: {x: 593.2, y: 150}
+  m_SizeDelta: {x: 620.5, y: 150}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1851511194
 MonoBehaviour:
@@ -2216,11 +2231,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: LinkButton
       objectReference: {fileID: 0}
-    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_Text
-      value: Download iOS
-      objectReference: {fileID: 0}
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2259,7 +2269,7 @@ PrefabInstance:
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
@@ -2279,17 +2289,17 @@ PrefabInstance:
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -27
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -510.8003
+      value: -548.25
       objectReference: {fileID: 0}
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 350
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
@@ -2345,7 +2355,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1799235798}
+      objectReference: {fileID: 0}
     - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -2360,6 +2370,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: https://apps.apple.com/gb/app/hidden-florence/id896723912
+      objectReference: {fileID: 0}
+    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
+        type: 3}
+      propertyPath: m_Text
+      value: Download on iOS
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3250267ba7613490e819c1d58bb59af6, type: 3}
@@ -2404,7 +2419,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 174.62003, y: -2500}
-  m_SizeDelta: {x: 221.83, y: 49.9}
+  m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2022965918
 MonoBehaviour:
@@ -2418,6 +2433,106 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_textAlignment: 257
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: -1
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_textInfo:
+    textComponent: {fileID: 2022965918}
+    characterCount: 0
+    spriteCount: 0
+    spaceCount: 0
+    wordCount: 0
+    linkCount: 0
+    lineCount: 0
+    pageCount: 0
+    materialCount: 1
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2022965919
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2460,8 +2575,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -341.9001}
-  m_SizeDelta: {x: 610, y: 487}
+  m_AnchoredPosition: {x: 0, y: -184.49994}
+  m_SizeDelta: {x: 524, y: 369}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &2060849230
 MonoBehaviour:
@@ -2483,7 +2598,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 8851330bc0b91451da90f21f920833ff, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4e1d1ef5e52004e8c918c300741efe99, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2499,4 +2614,78 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2060849228}
+  m_CullTransparentMesh: 0
+--- !u!1 &2080447538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2080447539}
+  - component: {fileID: 2080447541}
+  - component: {fileID: 2080447540}
+  m_Layer: 5
+  m_Name: Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2080447539
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080447538}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 427249177}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 159, y: -580}
+  m_SizeDelta: {x: 524, y: 369}
+  m_Pivot: {x: 0, y: 0.5}
+--- !u!114 &2080447540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080447538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 575275e7450714f8f9c72c63864a43ad, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &2080447541
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080447538}
   m_CullTransparentMesh: 0
