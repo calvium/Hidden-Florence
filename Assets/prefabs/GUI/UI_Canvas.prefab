@@ -182,6 +182,20 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+--- !u!114 &6975672704386787111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2504841959921920598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1741964061, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 2
+  m_VerticalFit: 2
 --- !u!1 &2857484320698208444
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,6 +761,26 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1033801692503445548, guid: d44a2e1ecc4264a299c90b9fc01ebc5a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033801692503445548, guid: d44a2e1ecc4264a299c90b9fc01ebc5a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5032404998007231944, guid: d44a2e1ecc4264a299c90b9fc01ebc5a,
+        type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5032404998007231944, guid: d44a2e1ecc4264a299c90b9fc01ebc5a,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6619458493004771772, guid: d44a2e1ecc4264a299c90b9fc01ebc5a,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -774,6 +808,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d44a2e1ecc4264a299c90b9fc01ebc5a, type: 3}
+--- !u!1 &2504841959921920598 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4544349545659572475, guid: d44a2e1ecc4264a299c90b9fc01ebc5a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2148843367866075821}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &6967978723059939412 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 9034504610222125817, guid: d44a2e1ecc4264a299c90b9fc01ebc5a,
