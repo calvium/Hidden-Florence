@@ -5,7 +5,8 @@ Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: painting
   m_Shader: {fileID: 4800000, guid: 8a52d484f25754f42b390c0d3dd5c3d8, type: 3}
   m_ShaderKeywords: _ALPHATEST_ON
@@ -72,7 +73,7 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _GlowLevel: 0.02
-    - _Level: 1.2
+    - _Level: -0.2136957
     - _Metallic: 1
     - _Mode: 1
     - _OcclusionStrength: 1
