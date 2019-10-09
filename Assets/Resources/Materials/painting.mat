@@ -73,7 +73,7 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _GlowLevel: 0.02
-    - _Level: -0.2136957
+    - _Level: 1.2
     - _Metallic: 1
     - _Mode: 1
     - _OcclusionStrength: 1

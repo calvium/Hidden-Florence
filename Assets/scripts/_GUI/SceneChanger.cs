@@ -23,9 +23,11 @@ public class SceneChanger : MonoBehaviour
 
 		switch(sceneName) {
 			case "ExperienceLoader":
+            case "imageAnchor":
+            case "tapToPlace":
 				previousScene = "ExperienceSelector";
 				break;
-			default:
+            default:
 				previousScene = "MainMenu";
 				break;
 		}
