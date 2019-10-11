@@ -33,8 +33,9 @@ public class ExperienceManager_Elsewhere : MonoBehaviour
     public Text instructionsText;
     public CanvasGroup alertCanvas;
     public CanvasGroup instructionsCanvas;
+    public CanvasGroup scanGifCanvas;
 
-    [Header("UI strings")]
+    [Header("UI Strings")]
     public string SCANNING_AlertText;
     public string SCANNING_InstructionsText;
     public string PLACING_AlertText;
@@ -51,7 +52,7 @@ public class ExperienceManager_Elsewhere : MonoBehaviour
 
     private void Start()
     {
-        alertCanvas.alpha = instructionsCanvas.alpha = 0;
+        alertCanvas.alpha = instructionsCanvas.alpha = scanGifCanvas.alpha = 0;
         setExperienceState(ExperienceState.SCANNING);
     }
 
@@ -87,9 +88,10 @@ public class ExperienceManager_Elsewhere : MonoBehaviour
 				experienceState = state;
 				alert.text = SCANNING_AlertText;
                 instructions.text = SCANNING_InstructionsText;
-				StartCoroutine(fadeIn(alertCanvas, alertSpeed, 3f));
+				StartCoroutine(fadeIn(alertCanvas, alertSpeed, 1f));
 				StartCoroutine(fadeIn(instructionsCanvas, instructionsSpeed, 4f));
-				StartCoroutine(fadeOut(alertCanvas, alertSpeed, 6f));
+                StartCoroutine(fadeIn(scanGifCanvas, instructionsSpeed, 4f));
+                StartCoroutine(fadeOut(alertCanvas, alertSpeed, 5f));
 				altarBase.SetActive(false);
                 focusSquare.SetActive(true);
                 break;
@@ -98,6 +100,7 @@ public class ExperienceManager_Elsewhere : MonoBehaviour
 				experienceState = state;
 				alert.text = PLACING_AlertText;
                 instructions.text = PLACING_InstructionsText;
+                StartCoroutine(fadeOut(scanGifCanvas, instructionsSpeed, 0f));
                 StartCoroutine(fadeIn(alertCanvas, alertSpeed, 0f));
                 StartCoroutine(fadeOut(alertCanvas, alertSpeed, 6f));
                 break;
@@ -189,7 +192,7 @@ public class ExperienceManager_Elsewhere : MonoBehaviour
     IEnumerator fadeIn(CanvasGroup c, float speed, float delay = 0.5f)
     {
         yield return new WaitForSeconds(delay);
-        float temp = c.alpha = 0;
+        float temp = c.alpha;// = 0;
         while (temp < 1)
         {
             temp += Time.deltaTime * speed;
@@ -200,7 +203,7 @@ public class ExperienceManager_Elsewhere : MonoBehaviour
     IEnumerator fadeOut(CanvasGroup c, float speed, float delay = 0.5f)
     {
         yield return new WaitForSeconds(delay);
-        float temp = c.alpha = 1;
+        float temp = c.alpha; //= 1;
         while (temp > 0)
         {
             temp -= Time.deltaTime * speed;
