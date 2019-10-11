@@ -110,14 +110,14 @@ public class IMStartMenu : MonoBehaviour {
 	IEnumerator fadeIn(CanvasGroup c){
 		float temp = c.alpha = 0;
 		yield return new WaitForSeconds(0.5f);
-		while(temp<1){
+		while(temp<0.7){
 			temp += Time.deltaTime*speed;
 			c.alpha=temp;
 			yield return null;
 		}
 	}
 	IEnumerator fadeOut(CanvasGroup c){
-		float temp = c.alpha = 1;
+		float temp = c.alpha = 0.7f;
 		yield return new WaitForSeconds(0.5f);
 		while(temp>0){
 			temp -= Time.deltaTime*speed;
