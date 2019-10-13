@@ -505,6 +505,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
       value: FLORENCE
       objectReference: {fileID: 0}
+    - target: {fileID: 5529653108032866986, guid: 820d05ec68d18415b9adcf8015f64aaf,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2032663084540593142, guid: 820d05ec68d18415b9adcf8015f64aaf,
         type: 3}
       propertyPath: m_Text
@@ -519,6 +524,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: I'm in Florence
+      objectReference: {fileID: 0}
+    - target: {fileID: 5561508582379980728, guid: 820d05ec68d18415b9adcf8015f64aaf,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 820d05ec68d18415b9adcf8015f64aaf, type: 3}
@@ -623,6 +633,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6316346681948380373, guid: 4285413763c734794835e10b13ed98d3,
+        type: 3}
+      propertyPath: m_Name
+      value: UI_Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 6316346681948380373, guid: 4285413763c734794835e10b13ed98d3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8217442338914621646, guid: 4285413763c734794835e10b13ed98d3,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 603.58997
+      objectReference: {fileID: 0}
     - target: {fileID: 3750336566358230250, guid: 4285413763c734794835e10b13ed98d3,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -762,16 +787,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 408.59
-      objectReference: {fileID: 0}
-    - target: {fileID: 6316346681948380373, guid: 4285413763c734794835e10b13ed98d3,
-        type: 3}
-      propertyPath: m_Name
-      value: UI_Canvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 6316346681948380373, guid: 4285413763c734794835e10b13ed98d3,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6316346681948380369, guid: 4285413763c734794835e10b13ed98d3,
         type: 3}
@@ -923,6 +938,11 @@ PrefabInstance:
       propertyPath: m_MovementType
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8171202352813328844, guid: 4285413763c734794835e10b13ed98d3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6519934683788168516, guid: 4285413763c734794835e10b13ed98d3,
         type: 3}
       propertyPath: m_IsActive
@@ -989,16 +1009,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMin.y
       value: 0.90800005
-      objectReference: {fileID: 0}
-    - target: {fileID: 8171202352813328844, guid: 4285413763c734794835e10b13ed98d3,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8217442338914621646, guid: 4285413763c734794835e10b13ed98d3,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 603.58997
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4285413763c734794835e10b13ed98d3, type: 3}
@@ -1191,11 +1201,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 5560273862529194093, guid: 820d05ec68d18415b9adcf8015f64aaf,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5529653108032866986, guid: 820d05ec68d18415b9adcf8015f64aaf,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1270,6 +1275,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: I'm in the Gallery
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560273862529194093, guid: 820d05ec68d18415b9adcf8015f64aaf,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 820d05ec68d18415b9adcf8015f64aaf, type: 3}

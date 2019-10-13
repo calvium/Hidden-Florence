@@ -25,12 +25,14 @@ public class IMStartMenu : MonoBehaviour {
 	// [SerializeField] private GameObject boundary;//
 	public GameObject paintings;
 
+    public CanvasGroup helpCanvas;
+
  
 	// Use this for initialization
 	void Start () {
 		titleTextBox.text = texts[0];
 		instructionsTextBox.text = "";
-		titleBox.alpha=subtitleBox.alpha=0;
+		titleBox.alpha=subtitleBox.alpha=helpCanvas.alpha=0;
 		startBackground.alpha=1;
 		rayCastTarget.SetActive(false);
 		unscanners.SetActive(false);
@@ -107,17 +109,31 @@ public class IMStartMenu : MonoBehaviour {
 	public void two(){
 		StartCoroutine(fadeOut(subtitleBox));
 	}
-	IEnumerator fadeIn(CanvasGroup c){
+
+    // TODO: Rework this bit
+    public void handleHelpButtonPress()
+    {
+        if (helpCanvas.alpha == 0)
+        {
+            StartCoroutine(fadeIn(helpCanvas, 1f));
+        }
+        else
+        {
+            StartCoroutine(fadeOut(helpCanvas, 1f));
+        }
+    }
+    IEnumerator fadeIn(CanvasGroup c, float maxAlpha = 0.7f){
 		float temp = c.alpha = 0;
 		yield return new WaitForSeconds(0.5f);
-		while(temp<0.7){
+		while(temp<maxAlpha){
 			temp += Time.deltaTime*speed;
 			c.alpha=temp;
 			yield return null;
 		}
 	}
-	IEnumerator fadeOut(CanvasGroup c){
-		float temp = c.alpha = 0.7f;
+	IEnumerator fadeOut(CanvasGroup c, float maxAlpha = 0.7f)
+    {
+		float temp = c.alpha = maxAlpha;
 		yield return new WaitForSeconds(0.5f);
 		while(temp>0){
 			temp -= Time.deltaTime*speed;

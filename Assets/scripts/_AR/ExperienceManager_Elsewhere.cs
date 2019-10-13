@@ -34,6 +34,7 @@ public class ExperienceManager_Elsewhere : MonoBehaviour
     public CanvasGroup alertCanvas;
     public CanvasGroup instructionsCanvas;
     public CanvasGroup scanGifCanvas;
+    public CanvasGroup helpCanvas;
 
     [Header("UI Strings")]
     public string SCANNING_AlertText;
@@ -52,7 +53,7 @@ public class ExperienceManager_Elsewhere : MonoBehaviour
 
     private void Start()
     {
-        alertCanvas.alpha = instructionsCanvas.alpha = scanGifCanvas.alpha = 0;
+        alertCanvas.alpha = instructionsCanvas.alpha = scanGifCanvas.alpha = helpCanvas.alpha = 0;
         setExperienceState(ExperienceState.SCANNING);
     }
 
@@ -157,6 +158,18 @@ public class ExperienceManager_Elsewhere : MonoBehaviour
     private void startExperience()
     {
         StartCoroutine(startScannerEffect());
+    }
+
+    public void handleHelpButtonPress()
+    {
+        // TODO: Rework this bit
+        if (helpCanvas.alpha == 0)
+        {
+            StartCoroutine(fadeIn(helpCanvas, alertSpeed, 0));
+        } else
+        {
+            StartCoroutine(fadeOut(helpCanvas, alertSpeed, 0));
+        }
     }
 
     IEnumerator showPainting()
