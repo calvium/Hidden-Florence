@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.XR.iOS;
 
-enum ExperienceState { SCANNING, PLACING, GETTING_READY, EXPERIENCING};
+enum ElsewhereExperience_State { SCANNING, PLACING, GETTING_READY, EXPERIENCING};
 
 public class ExperienceManager_Elsewhere : MonoBehaviour
 {
@@ -49,12 +49,12 @@ public class ExperienceManager_Elsewhere : MonoBehaviour
     public GameObject focusSquareFocused;
     [SerializeField] public UnityARGeneratePlane generatePlaneScrip;
 
-    private ExperienceState experienceState = ExperienceState.SCANNING;
+    private ElsewhereExperience_State experienceState = ElsewhereExperience_State.SCANNING;
 
     private void Start()
     {
         alertCanvas.alpha = instructionsCanvas.alpha = scanGifCanvas.alpha = helpCanvas.alpha = 0;
-        setExperienceState(ExperienceState.SCANNING);
+        setExperienceState(ElsewhereExperience_State.SCANNING);
     }
 
     private void Update()
@@ -66,26 +66,26 @@ public class ExperienceManager_Elsewhere : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0) && !isPointerOverUIObject())
         {
-            if (experienceState == ExperienceState.PLACING)
+            if (experienceState == ElsewhereExperience_State.PLACING)
             {
-                setExperienceState(ExperienceState.GETTING_READY);
-            } else if (experienceState == ExperienceState.GETTING_READY)
+                setExperienceState(ElsewhereExperience_State.GETTING_READY);
+            } else if (experienceState == ElsewhereExperience_State.GETTING_READY)
             {
-                setExperienceState(ExperienceState.EXPERIENCING);
+                setExperienceState(ElsewhereExperience_State.EXPERIENCING);
             }
-        } else if (experienceState == ExperienceState.SCANNING && generatePlaneScrip.hasGeneratedPlanes())
+        } else if (experienceState == ElsewhereExperience_State.SCANNING && generatePlaneScrip.hasGeneratedPlanes())
         {
-            setExperienceState(ExperienceState.PLACING);
+            setExperienceState(ElsewhereExperience_State.PLACING);
         }
     }
 
-    private void setExperienceState(ExperienceState state)
+    private void setExperienceState(ElsewhereExperience_State state)
     {
         Text alert = alertText.GetComponent<UnityEngine.UI.Text>();
         Text instructions = instructionsText.GetComponent<UnityEngine.UI.Text>();
         switch (state)
         {
-            case ExperienceState.SCANNING:
+            case ElsewhereExperience_State.SCANNING:
 				experienceState = state;
 				alert.text = SCANNING_AlertText;
                 instructions.text = SCANNING_InstructionsText;
@@ -97,7 +97,7 @@ public class ExperienceManager_Elsewhere : MonoBehaviour
                 focusSquare.SetActive(true);
                 break;
 
-            case ExperienceState.PLACING:
+            case ElsewhereExperience_State.PLACING:
 				experienceState = state;
 				alert.text = PLACING_AlertText;
                 instructions.text = PLACING_InstructionsText;
@@ -106,7 +106,7 @@ public class ExperienceManager_Elsewhere : MonoBehaviour
                 StartCoroutine(fadeOut(alertCanvas, alertSpeed, 6f));
                 break;
 
-            case ExperienceState.GETTING_READY:
+            case ElsewhereExperience_State.GETTING_READY:
                 if (!placeAltarPiece()) break;
                 experienceState = state;
                 alert.text = GETTING_READY_AlertText;
@@ -116,7 +116,7 @@ public class ExperienceManager_Elsewhere : MonoBehaviour
                 altarBase.SetActive(true);
                 focusSquare.SetActive(false);
                 break;
-            case ExperienceState.EXPERIENCING:
+            case ElsewhereExperience_State.EXPERIENCING:
 				StartCoroutine(fadeOut(instructionsCanvas, alertSpeed, 0f));
 				experienceState = state;
 				startExperience();
@@ -126,7 +126,6 @@ public class ExperienceManager_Elsewhere : MonoBehaviour
 
     private bool placeAltarPiece()
     {
-        // TODO: Check if focus square is focus
         if (!focusSquareFocused.active == true)
 		{
 			return false;
@@ -151,7 +150,7 @@ public class ExperienceManager_Elsewhere : MonoBehaviour
         }
 
         StartCoroutine(showPainting());
-
+        
 		return true;
     }
 
@@ -205,7 +204,7 @@ public class ExperienceManager_Elsewhere : MonoBehaviour
     IEnumerator fadeIn(CanvasGroup c, float speed, float delay = 0.5f)
     {
         yield return new WaitForSeconds(delay);
-        float temp = c.alpha;// = 0;
+        float temp = c.alpha;
         while (temp < 1)
         {
             temp += Time.deltaTime * speed;
@@ -216,7 +215,7 @@ public class ExperienceManager_Elsewhere : MonoBehaviour
     IEnumerator fadeOut(CanvasGroup c, float speed, float delay = 0.5f)
     {
         yield return new WaitForSeconds(delay);
-        float temp = c.alpha; //= 1;
+        float temp = c.alpha;
         while (temp > 0)
         {
             temp -= Time.deltaTime * speed;

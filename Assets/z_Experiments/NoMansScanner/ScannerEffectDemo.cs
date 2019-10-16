@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
-using System.Collections;
 using UnityEngine.UI;
+using System.Collections;
 
 [ExecuteInEditMode]
 public class ScannerEffectDemo : MonoBehaviour
@@ -16,8 +16,6 @@ public class ScannerEffectDemo : MonoBehaviour
 	public Camera _cameraMain;
 
 	public Image isitpainting;
-
-	public GameObject church;
 
 	// Demo Code
 	public bool _scanning;
