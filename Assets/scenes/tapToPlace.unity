@@ -56,13 +56,13 @@ LightmapSettings:
   m_LightmapEditorSettings:
     serializedVersion: 10
     m_Resolution: 1
-    m_BakeResolution: 80
-    m_AtlasSize: 1024
+    m_BakeResolution: 10
+    m_AtlasSize: 256
     m_AO: 1
     m_AOMaxDistance: 1
     m_CompAOExponent: 1.87
     m_CompAOExponentDirect: 0
-    m_Padding: 4
+    m_Padding: 2
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 0
@@ -88,7 +88,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 112000000, guid: 3f4d4cfb3db444c35a7b15b0c8c40575,
+  m_LightingDataAsset: {fileID: 112000000, guid: 050c46e54e135455d83afa1bd8829127,
     type: 2}
   m_UseShadowmask: 0
 --- !u!196 &5
@@ -15130,7 +15130,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1283895725}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a871825cc1d24137a49c89445f61872, type: 3}
   m_Name: 
