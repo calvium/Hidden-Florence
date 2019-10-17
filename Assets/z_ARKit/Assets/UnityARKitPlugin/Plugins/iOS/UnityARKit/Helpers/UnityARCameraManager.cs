@@ -81,6 +81,7 @@ public class UnityARCameraManager : MonoBehaviour {
 
     void OnDestroy()
     {
+        ResetScene();
         m_session.Pause();
     }
 
@@ -173,6 +174,13 @@ public class UnityARCameraManager : MonoBehaviour {
         // var config = sessionConfiguration;
         // m_session.RunWithConfig (config);
         // StartCoroutine(startUp(num));
+    }
+
+
+    public void ResetScene()
+    {
+        ARKitWorldTrackingSessionConfiguration sessionConfig = new ARKitWorldTrackingSessionConfiguration(UnityARAlignment.UnityARAlignmentGravity, UnityARPlaneDetection.HorizontalAndVertical);
+        UnityARSessionNativeInterface.GetARSessionNativeInterface().RunWithConfigAndOptions(sessionConfig, UnityARSessionRunOption.ARSessionRunOptionRemoveExistingAnchors | UnityARSessionRunOption.ARSessionRunOptionResetTracking);
     }
 
 }
