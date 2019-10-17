@@ -81,7 +81,7 @@ public class tapStartMenu : MonoBehaviour {
 	IEnumerator back(){
 		StartCoroutine(fadeIn(startBackground));
 		yield return new WaitForSeconds(1.5f);
-		SceneManager.LoadScene("_start");
+		SceneManager.LoadScene("MainMenu");
 	}
 
 }

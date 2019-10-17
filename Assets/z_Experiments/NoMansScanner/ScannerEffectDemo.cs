@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
-using System.Collections;
 using UnityEngine.UI;
+using System.Collections;
 
 [ExecuteInEditMode]
 public class ScannerEffectDemo : MonoBehaviour
@@ -16,8 +16,6 @@ public class ScannerEffectDemo : MonoBehaviour
 	public Camera _cameraMain;
 
 	public Image isitpainting;
-
-	public GameObject church;
 
 	// Demo Code
 	public bool _scanning;
@@ -66,40 +64,6 @@ public class ScannerEffectDemo : MonoBehaviour
 			_scanning = true;
 			ScanDistance = 0;
 		}
-
-
-		// if(tapToPlace) {
-		// 	if (Input.GetMouseButtonDown(0) && mainCam) {
-		// 		Debug.Log("debugging --- tap");
-		// 		dbScript.addToString("tapped screen");
-		// 		Ray ray = _cameraMain.ScreenPointToRay(Input.mousePosition);
-		// 		RaycastHit hit;
-		// 		if (Physics.Raycast(ray, out hit)) {
-		// 			if(!started){
-		// 				started = true;
-		// 				Debug.Log("debugging --- tap tap tap");
-		// 				dbScript.addToString("start painting");
-		// 				church.transform.parent = null;
-		// 				_scanning = true;
-		// 				ScanDistance = 0;
-		// 				ScannerOrigin.position = hit.point;
-		// 				particleMat.SetColor("_TintColor", _particlesOff);
-		// 				fadeInPainting.startFade();
-		// 				StartCoroutine(turnOffCam02());
-		// 			}
-		// 		}
-		// 	}
-		// }
-
-
-		//^^^------- THIS BIT IS THE TAP TO SCAN
-
-		// if(imageScript.paintingStarted){
-		// 	// ScannerOrigin.position = imageScript.point;
-		// 	isitpainting.color = Color.blue;
-		// 	}else{
-		// 	isitpainting.color = Color.red;
-		// }
 	}
 
 	public void startPainting(){
