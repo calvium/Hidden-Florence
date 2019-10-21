@@ -22,17 +22,20 @@ namespace UnityEngine.XR.iOS
 		}
 
 
-		public void AddAnchor(ARPlaneAnchor arPlaneAnchor)
-		{
-			GameObject go = UnityARUtility.CreatePlaneInScene (arPlaneAnchor);
-			go.AddComponent<DontDestroyOnLoad> ();  //this is so these GOs persist across scene loads
-			ARPlaneAnchorGameObject arpag = new ARPlaneAnchorGameObject ();
-			arpag.planeAnchor = arPlaneAnchor;
-			arpag.gameObject = go;
-			planeAnchorMap.Add (arPlaneAnchor.identifier, arpag);
-		}
+        public void AddAnchor(ARPlaneAnchor arPlaneAnchor)
+        {
+            if (!planeAnchorMap.ContainsKey(arPlaneAnchor.identifier))
+            {
+                GameObject go = UnityARUtility.CreatePlaneInScene(arPlaneAnchor);
+                go.AddComponent<DontDestroyOnLoad>();  //this is so these GOs persist across scene loads
+                ARPlaneAnchorGameObject arpag = new ARPlaneAnchorGameObject();
+                arpag.planeAnchor = arPlaneAnchor;
+                arpag.gameObject = go;
+                planeAnchorMap.Add(arPlaneAnchor.identifier, arpag);
+            }
+        }
 
-		public void RemoveAnchor(ARPlaneAnchor arPlaneAnchor)
+        public void RemoveAnchor(ARPlaneAnchor arPlaneAnchor)
 		{
 			if (planeAnchorMap.ContainsKey (arPlaneAnchor.identifier)) {
 				ARPlaneAnchorGameObject arpag = planeAnchorMap [arPlaneAnchor.identifier];
