@@ -5,19 +5,22 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/_start.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 68e95d93fa16946558bd349d16349c18
-  - enabled: 0
-    path: Assets/Scenes/ExperienceSelector.unity
+  - enabled: 1
+    path: Assets/Scenes/ExperiencesMenu/ExperienceSelector.unity
     guid: dfe378d2f31fb4dcfaea5b2c03ed00bb
-  - enabled: 0
-    path: Assets/Scenes/ExperienceLoader.unity
+  - enabled: 1
+    path: Assets/Scenes/ExperiencesMenu/ExperienceInstructions.unity
+    guid: 3ef7e31c210e04b6eab11c6ff2f7dee6
+  - enabled: 1
+    path: Assets/Scenes/ExperiencesMenu/ExperienceLoader.unity
     guid: dc2b2a64514fa4d4994babf26a3b4e4e
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/imageAnchor.unity
     guid: b3b84c8362dcfb94592e98fa227927bf
   - enabled: 1
@@ -26,13 +29,31 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FlorenceAR.unity
     guid: 1f011ce384e4d4e3e8dfc1e50636a6c0
-  - enabled: 0
-    path: Assets/Scenes/About.unity
+  - enabled: 1
+    path: Assets/Scenes/About/About.unity
     guid: 586a36c063f3048c0a44a3fa879aab60
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/About/About_SPM.unity
+    guid: 50bbbbf32158d4509b260e28af22390f
+  - enabled: 1
+    path: Assets/Scenes/About/About_WhyAR.unity
+    guid: 33f7af5ab21f34e278e1f30555356450
+  - enabled: 1
+    path: Assets/Scenes/About/About_Download.unity
+    guid: 128a6b193cb11433cba36dcc09734c30
+  - enabled: 1
+    path: Assets/Scenes/About/About_OpenSource.unity
+    guid: 574055b5c0d1240079ddc00ac53f2058
+  - enabled: 1
     path: Assets/Scenes/Credits.unity
-    guid: 50c0bb2ccc22340218820f2bce9943a5
-  - enabled: 0
-    path: Assets/Scenes/Extras.unity
-    guid: d5c36443925124128be131e42fde2b39
+    guid: 1545694e7c48648e4a328af7afcddaf2
+  - enabled: 1
+    path: Assets/Scenes/Extras/Extras.unity
+    guid: de5d07994bbf442e698f50fd876cb4a5
+  - enabled: 1
+    path: Assets/Scenes/Extras/Extras_RelatedArt.unity
+    guid: 89b1420c718f842b7a4ec479e39feda8
+  - enabled: 1
+    path: Assets/Scenes/Extras/Extras_HF.unity
+    guid: 7c4621d3fb7d14dfdb869f68b901b8e7
   m_configObjects: {}

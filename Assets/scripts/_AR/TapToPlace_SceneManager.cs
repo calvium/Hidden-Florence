@@ -108,7 +108,8 @@ public class TapToPlace_SceneManager : MonoBehaviour
 				this.state = newState;
 				alert.text = PLACING_AlertText;
                 instructions.text = PLACING_InstructionsText;
-                scanGifCanvas.gameObject.SetActive(false);
+                //scanGifCanvas.gameObject.SetActive(false);
+                StartCoroutine(fadeOut(scanGifCanvas, 0f));
                 StartCoroutine(fadeIn(alertCanvas, 0f));
                 StartCoroutine(fadeOut(alertCanvas, 6f));
                 break;
@@ -208,7 +209,6 @@ public class TapToPlace_SceneManager : MonoBehaviour
         List<RaycastResult> results = new List<RaycastResult>();
         EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
         return results.Count > 0;
-
     }
     IEnumerator fadeIn(CanvasGroup c, float delay = 0.5f)
     {
