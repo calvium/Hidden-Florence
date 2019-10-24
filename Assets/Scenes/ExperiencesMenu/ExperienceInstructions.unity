@@ -382,6 +382,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3250267ba7613490e819c1d58bb59af6, type: 3}
+--- !u!1 &288339813 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1263377286925462, guid: 3250267ba7613490e819c1d58bb59af6,
+    type: 3}
+  m_PrefabInstance: {fileID: 288339812}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &624920096
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1111,12 +1117,12 @@ PrefabInstance:
     - target: {fileID: 5556593052101669495, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -250.00002
+      value: -250
       objectReference: {fileID: 0}
     - target: {fileID: 5556593052101669495, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: -500.00003
+      value: -500
       objectReference: {fileID: 0}
     - target: {fileID: 900978597862910009, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
         type: 3}
@@ -1387,6 +1393,7 @@ MonoBehaviour:
   Title: {fileID: 1443866736}
   Body: {fileID: 178951699}
   Image: {fileID: 127039363}
+  Extra_Button: {fileID: 288339813}
   NationalGallery_Title: The National Gallery
   NationalGallery_Instructions: "<b>To experience one of the National Gallery\u2019s
     most important Italian paintings within its original medieval setting:</b>\n\n1.
@@ -1398,10 +1405,13 @@ MonoBehaviour:
     sure that you can see the central pane in the camera view\n\n6. Point the camera
     at the church in the left hand pane of the altarpiece. Its outline will appear
     on the screen\n\n7. Take a few steps backwards - being careful of the bench. Keep
-    going slowly backwards until you are near the center of the gallery\n\n8. Tap
-    the screen to watch the altarpiece move into place and for the experience to build"
+    going slowly backwards until you are near the center of the gallery\n\n8. When
+    you are far enough, look back at the pane and tap start to watch\n\n9. Walk around
+    and explore the San Pier Maggiore"
   NationalGallery_Image: {fileID: 21300000, guid: 1ccf7dac1d748463ca66ce23dec8b44e,
     type: 3}
+  NationalGallery_Extra_Button_Title: The National Gallery Floorplan
+  NationalGallery_Extra_Button_URL: https://www.nationalgallery.org.uk/visiting/floorplans/level-2
   Florence_Title: Florence
   Florence_Instructions: "<b>To experience one of the National Gallery\u2019s most
     important Italian paintings within its original medieval setting:</b>\n\n1. In
@@ -1417,6 +1427,8 @@ MonoBehaviour:
     San Pier Maggiore and its main altar and chapels in its original site, being very
     careful to watch for traffic in the road"
   Florence_Image: {fileID: 21300000, guid: 5fb6e4d3daecf4ef9a3f8fa3bee94a6e, type: 3}
+  Florence_Extra_Button_Title: Piazza di San Pier Maggiore Location
+  Florence_Extra_Button_URL: http://maps.apple.com/?daddr=43.771346,11.261598
   Elsewhere_Title: Elsewhere
   Elsewhere_Instructions: "<b>To experience one of the National Gallery\u2019s most
     important Italian paintings within its original medieval setting:</b>\n\n1. As
