@@ -104,7 +104,7 @@ public class IMStartMenu : MonoBehaviour {
 				Debug.Log("debugging case 06");
                 startButton.interactable = true;
                 StartCoroutine(fadeIn(startButtonCanvas));
-				_act.bigRaycast.SetActive(true);
+				//_act.bigRaycast.SetActive(true);
 				//dbScript.addToString("hit box");
 				break;
 			case 7:
