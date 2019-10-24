@@ -26,14 +26,18 @@ public class IMStartMenu : MonoBehaviour {
 	public GameObject paintings;
 
     public CanvasGroup helpCanvas;
+    public CanvasGroup startButtonCanvas;
+    public Button startButton;
+    public ScannerEffectDemo scannerEffectDemo;
 
- 
-	// Use this for initialization
-	void Start () {
+
+    // Use this for initialization
+    void Start () {
 		titleTextBox.text = texts[0];
 		instructionsTextBox.text = "";
-		titleBox.alpha=subtitleBox.alpha=helpCanvas.alpha=0;
-		startBackground.alpha=1;
+		titleBox.alpha=subtitleBox.alpha=helpCanvas.alpha=startButtonCanvas.alpha=0;
+        startButton.interactable = false;
+        startBackground.alpha=1;
 		rayCastTarget.SetActive(false);
 		unscanners.SetActive(false);
 		// boundary.SetActive(false);
@@ -92,36 +96,43 @@ public class IMStartMenu : MonoBehaviour {
 				yield return new WaitForSeconds(0.5f);
 				sCol.SetActive(true);
 				dbScript.addToString("found church");
-				break;
+                yield return new WaitForSeconds(5f);
+                callSetText(6);
+                break;
 			case 6:
 				instructionsTextBox.text = texts[txt]; //Look back at the painting
 				Debug.Log("debugging case 06");
+                startButton.interactable = true;
+                StartCoroutine(fadeIn(startButtonCanvas));
 				_act.bigRaycast.SetActive(true);
-				dbScript.addToString("hit box");
+				//dbScript.addToString("hit box");
 				break;
 			case 7:
 				dbScript.addToString("hit raycast");
-				StartCoroutine(fadeOut(subtitleBox));
+                StartCoroutine(fadeOut(startButtonCanvas));
+                StartCoroutine(fadeOut(subtitleBox));
 				// StartCoroutine(turnOnBoundaries());
 				break;
 		}
 	}
 	public void two(){
-		StartCoroutine(fadeOut(subtitleBox));
+		//StartCoroutine(fadeOut(subtitleBox));
 	}
-
-    // TODO: Rework this bit
+    public void handleStartButtonPress()
+    {
+        scannerEffectDemo.startPainting();
+        callSetText(7);
+    }
     public void handleHelpButtonPress()
     {
-        if (helpCanvas.alpha == 0)
-        {
-            StartCoroutine(fadeIn(helpCanvas, 1f));
-        }
-        else
-        {
-            StartCoroutine(fadeOut(helpCanvas, 1f));
-        }
+        StartCoroutine(fadeIn(helpCanvas, 1f));
     }
+
+    public void handleCloseHelpPanelPress()
+    {
+        StartCoroutine(fadeOut(helpCanvas, 1f));
+    }
+
     IEnumerator fadeIn(CanvasGroup c, float maxAlpha = 0.7f){
 		float temp = c.alpha = 0;
 		yield return new WaitForSeconds(0.5f);

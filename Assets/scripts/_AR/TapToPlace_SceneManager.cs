@@ -97,8 +97,8 @@ public class TapToPlace_SceneManager : MonoBehaviour
 				alert.text = SCANNING_AlertText;
                 instructions.text = SCANNING_InstructionsText;
 				StartCoroutine(fadeIn(alertCanvas, 1f));
-                StartCoroutine(fadeIn(scanGifCanvas, 4f));
-				StartCoroutine(fadeIn(instructionsCanvas, 4f));
+                StartCoroutine(fadeIn(scanGifCanvas, 2f));
+				StartCoroutine(fadeIn(instructionsCanvas, 2f));
                 StartCoroutine(fadeOut(alertCanvas, 5f));
 				altarBase.SetActive(false);
                 focusSquare.SetActive(true);
@@ -119,6 +119,7 @@ public class TapToPlace_SceneManager : MonoBehaviour
                 this.state = newState;
                 alert.text = GETTING_READY_AlertText;
                 instructions.text = GETTING_READY_InstructionsText;
+                StartCoroutine(fadeOut(scanGifCanvas, 0f));
                 StartCoroutine(fadeIn(alertCanvas, 0f));
                 StartCoroutine(fadeOut(alertCanvas, 6f));
                 altarBase.SetActive(true);
