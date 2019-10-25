@@ -6,7 +6,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Church_WIP (Tap to Place)
+  m_Name: elsewhereAR (Tap to Place)
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: go

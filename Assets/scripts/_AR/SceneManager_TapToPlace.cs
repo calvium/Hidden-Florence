@@ -6,14 +6,11 @@ using UnityEngine.EventSystems;
 using UnityEngine.XR.iOS;
 
 
-public class TapToPlace_SceneManager : MonoBehaviour
+public class SceneManager_TapToPlace : MonoBehaviour
 {
-    public enum TapToPlace_Type { ELSEWHERE, FLORENCE };
     public enum TapToPlace_State { SCANNING, PLACING, GETTING_READY, EXPERIENCING };
     private TapToPlace_State state = TapToPlace_State.SCANNING;
-
-    [Header("Experience Type")]
-    public TapToPlace_Type type = TapToPlace_Type.ELSEWHERE;
+    private ExperienceType selectedExperience;
 
     [Header("Church")]
     public GameObject churchContainer;
@@ -22,7 +19,8 @@ public class TapToPlace_SceneManager : MonoBehaviour
     [Header("Placeholder Altar")]
     public Transform altarPiece;
     public float altarPieceOffsetHeight;
-    public GameObject altarBase;
+    public GameObject altarBase_Florence;
+    public GameObject altarBase_Elsewhere;
 
     [Header("ScannerEffect")]
     public Transform scannerEffectOrigin;
@@ -33,24 +31,26 @@ public class TapToPlace_SceneManager : MonoBehaviour
     [Header("UI Objects")]
     public Text alertText;
     public Text instructionsText;
-    public Text helpTitleText;
-    public Text helpContentText;
     public CanvasGroup alertCanvas;
     public CanvasGroup instructionsCanvas;
     public CanvasGroup scanGifCanvas;
     public CanvasGroup helpCanvas;
 
-    [Header("UI Strings")]
-    public float fadeSpeed;
-    public string SCANNING_AlertText;
-    public string SCANNING_InstructionsText;
-    public string PLACING_AlertText;
-    public string PLACING_InstructionsText;
-    public string GETTING_READY_AlertText;
-    public string GETTING_READY_InstructionsText;
-    public string HELP_TitleText;
-    [TextArea]
-    public string HELP_ContentText;
+    [Header("UI Strings - Florence")]
+    public string scanningAlert_Florence;
+    public string scanningInstruction_Florence;
+    public string placingAlert_Florence;
+    public string placingInstruction_Florence;
+    public string gettingReadyAlert_Florence;
+    public string gettingReadyInstruction_Florence;
+
+    [Header("UI Strings - Elsewhere")]
+    public string scanningAlert_Elsewhere;
+    public string scanningInstruction_Elsewhere;
+    public string placingAlert_Elsewhere;
+    public string placingInstruction_Elsewhere;
+    public string gettingReadyAlert_Elsewhere;
+    public string gettingReadyInstruction_Elsewhere;
 
     [Header("AR Object")]
     public GameObject focusSquare;
@@ -61,9 +61,9 @@ public class TapToPlace_SceneManager : MonoBehaviour
     private void Start()
     {
         alertCanvas.alpha = instructionsCanvas.alpha = scanGifCanvas.alpha = helpCanvas.alpha = 0;
+        selectedExperience = AppManager.Instance.SelectedExperience;
+
         setExperienceState(TapToPlace_State.SCANNING);
-        helpTitleText.text = HELP_TitleText;
-        helpContentText.text = HELP_ContentText;
     }
 
     private void Update()
@@ -84,30 +84,38 @@ public class TapToPlace_SceneManager : MonoBehaviour
         {
             setExperienceState(TapToPlace_State.PLACING);
         }
+
+        // Update scanner effect origin position
+        if (selectedExperience == ExperienceType.ELSEWHERE && scannerEffectOrigin.position != altarPiece.position)
+        {
+            scannerEffectOrigin.position = altarPiece.position;
+        }
     }
 
     private void setExperienceState(TapToPlace_State newState)
     {
         Text alert = alertText.GetComponent<UnityEngine.UI.Text>();
         Text instructions = instructionsText.GetComponent<UnityEngine.UI.Text>();
+        bool isFlorence = selectedExperience == ExperienceType.FLORENCE;
         switch (newState)
         {
             case TapToPlace_State.SCANNING:
 				this.state = newState;
-				alert.text = SCANNING_AlertText;
-                instructions.text = SCANNING_InstructionsText;
+                alert.text = isFlorence ? scanningAlert_Florence : scanningAlert_Elsewhere;
+                instructions.text = isFlorence ? scanningInstruction_Florence : scanningInstruction_Elsewhere;
 				StartCoroutine(fadeIn(alertCanvas, 1f));
                 StartCoroutine(fadeIn(scanGifCanvas, 2f));
 				StartCoroutine(fadeIn(instructionsCanvas, 2f));
                 StartCoroutine(fadeOut(alertCanvas, 5f));
-				altarBase.SetActive(false);
+                altarBase_Florence.SetActive(false);
+                altarBase_Elsewhere.SetActive(false);
                 focusSquare.SetActive(true);
                 break;
 
             case TapToPlace_State.PLACING:
 				this.state = newState;
-				alert.text = PLACING_AlertText;
-                instructions.text = PLACING_InstructionsText;
+                alert.text = isFlorence ? placingAlert_Florence : placingAlert_Elsewhere;
+                instructions.text = isFlorence ? placingInstruction_Florence : placingInstruction_Elsewhere;
                 //scanGifCanvas.gameObject.SetActive(false);
                 StartCoroutine(fadeOut(scanGifCanvas, 0f));
                 StartCoroutine(fadeIn(alertCanvas, 0f));
@@ -117,12 +125,18 @@ public class TapToPlace_SceneManager : MonoBehaviour
             case TapToPlace_State.GETTING_READY:
                 if (!placeAltarPiece()) break;
                 this.state = newState;
-                alert.text = GETTING_READY_AlertText;
-                instructions.text = GETTING_READY_InstructionsText;
+                alert.text = isFlorence ? gettingReadyAlert_Florence : gettingReadyAlert_Elsewhere;
+                instructions.text = isFlorence ? gettingReadyInstruction_Florence : gettingReadyInstruction_Elsewhere; ;
                 StartCoroutine(fadeOut(scanGifCanvas, 0f));
                 StartCoroutine(fadeIn(alertCanvas, 0f));
                 StartCoroutine(fadeOut(alertCanvas, 6f));
-                altarBase.SetActive(true);
+                if (selectedExperience == ExperienceType.FLORENCE)
+                {
+                    altarBase_Florence.SetActive(true);
+                } else
+                {
+                    altarBase_Elsewhere.SetActive(true);
+                }
                 focusSquare.SetActive(false);
                 break;
             case TapToPlace_State.EXPERIENCING:
@@ -150,12 +164,6 @@ public class TapToPlace_SceneManager : MonoBehaviour
             churchContainer.transform.eulerAngles.x,
             Camera.main.transform.eulerAngles.y,
             churchContainer.transform.eulerAngles.z);
-
-        // Update scanner effect origin position
-        if (type == TapToPlace_Type.ELSEWHERE)
-        {
-            scannerEffectOrigin.position = altarPiece.position;
-        }
 
         // IDK ??
         if (paintingNum <= -0.2)
@@ -218,7 +226,7 @@ public class TapToPlace_SceneManager : MonoBehaviour
         c.gameObject.SetActive(true);
         while (temp < 1)
         {
-            temp += Time.deltaTime * fadeSpeed;
+            temp += Time.deltaTime * 2;
             c.alpha = temp;
             yield return null;
         }
@@ -229,7 +237,7 @@ public class TapToPlace_SceneManager : MonoBehaviour
         float temp = c.alpha;
         while (temp > 0)
         {
-            temp -= Time.deltaTime * fadeSpeed;
+            temp -= Time.deltaTime * 2;
             c.alpha = temp;
             yield return null;
         }

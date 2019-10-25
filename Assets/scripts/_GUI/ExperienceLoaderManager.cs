@@ -42,7 +42,7 @@ public class ExperienceLoaderManager : MonoBehaviour
                 break;
             case ExperienceType.FLORENCE:
                 warningText.text = Florence_Warning;
-                experienceScene = "FlorenceAR";
+                experienceScene = "tapToPlace";
                 break;
             case ExperienceType.ELSEWHERE:
                 warningText.text = Elsewhere_Warning;
