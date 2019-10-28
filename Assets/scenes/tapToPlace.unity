@@ -56,14 +56,14 @@ LightmapSettings:
   m_LightmapEditorSettings:
     serializedVersion: 10
     m_Resolution: 1
-    m_BakeResolution: 10
+    m_BakeResolution: 15
     m_AtlasSize: 1024
     m_AO: 1
     m_AOMaxDistance: 1
     m_CompAOExponent: 1.87
     m_CompAOExponentDirect: 0
     m_Padding: 2
-    m_LightmapParameters: {fileID: 15200, guid: 0000000000000000f000000000000000,
+    m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000,
       type: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 0
@@ -8049,7 +8049,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1125343514}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21.8, y: -0.36, z: 1.32}
+  m_LocalPosition: {x: 21.8, y: -0.36, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1459389017}
@@ -8607,7 +8607,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e34a29b61a6f5848a0137e09d5feac5, type: 3}
+  - {fileID: 2100000, guid: dad67bad80f84e1408a3524bf146fe44, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9520,7 +9520,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e34a29b61a6f5848a0137e09d5feac5, type: 3}
+  - {fileID: 2100000, guid: 0ffa6796fe481334ab24ddfd74c9e1ff, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10268,7 +10268,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e34a29b61a6f5848a0137e09d5feac5, type: 3}
+  - {fileID: 2100000, guid: 0ffa6796fe481334ab24ddfd74c9e1ff, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
