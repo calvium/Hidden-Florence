@@ -168,8 +168,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: f878a1fc85bec4f64a25c351536734bc, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
@@ -242,8 +240,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 042d134cb4fc144fca881d47c901e00d, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
@@ -316,8 +312,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 37925bcec99e147318acdeb703310625, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
@@ -390,8 +384,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 6dcc78abdf0e64c4a968502fa35de576, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
@@ -488,13 +480,11 @@ MonoBehaviour:
   m_HandleRect: {fileID: 754790539}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5562376
+  m_Size: 0.5198418
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.Scrollbar+ScrollEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &442247488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -513,8 +503,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -587,8 +575,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 3f33353ed351b4c7b9f289d2ca5aa334, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
@@ -743,11 +729,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b4b64bbe359324067baf0aea236b4afd, type: 3}
-    m_FontSize: 24
+    m_FontSize: 33
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -824,8 +808,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 30f6eac32069bcd45867e29ba78bb611, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -898,8 +880,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 0118f2e6d4e644f48974878973335cbb, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
@@ -1136,8 +1116,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 28217b357e5d7464eadbaabb97e3b710, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
@@ -1272,8 +1250,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 14606c553d8434ecf89b8b4c2b28db7b, type: 3}
     m_FontSize: 36
@@ -1351,8 +1327,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 14606c553d8434ecf89b8b4c2b28db7b, type: 3}
     m_FontSize: 36
@@ -1430,11 +1404,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b4b64bbe359324067baf0aea236b4afd, type: 3}
-    m_FontSize: 24
+    m_FontSize: 33
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -1446,8 +1418,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Comune di Firenze \u2013 Centro Storico Patrimonio Mondiale UNESCO office
-    Associazione MUS.E.\nNational Gallery, London\nPolo museale della Toscana - Ministero
-    dei Beni e delle attivit\xE0 culturali\nDECIMA, University of Toronto \n"
+    \nAssociazione MUS.E.\nNational Gallery, London\n"
 --- !u!222 &1756771405
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1517,8 +1488,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: aa07522f158cb46018eed5101575e01a, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
@@ -1597,8 +1566,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 866a231f4ac43436299456f3d053907a, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
@@ -1697,12 +1664,67 @@ PrefabInstance:
     - target: {fileID: 5635659906275608796, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 9
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 5635659906275608796, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
         type: 3}
       propertyPath: m_firstOverflowCharacterIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5635659906275608796, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
+        type: 3}
+      propertyPath: m_text
+      value: "Hidden Florence 3D: San Pier Maggiore is the result of a collaborative
+        research project led by Fabrizio Nevola (University of Exeter), with Donal
+        Cooper (University of Cambridge). The app and project have been made possible
+        with support from the Getty Foundation, through its Digital Art History initiative;
+        additional support was provided from the University of Exeter and the Arts
+        and Humanities Research Council, UK (award: AH/R008086/1). \n\nWe are especially
+        grateful to our partners for this project, the National Gallery, London.\n\nThe
+        original San Pier Maggiore model \u2013 which forms the starting point for
+        the 3D model in the app \u2013 was created as part of a collaboration between
+        Donal Cooper and Fran\xE7ois Penz (University of Cambridge) and Jennifer Sliwka
+        (then National Gallery), and created by Miguel Santa Clara in 2015. Our thanks
+        also go to our Firenze Scomparsa team that participated in the Duke University
+        advanced visualization workshops (2018 and 2019), exploring the 3D San Pier
+        Maggiore model for research and development testing in the app: Nicola Amico,
+        Chiara Capulli and Cristina Mosconi. Subsequent research for the model was
+        conducted by Donal Cooper with Chiara Capulli, with the 3D developers at Zubr."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5635659906275608796, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 5635659906275608796, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
+        type: 3}
+      propertyPath: m_textInfo.linkCount
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5635659906275608796, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 1225
+      objectReference: {fileID: 0}
+    - target: {fileID: 5635659906275608796, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 194
+      objectReference: {fileID: 0}
+    - target: {fileID: 5635659906275608796, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 192
+      objectReference: {fileID: 0}
+    - target: {fileID: 5635659906275608796, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
+        type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5635659906275608796, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 8749107610359226463, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
         type: 3}
@@ -2004,16 +2026,16 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3964908077880484439, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6673052393703972055, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
         type: 3}
       propertyPath: m_VerticalScrollbar
       value: 
       objectReference: {fileID: 442247487}
+    - target: {fileID: 3964908077880484439, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7969806585058850555, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
         type: 3}
       propertyPath: m_Enabled

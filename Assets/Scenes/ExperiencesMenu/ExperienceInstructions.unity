@@ -191,8 +191,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 30f6eac32069bcd45867e29ba78bb611, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -679,7 +677,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -15}
+  m_AnchoredPosition: {x: -10, y: -15}
   m_SizeDelta: {x: 15, y: -30}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1282785067
@@ -722,13 +720,11 @@ MonoBehaviour:
   m_HandleRect: {fileID: 244610093}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5601383
+  m_Size: 0.5834095
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.Scrollbar+ScrollEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &1282785068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -747,8 +743,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -1117,12 +1111,12 @@ PrefabInstance:
     - target: {fileID: 5556593052101669495, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -250
+      value: -189.2487
       objectReference: {fileID: 0}
     - target: {fileID: 5556593052101669495, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: -500
+      value: -378.4974
       objectReference: {fileID: 0}
     - target: {fileID: 900978597862910009, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
         type: 3}
@@ -1402,12 +1396,12 @@ MonoBehaviour:
     Point the camera at the floor in front of the altarpiece, move it from side to
     side to scan the floor\n\n4. Point the camera at the walls, wait for the app to
     scan the walls\n\n5. Point the camera at the altarpiece by Jacopo di Cione, making
-    sure that you can see the central pane in the camera view\n\n6. Point the camera
-    at the church in the left hand pane of the altarpiece. Its outline will appear
+    sure that you can see the central panel in the camera view\n\n6. Point the camera
+    at the church in the left hand panel of the altarpiece. Its outline will appear
     on the screen\n\n7. Take a few steps backwards - being careful of the bench. Keep
     going slowly backwards until you are near the center of the gallery\n\n8. When
-    you are far enough, look back at the pane and tap start to watch\n\n9. Walk around
-    and explore the San Pier Maggiore"
+    you are far enough, look back at the panel and tap start to watch\n\n9. Walk around
+    and explore San Pier Maggiore"
   NationalGallery_Image: {fileID: 21300000, guid: 1ccf7dac1d748463ca66ce23dec8b44e,
     type: 3}
   NationalGallery_Extra_Button_Title: The National Gallery Floorplan
@@ -1432,7 +1426,7 @@ MonoBehaviour:
   Elsewhere_Title: Elsewhere
   Elsewhere_Instructions: "<b>To experience one of the National Gallery\u2019s most
     important Italian paintings within its original medieval setting:</b>\n\n1. As
-    the church is very big try to find a wide open space like a part to enjoy the
+    the church is very big try to find a wide open space like a park to enjoy the
     full scale of the experience\n\n2. Hold the device in landscape mode\n\n3. Point
     the camera at the floor to scan the ground. \n\n4. Tap the screen to position
     the altar in front of you.\n\n5. Lift the device so that the camera is pointed

@@ -2077,7 +2077,7 @@ MonoBehaviour:
   helpStepsText: {fileID: 1793544876}
   helpSteps_Florence: "1. Go to the Piazza di San Pier Maggiore which is at the top
     of Via di S. Pier Maggiore (50122 Firenze FI)\n2. Stand under the archway facing
-    towards the  Via di S. Pier Maggiore. It is a pedestrianised part of the road
+    towards the  Via di S. Pier Maggiore. It is a pedestrianized part of the road
     but please still be aware of cars.\n3. Point the camera at the floor to scan the
     pavement. \n4. Tap the screen to position the altar in front of you.\n5. Point
     the camera towards the far end of the road at the intersection of via San Pier
@@ -12072,6 +12072,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 437679050884651063, guid: 387757a9ed64746489dc2aeb3ddc359b,
+        type: 3}
+      propertyPath: m_Text
+      value: HELP
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 387757a9ed64746489dc2aeb3ddc359b, type: 3}
