@@ -26,9 +26,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/tapToPlace.unity
     guid: 6eea48fabbf240e46b0c574f4d37583c
-  - enabled: 0
-    path: Assets/Scenes/FlorenceAR.unity
-    guid: 1f011ce384e4d4e3e8dfc1e50636a6c0
   - enabled: 1
     path: Assets/Scenes/About/About.unity
     guid: 586a36c063f3048c0a44a3fa879aab60
