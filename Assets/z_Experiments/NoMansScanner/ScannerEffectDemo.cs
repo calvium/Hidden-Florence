@@ -87,7 +87,7 @@ public class ScannerEffectDemo : MonoBehaviour
 	// End Demo Code
 
 	IEnumerator turnOffCam02(){
-		yield return new WaitForSeconds (30f);
+		yield return new WaitForSeconds (60f);
 		// EffectMaterial.SetInt("_rev", 1);
 		_scanning = false;
 		// ScanDistance = 100;
