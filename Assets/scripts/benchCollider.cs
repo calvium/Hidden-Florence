@@ -15,7 +15,7 @@ public class benchCollider : MonoBehaviour
     void OnTriggerEnter(Collider col) {
 		Debug.Log("scanning0");
         if (col.gameObject == Camera.main.gameObject) {
-            menu.callSetText(6);
+            menu.callSetText(4);
 		}
     }
 }

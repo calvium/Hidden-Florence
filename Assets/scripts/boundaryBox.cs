@@ -9,6 +9,6 @@ public class boundaryBox : MonoBehaviour {
 	
 	// Update is called once per frame
 	void OnTriggerEnter(Collider col) {
-		menu.callStop();
+		// menu.callStop();
     }
 }

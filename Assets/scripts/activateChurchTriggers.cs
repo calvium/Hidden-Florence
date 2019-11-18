@@ -21,54 +21,54 @@ public class activateChurchTriggers : MonoBehaviour {
 	void Start () {
 		// dbScript = GameObject.Find("debugText").GetComponent<debugLogTextScript>();
 		// menu = GameObject.Find("canvasUI").GetComponent<IMStartMenu>();
-		churchImg.SetActive(false);
-		triggerCube.SetActive(false);
-		bigRaycast.SetActive(false);
+		// churchImg.SetActive(false);
+		// triggerCube.SetActive(false);
+		// bigRaycast.SetActive(false);
 	}
 
 	void Update(){
-		float posX = Screen.width / 2f;
-		float posY = Screen.height / 2f;
-		Ray ray = Camera.main.ScreenPointToRay(new Vector3(posX, posY, Mathf.Infinity));
-		RaycastHit hit;
+		// float posX = Screen.width / 2f;
+		// float posY = Screen.height / 2f;
+		// Ray ray = Camera.main.ScreenPointToRay(new Vector3(posX, posY, Mathf.Infinity));
+		// RaycastHit hit;
 
-        if (Physics.Raycast(ray, out hit, 200)) {
-			if(smlRaycast == hit.collider.gameObject){
-				Debug.Log("You have selected the " + hit.collider.name);
-				started = true;
-			}else{
-				started = false;
-			}
-			if(bigRaycast == hit.collider.gameObject){
-				_scanTrigger.startScan();
-			}
-		}
-		if(started && downTime<activateTime){
-			downTime += Time.deltaTime;
-			menu.dialChurch.fillAmount = downTime/activateTime;
-			if(downTime >= activateTime){
-				turnOn();
-				smlRaycast.SetActive(false);
-			}
-		}
+        // if (Physics.Raycast(ray, out hit, 200)) {
+		// 	if(smlRaycast == hit.collider.gameObject){
+		// 		Debug.Log("You have selected the " + hit.collider.name);
+		// 		started = true;
+		// 	}else{
+		// 		started = false;
+		// 	}
+		// 	if(bigRaycast == hit.collider.gameObject){
+		// 		_scanTrigger.startScan();
+		// 	}
+		// }
+		// if(started && downTime<activateTime){
+		// 	downTime += Time.deltaTime;
+		// 	menu.dialChurch.fillAmount = downTime/activateTime;
+		// 	if(downTime >= activateTime){
+		// 		turnOn();
+		// 		smlRaycast.SetActive(false);
+		// 	}
+		// }
 	}
 	
 	// Update is called once per frame
-	public void turnOn(){
-		menu.dialChurch.fillAmount=0;
-		churchImg.SetActive(true);
-		triggerCube.SetActive(true);
-		Debug.Log("debugging Turnt on");
-		dbScript.addToString("turned on");
-		menu.callSetText(5);
-	}
+	// public void turnOn(){
+	// 	// menu.dialChurch.fillAmount=0;
+	// 	churchImg.SetActive(true);
+	// 	triggerCube.SetActive(true);
+	// 	Debug.Log("debugging Turnt on");
+	// 	dbScript.addToString("turned on");
+	// 	menu.callSetText(5);
+	// }
 
-	IEnumerator fadeIn(){
-		float temp = 0f;
-		while(temp<1f){
-			temp += Time.deltaTime*0.3f;
-			glowmat.SetFloat("_Alpha", temp);
-			yield return null;
-		}
-	}
+	// IEnumerator fadeIn(){
+	// 	float temp = 0f;
+	// 	while(temp<1f){
+	// 		temp += Time.deltaTime*0.3f;
+	// 		glowmat.SetFloat("_Alpha", temp);
+	// 		yield return null;
+	// 	}
+	// }
 }

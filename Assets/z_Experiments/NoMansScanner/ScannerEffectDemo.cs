@@ -54,7 +54,7 @@ public class ScannerEffectDemo : MonoBehaviour
 		// if (_unscanning && tapToPlace) {//
 		if (_unscanning) {
 			ScanDistance -= Time.deltaTime * speed;
-			speed += Time.deltaTime/3;
+			speed += Time.deltaTime/2;
 			// ScanDistance -= Time.deltaTime * speed;
 			// speed += Time.deltaTime/1f;
 			EffectMaterial.SetFloat("_ScanDistance", ScanDistance);

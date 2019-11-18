@@ -8,28 +8,18 @@ using UnityEngine.SceneManagement;
 public class IMStartMenu : MonoBehaviour {
 	[SerializeField] TextMeshProUGUI titleTextBox, instructionsTextBox;
 	[SerializeField] string[] texts;
-	[SerializeField] private CanvasGroup startBackground, titleBox, subtitleText, subtitleBox;
-	[SerializeField] private float speed;
-	[SerializeField] private CanvasGroup scanFloorIcon, paintingIcon, churchIcon;
-	public Image dialChurch;
-	[SerializeField] private activateChurchTriggers _act;
-	[SerializeField] private debugLogTextScript dbScript;
-	public bool foundH = true;
-	public bool foundV = true;
-
+	[SerializeField] private CanvasGroup startBackground, titleBox, subtitleBox;
+	[SerializeField] private float fadeSpeed;
+	[SerializeField] private CanvasGroup scanFloorIcon, paintingIcon;
+	public bool foundPlanes;
 	[SerializeField] private triggerMain arScript;
-	[SerializeField] private GameObject sCol, rayCastTarget, unscanners;
-
-	[SerializeField] private CanvasGroup infoCanvas;
-	[SerializeField] private GameObject infoObject;
-	// [SerializeField] private GameObject boundary;//
-	public GameObject paintings;
-
-    public CanvasGroup helpCanvas;
-    public CanvasGroup startButtonCanvas;
+	[SerializeField] private GameObject sCol;
+	// [SerializeField] private CanvasGroup infoCanvas;
+	// [SerializeField] private GameObject infoObject;
+    public CanvasGroup helpCanvas, startButtonCanvas;
     public Button startButton;
     public ScannerEffectDemo scannerEffectDemo;
-
+	public Animator churchMove;
 
     // Use this for initialization
     void Start () {
@@ -37,24 +27,19 @@ public class IMStartMenu : MonoBehaviour {
 		instructionsTextBox.text = "";
 		titleBox.alpha=subtitleBox.alpha=helpCanvas.alpha=startButtonCanvas.alpha=0;
         startButton.interactable = false;
-        startBackground.alpha=1;
-		rayCastTarget.SetActive(false);
-		unscanners.SetActive(false);
-		// boundary.SetActive(false);
-		StartCoroutine(fadeOut(startBackground));
+		foundPlanes = true;
+		StartCoroutine(fadeOut(startBackground, 1f));
 		StartCoroutine(fadeIn(titleBox));
 		StartCoroutine(beginning());
-		paintings.SetActive(false);
 	}
 	
 	IEnumerator beginning(){ //Setting first text when you start
 		titleTextBox.text = texts[0];
-		yield return new WaitForSeconds(5f);
+		yield return new WaitForSeconds(3f);
 		StartCoroutine(fadeOut(titleBox));
 		StartCoroutine(fadeIn(subtitleBox));
 		StartCoroutine(fadeIn(scanFloorIcon));
-		instructionsTextBox.text = texts[1];
-		foundH = foundV = false;
+		StartCoroutine(setText(1));
 	}
 
 
@@ -63,65 +48,45 @@ public class IMStartMenu : MonoBehaviour {
 
 	}
 	IEnumerator setText(int txt){
+		Debug.Log("debugging --- " + txt);
 		switch (txt){
-			case 2:
-				dbScript.addToString("found floor");
-				yield return new WaitForSeconds(1f);
-				Debug.Log("debugging case 02");
-				instructionsTextBox.text = texts[txt]; //Now scan the walls with your device
-				foundH = true;
+			case 1:
+				instructionsTextBox.text = texts[txt];
+				yield return new WaitForSeconds(2f);
+				foundPlanes = false;
 				break;
-			case 3:
-				dbScript.addToString("found Walls");
+			case 2:
+				foundPlanes = true;
 				yield return new WaitForSeconds(1f);
-				Debug.Log("debugging case 03");
 				StartCoroutine(fadeOut(scanFloorIcon));
 				instructionsTextBox.text = texts[txt]; //Look at the centre panel of the painting
-				foundV = true;
 				arScript.active = true;
 				break;
-			case 4:
-				Debug.Log("debugging case 04");
+			case 3:
 				yield return new WaitForSeconds(1f);
-				StartCoroutine(fadeOut(scanFloorIcon));
-				paintings.SetActive(true);
-				instructionsTextBox.text = texts[txt]; //See if you can find the church
-				yield return new WaitForSeconds(1f);
-				rayCastTarget.SetActive(true);
-				dbScript.addToString("found Trigger");
-				break;
-			case 5:
+				StartCoroutine(fadeOut(scanFloorIcon, 1f));
 				instructionsTextBox.text = texts[txt]; //Now take a few steps back and mind the bench!
-				Debug.Log("debugging case 05");
-				yield return new WaitForSeconds(0.5f);
 				sCol.SetActive(true);
-				dbScript.addToString("found church");
-                yield return new WaitForSeconds(5f);
-                callSetText(6);
-                break;
-			case 6:
-				instructionsTextBox.text = texts[txt]; //Look back at the painting
-				Debug.Log("debugging case 06");
-                startButton.interactable = true;
-                StartCoroutine(fadeIn(startButtonCanvas));
-				//_act.bigRaycast.SetActive(true);
-				//dbScript.addToString("hit box");
+				// Renderer rend = sCol.GetComponent<Renderer>();
+        		// rend.enabled = true;
 				break;
-			case 7:
-				dbScript.addToString("hit raycast");
-                StartCoroutine(fadeOut(startButtonCanvas));
+			case 4:
+				yield return new WaitForSeconds(0.5f);
+				instructionsTextBox.text = texts[txt]; //Look back at the painting at tap start
+				startButton.interactable = true;
+				StartCoroutine(fadeIn(startButtonCanvas, 1f));
+                break;
+			case 5:
+				StartCoroutine(fadeOut(startButtonCanvas, 1f));
                 StartCoroutine(fadeOut(subtitleBox));
-				// StartCoroutine(turnOnBoundaries());
 				break;
 		}
 	}
-	public void two(){
-		//StartCoroutine(fadeOut(subtitleBox));
-	}
     public void handleStartButtonPress()
     {
+		churchMove.SetTrigger("go");
         scannerEffectDemo.startPainting();
-        callSetText(7);
+        callSetText(5);
     }
     public void handleHelpButtonPress()
     {
@@ -137,7 +102,7 @@ public class IMStartMenu : MonoBehaviour {
 		float temp = c.alpha = 0;
 		yield return new WaitForSeconds(0.5f);
 		while(temp<maxAlpha){
-			temp += Time.deltaTime*speed;
+			temp += Time.deltaTime*fadeSpeed;
 			c.alpha=temp;
 			yield return null;
 		}
@@ -147,29 +112,10 @@ public class IMStartMenu : MonoBehaviour {
 		float temp = c.alpha = maxAlpha;
 		yield return new WaitForSeconds(0.5f);
 		while(temp>0){
-			temp -= Time.deltaTime*speed;
+			temp -= Time.deltaTime*fadeSpeed;
 			c.alpha=temp;
 			yield return null;
 		}
-	}
-
-	public void boundariesOn(){
-		StartCoroutine(turnOnBoundaries());
-	}
-	IEnumerator turnOnBoundaries(){
-		yield return new WaitForSeconds(2f);
-		// boundary.SetActive(true);
-		unscanners.SetActive(true);
-	}
-
-
-	public void fadeInInfo(){
-		infoObject.SetActive(true);
-		StartCoroutine(fadeIn(infoCanvas));
-	}
-	public void fadeOutInfo(){
-		infoObject.SetActive(false);
-		StartCoroutine(fadeOut(infoCanvas));
 	}
 	public void callBackButton(){
 		StartCoroutine(back());
@@ -179,17 +125,4 @@ public class IMStartMenu : MonoBehaviour {
 		yield return new WaitForSeconds(1.5f);
 		SceneManager.LoadScene("MainMenu");
 	}
-
-	public void callStop(){
-		StartCoroutine(stopUser());
-	}
-		
-
-	IEnumerator stopUser(){
-		instructionsTextBox.text = "Watch out for the paintings!";
-		StartCoroutine(fadeIn(subtitleBox));
-		yield return new WaitForSeconds(3f);
-		StartCoroutine(fadeOut(subtitleBox));
-	}
-
 }
