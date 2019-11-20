@@ -66,7 +66,7 @@ public class IMStartMenu : MonoBehaviour {
 				break;
 			case 3:
 				yield return new WaitForSeconds(1f);
-				StartCoroutine(fadeOut(scanFloorIcon, 1f));
+				// StartCoroutine(fadeOut(scanFloorIcon, 1f));
 				instructionsTextBox.text = texts[txt]; //Now take a few steps back and mind the bench!
 				sCol.SetActive(true);
 				break;
