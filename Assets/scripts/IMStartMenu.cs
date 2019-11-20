@@ -9,17 +9,18 @@ public class IMStartMenu : MonoBehaviour {
 	[SerializeField] TextMeshProUGUI titleTextBox, instructionsTextBox;
 	[SerializeField] string[] texts;
 	[SerializeField] private CanvasGroup startBackground, titleBox, subtitleBox;
-	[SerializeField] private float fadeSpeed;
 	[SerializeField] private CanvasGroup scanFloorIcon, paintingIcon;
+	[SerializeField] private float fadeSpeed;
 	public bool foundPlanes;
 	[SerializeField] private triggerMain arScript;
-	[SerializeField] private GameObject sCol;
+	[SerializeField] private GameObject sCol, paintingCol;
 	// [SerializeField] private CanvasGroup infoCanvas;
 	// [SerializeField] private GameObject infoObject;
     public CanvasGroup helpCanvas, startButtonCanvas;
     public Button startButton;
     public ScannerEffectDemo scannerEffectDemo;
 	public Animator churchMove;
+	
 
     // Use this for initialization
     void Start () {
@@ -31,6 +32,7 @@ public class IMStartMenu : MonoBehaviour {
 		StartCoroutine(fadeOut(startBackground, 1f));
 		StartCoroutine(fadeIn(titleBox));
 		StartCoroutine(beginning());
+		paintingCol.SetActive(false);
 	}
 	
 	IEnumerator beginning(){ //Setting first text when you start
@@ -67,16 +69,20 @@ public class IMStartMenu : MonoBehaviour {
 				StartCoroutine(fadeOut(scanFloorIcon, 1f));
 				instructionsTextBox.text = texts[txt]; //Now take a few steps back and mind the bench!
 				sCol.SetActive(true);
-				// Renderer rend = sCol.GetComponent<Renderer>();
-        		// rend.enabled = true;
 				break;
 			case 4:
 				yield return new WaitForSeconds(0.5f);
 				instructionsTextBox.text = texts[txt]; //Look back at the painting at tap start
+				paintingCol.SetActive(true);
+				paintingCol.GetComponent<paintingRaycast>().active = true;
 				startButton.interactable = true;
 				StartCoroutine(fadeIn(startButtonCanvas, 1f));
                 break;
 			case 5:
+				sCol.SetActive(false);
+				paintingCol.SetActive(false);
+				scannerEffectDemo.startPainting();
+				churchMove.SetTrigger("go");
 				StartCoroutine(fadeOut(startButtonCanvas, 1f));
                 StartCoroutine(fadeOut(subtitleBox));
 				break;
@@ -84,8 +90,6 @@ public class IMStartMenu : MonoBehaviour {
 	}
     public void handleStartButtonPress()
     {
-		churchMove.SetTrigger("go");
-        scannerEffectDemo.startPainting();
         callSetText(5);
     }
     public void handleHelpButtonPress()

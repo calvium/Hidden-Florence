@@ -22,6 +22,9 @@ public class PrefabLightmapData : MonoBehaviour
 
     void Awake()
     {
+        {
+            
+        }
         Init();
     }
 

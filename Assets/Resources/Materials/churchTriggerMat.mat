@@ -5,7 +5,8 @@ Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: churchTriggerMat
   m_Shader: {fileID: 4800000, guid: 6780d653246fa914fb9415257787167f, type: 3}
   m_ShaderKeywords: _ALPHABLEND_ON
@@ -55,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Alpha: 0.70905936
+    - _Alpha: 1
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -73,5 +74,5 @@ Material:
     - _UVSec: 0
     - _ZWrite: 0
     m_Colors:
-    - _Color: {r: 0.9245283, g: 0.8661718, b: 0.5974546, a: 1}
+    - _Color: {r: 1, g: 0.9671496, b: 0.8160377, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
