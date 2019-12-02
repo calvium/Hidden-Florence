@@ -720,7 +720,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 244610093}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5834095
+  m_Size: 0.72000027
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -902,22 +902,22 @@ PrefabInstance:
     - target: {fileID: 5635659906275608796, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 968
+      value: 623
       objectReference: {fileID: 0}
     - target: {fileID: 5635659906275608796, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 190
+      value: 118
       objectReference: {fileID: 0}
     - target: {fileID: 5635659906275608796, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 181
+      value: 112
       objectReference: {fileID: 0}
     - target: {fileID: 5635659906275608796, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 29
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 5635659906275608796, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
         type: 3}
@@ -935,17 +935,12 @@ PrefabInstance:
       value: "<b>To experience one of the National Gallery\u2019s most important Italian
         paintings within its original medieval setting:</b>\n\n1. Find the altarpiece
         by Jacopo di Cione in Gallery 60 in the Sainsbury Wing of the National Gallery
-        \n\n2. Stand in front of the bench opposite the altarpiece\n\n3. Point the
-        camera at the floor in front of the altarpiece, move it from side to side
-        to scan the floor\n\n4. Point the camera at the walls, wait for the app to
-        scan the walls\n\n5. Point the camera at the altarpiece by Jacopo di Cione,
-        making sure that you can see the central pane in the camera view\n\n6. Point
-        the camera at the church in the left hand pane of the altarpiece. Its outline
-        will appear on the screen\n\n7. Take a few steps backwards - being careful
-        of the bench. Keep going slowly backwards until you are near the center of
-        the gallery\n\n8. When you are far enough back the lost church of San Pier
-        Maggiore in Florence should start to build out from the altar-piece in front
-        of you\n"
+        \n\n2. Stand where you can view the whole altar piece, about 4 meters in front
+        of the central panel\n\n3. Move your device around to scan the floor and walls\n\n4.
+        Point the camera at the central panel of the altarpiece by Jacopo di Cione
+        until the app recognises it\n\n5. Wait and watch as the church expands out
+        from the original church shown in the left hand panel\n\n6. Walk around and
+        explore San Pier Maggiore"
       objectReference: {fileID: 0}
     - target: {fileID: 5635659906275608796, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
         type: 3}
@@ -955,12 +950,17 @@ PrefabInstance:
     - target: {fileID: 5635659906275608796, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
         type: 3}
       propertyPath: m_fontSize
-      value: 27
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 5635659906275608796, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
         type: 3}
       propertyPath: m_fontSizeBase
       value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 5635659906275608796, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
+        type: 3}
+      propertyPath: m_textInfo.linkCount
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8542639507883311840, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
         type: 3}
@@ -1111,12 +1111,12 @@ PrefabInstance:
     - target: {fileID: 5556593052101669495, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -189.2487
+      value: -250.27643
       objectReference: {fileID: 0}
     - target: {fileID: 5556593052101669495, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: -378.4974
+      value: -500.55286
       objectReference: {fileID: 0}
     - target: {fileID: 900978597862910009, guid: b0f7600f45ab346c4bdf9f5d2aa327d2,
         type: 3}
@@ -1392,15 +1392,11 @@ MonoBehaviour:
   NationalGallery_Instructions: "<b>To experience one of the National Gallery\u2019s
     most important Italian paintings within its original medieval setting:</b>\n\n1.
     Find the altarpiece by Jacopo di Cione in Gallery 60 in the Sainsbury Wing of
-    the National Gallery \n\n2. Stand in front of the bench opposite the altarpiece\n\n3.
-    Point the camera at the floor in front of the altarpiece, move it from side to
-    side to scan the floor\n\n4. Point the camera at the walls, wait for the app to
-    scan the walls\n\n5. Point the camera at the altarpiece by Jacopo di Cione, making
-    sure that you can see the central panel in the camera view\n\n6. Point the camera
-    at the church in the left hand panel of the altarpiece. Its outline will appear
-    on the screen\n\n7. Take a few steps backwards - being careful of the bench. Keep
-    going slowly backwards until you are near the center of the gallery\n\n8. When
-    you are far enough, look back at the panel and tap start to watch\n\n9. Walk around
+    the National Gallery \n\n2. Stand where you can view the whole altar piece, about
+    4 meters in front of the central panel\n\n3. Move your device around to scan the
+    floor and walls\n\n4. Point the camera at the central panel of the altarpiece
+    by Jacopo di Cione until the app recognises it\n\n5. Wait and watch as the church
+    expands out from the original church shown in the left hand panel\n\n6. Walk around
     and explore San Pier Maggiore"
   NationalGallery_Image: {fileID: 21300000, guid: 1ccf7dac1d748463ca66ce23dec8b44e,
     type: 3}

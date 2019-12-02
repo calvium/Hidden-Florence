@@ -63,29 +63,38 @@ public class IMStartMenu : MonoBehaviour {
 				StartCoroutine(fadeOut(scanFloorIcon));
 				instructionsTextBox.text = texts[txt]; //Look at the centre panel of the painting
 				arScript.active = true;
-				break;
-			case 3:
-				yield return new WaitForSeconds(1f);
-				// StartCoroutine(fadeOut(scanFloorIcon, 1f));
-				instructionsTextBox.text = texts[txt]; //Now take a few steps back and mind the bench!
-				sCol.SetActive(true);
-				break;
-			case 4:
-				yield return new WaitForSeconds(0.5f);
-				instructionsTextBox.text = texts[txt]; //Look back at the painting at tap start
-				paintingCol.SetActive(true);
-				paintingCol.GetComponent<paintingRaycast>().active = true;
-				startButton.interactable = true;
-				StartCoroutine(fadeIn(startButtonCanvas, 1f));
                 break;
-			case 5:
-				sCol.SetActive(false);
-				paintingCol.SetActive(false);
-				scannerEffectDemo.startPainting();
-				churchMove.SetTrigger("go");
-				StartCoroutine(fadeOut(startButtonCanvas, 1f));
+            //case 3:
+            //    yield return new WaitForSeconds(1f);
+            //    // StartCoroutine(fadeOut(scanFloorIcon, 1f));
+            //    instructionsTextBox.text = texts[txt]; //Now take a few steps back and mind the bench!
+            //    sCol.SetActive(true);
+            //    break;
+            //case 4:
+            //    yield return new WaitForSeconds(0.5f);
+            //    instructionsTextBox.text = texts[txt]; //Look back at the painting at tap start
+            //    paintingCol.SetActive(true);
+            //    paintingCol.GetComponent<paintingRaycast>().active = true;
+            //    startButton.interactable = true;
+            //    StartCoroutine(fadeIn(startButtonCanvas, 1f));
+            //case 5:
+            //    sCol.SetActive(false);
+            //    paintingCol.SetActive(false);
+            //    scannerEffectDemo.startPainting();
+            //    churchMove.SetTrigger("go");
+            //    StartCoroutine(fadeOut(startButtonCanvas, 1f));
+            //    StartCoroutine(fadeOut(subtitleBox));
+            //    break;
+            case 3:
+                yield return new WaitForSeconds(1f);
+                // StartCoroutine(fadeOut(scanFloorIcon, 1f));
+                churchMove.SetTrigger("go");
+                instructionsTextBox.text = texts[txt];
+                yield return new WaitForSeconds(5f);
                 StartCoroutine(fadeOut(subtitleBox));
-				break;
+                scannerEffectDemo.startPainting();
+                break;
+
 		}
 	}
     public void handleStartButtonPress()

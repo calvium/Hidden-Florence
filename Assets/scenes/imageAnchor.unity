@@ -14217,10 +14217,9 @@ MonoBehaviour:
   instructionsTextBox: {fileID: 322633800}
   texts:
   - Welcome to the National Gallery
-  - Start by scanning the floor & walls
+  - Move your device around to scan
   - Look at the centre panel of the painting
-  - Now take a few steps back and mind the bench!
-  - Look back at the painting and tap start
+  - Wait, watch and explore
   startBackground: {fileID: 1276026178}
   titleBox: {fileID: 1493437259}
   subtitleBox: {fileID: 1052474380}
@@ -14812,32 +14811,18 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '1. Go to Gallery 60 in the Sainsbury Wing of the National Gallery and find
-    the altarpiece by Jacopo di Cione.
+  m_Text: '1. Stand where you can view the whole altar piece, about 4 meters in front
+    of the central panel
 
-    2. Hold the device in landscape mode
+    2. Move your device around to scan the floor and walls
 
-    3. Stand in front of the bench opposite the altarpiece
+    3. Point the camera at the central panel of the altarpiece by Jacopo di Cione
+    until the app recognises it
 
-    4. Point the camera at the floor in front of the altarpiece, move it from side
-    to side
+    4. Wait and watch as the church expands out from the original church shown in
+    the left hand panel
 
-    5. Wait for the app to scan the floor
-
-    6. Point the camera at the walls, wait for the app to scan the walls
-
-    7. Point the camera at the altarpiece by Jacopo di Cione, making sure that you
-    can see the central panel in the camera view.
-
-    8. Point the camera at the church in the left hand panel of the altarpiece. Its
-    outline will appear on the screen.
-
-    9. Take a few steps backwards - being careful of the bench. Keep going slowly
-    backwards until you are near the center of the gallery.
-
-    10. When you are far enough, look back at the panel and tap start to watch
-
-    11. Walk around and explore the San Pier Maggiore'
+    5. Walk around and explore San Pier Maggiore'
 --- !u!222 &2114427078
 CanvasRenderer:
   m_ObjectHideFlags: 0
