@@ -195,174 +195,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &935477299
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 3785593347394185731}
-    m_Modifications:
-    - target: {fileID: 1263377286925462, guid: 3250267ba7613490e819c1d58bb59af6, type: 3}
-      propertyPath: m_Name
-      value: Primary_Button (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224611447363277706, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6428158049251059070, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_MinWidth
-      value: 400
-      objectReference: {fileID: 0}
-    - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 3785593347394185732}
-    - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OpenURL
-      objectReference: {fileID: 0}
-    - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 114641311306547588, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: 'https://play.google.com/store/apps/details?id=uk.ac.exeter.hiddenflorence '
-      objectReference: {fileID: 0}
-    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_Text
-      value: Download on Android
-      objectReference: {fileID: 0}
-    - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
-        type: 3}
-      propertyPath: m_FontData.m_BestFit
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3250267ba7613490e819c1d58bb59af6, type: 3}
 --- !u!1 &1179277159
 GameObject:
   m_ObjectHideFlags: 0
@@ -588,7 +420,7 @@ PrefabInstance:
     - target: {fileID: 6355110612481334061, guid: 3250267ba7613490e819c1d58bb59af6,
         type: 3}
       propertyPath: m_Text
-      value: Download on iOS
+      value: Download
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3250267ba7613490e819c1d58bb59af6, type: 3}
@@ -647,8 +479,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_spriteAsset: {fileID: 0}
   m_material: {fileID: 0}
@@ -696,6 +526,76 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI_Menu_Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 2355261727435049701, guid: 44e60d1c63e404129be2d717af516bfe,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355261727435049701, guid: 44e60d1c63e404129be2d717af516bfe,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355261727435049701, guid: 44e60d1c63e404129be2d717af516bfe,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355261727435049701, guid: 44e60d1c63e404129be2d717af516bfe,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355261727435049701, guid: 44e60d1c63e404129be2d717af516bfe,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355261727435049702, guid: 44e60d1c63e404129be2d717af516bfe,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355261727435049702, guid: 44e60d1c63e404129be2d717af516bfe,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355261727435049702, guid: 44e60d1c63e404129be2d717af516bfe,
+        type: 3}
+      propertyPath: m_text
+      value: "This app offers a 3D visualisation of the church of San Pier Maggiore,
+        extending the experience of the audio-guided tour of the Renaissance urban
+        environment provided in the Hidden Florence app. \n\nAmong the six walks,
+        join the wool-worker Giovanni as he describes the rituals that took place
+        on the piazza in front of the church, and the widow Niccolosa as she talks
+        about her personal connections with the church and its community of nuns."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355261727435049702, guid: 44e60d1c63e404129be2d717af516bfe,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 440
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355261727435049702, guid: 44e60d1c63e404129be2d717af516bfe,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355261727435049702, guid: 44e60d1c63e404129be2d717af516bfe,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 74
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355261727435049702, guid: 44e60d1c63e404129be2d717af516bfe,
+        type: 3}
+      propertyPath: m_textInfo.materialCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355261727435049702, guid: 44e60d1c63e404129be2d717af516bfe,
+        type: 3}
+      propertyPath: m_subTextObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 1709008540}
     - target: {fileID: 7143002306881854982, guid: 44e60d1c63e404129be2d717af516bfe,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -824,12 +724,12 @@ PrefabInstance:
     - target: {fileID: 3785593348236017488, guid: 44e60d1c63e404129be2d717af516bfe,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -189.2487
+      value: -250.20721
       objectReference: {fileID: 0}
     - target: {fileID: 3785593348236017488, guid: 44e60d1c63e404129be2d717af516bfe,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: -378.4974
+      value: -500.41443
       objectReference: {fileID: 0}
     - target: {fileID: 3785593348236017489, guid: 44e60d1c63e404129be2d717af516bfe,
         type: 3}
@@ -901,76 +801,6 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2355261727435049701, guid: 44e60d1c63e404129be2d717af516bfe,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2355261727435049701, guid: 44e60d1c63e404129be2d717af516bfe,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2355261727435049701, guid: 44e60d1c63e404129be2d717af516bfe,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2355261727435049701, guid: 44e60d1c63e404129be2d717af516bfe,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2355261727435049701, guid: 44e60d1c63e404129be2d717af516bfe,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2355261727435049702, guid: 44e60d1c63e404129be2d717af516bfe,
-        type: 3}
-      propertyPath: m_firstOverflowCharacterIndex
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2355261727435049702, guid: 44e60d1c63e404129be2d717af516bfe,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2355261727435049702, guid: 44e60d1c63e404129be2d717af516bfe,
-        type: 3}
-      propertyPath: m_text
-      value: "This app offers a 3D visualisation of the church of San Pier Maggiore,
-        extending the experience of the audio-guided tour of the Renaissance urban
-        environment provided in the Hidden Florence app. \n\nAmong the six walks,
-        join the wool-worker Giovanni as he describes the rituals that took place
-        on the piazza in front of the church, and the widow Niccolosa as she talks
-        about her personal connections with the church and its community of nuns."
-      objectReference: {fileID: 0}
-    - target: {fileID: 2355261727435049702, guid: 44e60d1c63e404129be2d717af516bfe,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 440
-      objectReference: {fileID: 0}
-    - target: {fileID: 2355261727435049702, guid: 44e60d1c63e404129be2d717af516bfe,
-        type: 3}
-      propertyPath: m_textInfo.spaceCount
-      value: 75
-      objectReference: {fileID: 0}
-    - target: {fileID: 2355261727435049702, guid: 44e60d1c63e404129be2d717af516bfe,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 74
-      objectReference: {fileID: 0}
-    - target: {fileID: 2355261727435049702, guid: 44e60d1c63e404129be2d717af516bfe,
-        type: 3}
-      propertyPath: m_textInfo.materialCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2355261727435049702, guid: 44e60d1c63e404129be2d717af516bfe,
-        type: 3}
-      propertyPath: m_subTextObjects.Array.data[1]
-      value: 
-      objectReference: {fileID: 1709008540}
     - target: {fileID: 3785593346646580401, guid: 44e60d1c63e404129be2d717af516bfe,
         type: 3}
       propertyPath: m_AnchorMin.y
